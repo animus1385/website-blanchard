@@ -1,0 +1,37 @@
+/* __________Общие стили _____________*/
+@import "/css/simplebar.css";      /*_____Скролл_____________*/
+@import "/css/blocks/generalis.css";   /*_____Общие стили________*/
+@import "/css/blocks/fonts.css";       /*_____Шрифты_____________*/
+@import "/css/choices.min.css";        /*_____Селект_____________*/
+
+
+
+/* ____________Блоки__________________ */
+
+@import "/css/blocks/header.css";      /*________Хедер___________*/
+@import "/css/blocks/start.css";       /*_____первый блок________*/
+@import "/css/blocks/project.css";     /*_____Второй блок________*/
+@import "/css/blocks/gallery.css";     /*_____Третий блок________*/
+@import "/css/blocks/histoty.css";     /*_____Четвертый блок_____*/
+@import "/css/blocks/events.css";      /*_____Пятый блок_________*/
+@import "/css/blocks/editions.css";    /*_____Шестой блок________*/
+@import "/css/blocks/detailed.css";    /*_____Седьмой блок_______*/
+@import "/css/blocks/partners.css";    /*_____Восьмой блок_______*/
+@import "/css/blocks/contacts.css";    /*_____Девятый блок_______*/
+@import "/css/blocks/footer.css";      /*_________Футер__________*/
+
+/* ____________"Эффекты"__________________ */
+
+@import "/css/effects/hover-effects.css"; /*______Ховер эффекты___*/
+@import "/css/effects/all-clicks.css";    /*______Все Клики_______*/
+@import "/css/effects/swiper/swiper-bundle.css"; /*______Свайпер__________*/
+@import "/css/effects/swiper/swiper-bundle.min.css"; /*______Свайпер(мин.стили)__________*/
+
+/* ____________"Адаптив"__________________ */
+@import '/css/adaptive/1024-1920.css';/* ____ Десктоп версия (1024-1920px)___ */
+@import "/css/adaptive/1024.css";     /* ____ Планшетная версия (1024px)_____ */
+@import "/css/adaptive/768.css";      /* ____ Планшетная версия (768px)______ */
+@import "/css/adaptive/320-768.css";  /* ____ Мобильная версия (320-768px)___ */   
+@import "/css/adaptive/320.css";      /* ____ Мобильная версия (320px)_______ */
+
+

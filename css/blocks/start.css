@@ -1,0 +1,63 @@
+/*_____________ Блок 1____________ */
+
+.start__container {
+    height: 800px;   
+}
+
+.start__img-1 {
+    background: url(/img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 2.jpg) no-repeat ;
+    background-size: cover;
+}
+.start__img-2 {
+    background: url(/img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 1.png) no-repeat;
+    background-size: cover;
+}
+.start__img-3 {
+    background: url(/img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 3.png) no-repeat;
+    background-size: cover;
+}
+.start__img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.start__info {
+    margin: 243px 0 0;
+    line-height: 1.1;
+  
+}
+.start__title {
+    font-size: 66px;
+    line-height: 1.25;
+    margin-bottom: 19px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    word-spacing: -5px;
+}
+.start__descr {
+   
+    font-size: 19px;
+    line-height: 1.61;
+    letter-spacing: 0.5px;
+    width: 600px;
+}
+.start__title,
+.start__descr {
+    color: #FFFFFF; 
+}
+.start__button {
+   display: flex;
+    border: none;
+    margin-bottom: 121px;
+    background-color:#9D5CD0 ;
+    border-radius: 100px;
+    width: 316px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 19px;
+    padding: 17px 24px;
+}

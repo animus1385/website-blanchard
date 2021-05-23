@@ -1,0 +1,43 @@
+/*_____Седьмой блок_______*/ 
+.detailed__descr {
+    width: 66%;
+    line-height: 32px;
+    font-size: 16.1px;
+}
+.detailed__tooltip {
+    position: relative;      
+    margin: 0px 8px 0 5px; 
+    margin: 0 5px;
+    padding: 0 5px;
+}
+.detailed__icon {   
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: -6px;
+    bottom: 0px;
+    cursor: pointer;
+    background-position: center;
+    background: url(/img/icon/i\ -\ Тултип.png) no-repeat;   
+}
+.detailed__title {
+    margin-bottom: 14px;
+}
+.popup {
+    position: absolute;   
+    bottom: 29px;
+    color:#FFFFFF;
+    font-size: 12px;
+    text-align: center;  
+    line-height: initial;
+    padding: 8px 11px;
+    background-color:#CACACA;
+    left: -131px;
+    width: 242px;
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+.detailed__icon:hover + .popup,
+.detailed__icon:focus + .popup {
+    opacity: 1;
+}

@@ -1,0 +1,92 @@
+/*_____Девятый блок_______*/ 
+.contacts {
+    position: relative;
+    border-top: 1px solid #CACACA;
+}
+.contacts__title {
+    padding-top: 79px;
+    font-size: 47px;
+}
+.contacts__info {
+   padding: 122px 0 100px;
+   border-right: 1px solid #CACACA;
+}
+.contacts__left{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.contacts__office {
+    font-size: 23px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.form input {
+    width: 348px;
+    border-radius: 100px;
+    padding: 14px 25px;
+    border: 1px solid #333333;
+}
+.form input::placeholder {
+    color: #999999 ;
+    font-size: 16px;
+    padding-left: 0px;
+    margin-left: 50px;
+   
+
+}
+.form__name,
+.form__tel {
+    margin-bottom: 15px;
+   
+}
+
+.form__button  {
+    width: 157px ;
+    height: 59px;
+}
+.form__title,
+.contacts-office {
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+.contacts__street {
+    margin-top: 10px;
+    margin-bottom: 36px;
+}
+.form__title {
+    margin-bottom: 14px;
+}
+.contacts__communication {
+    font-size: 24px;
+    margin: 35px 0 16px;   
+}
+.contacts__sprite {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.contacts__img-1 {
+    background: url(/img/social/Whatsapp-Icon.svg);
+    margin-right: 20px;
+}
+.contacts__img-2 {
+    background: url(/img/social/Telegram_2019_Logo.svg);
+}
+.contacts__img {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+ #map  {
+position: absolute;
+bottom: 0;
+right: 0;
+     width:  64.6% !important;
+     height: 80.8% !important;
+     filter: grayscale(1);
+ }

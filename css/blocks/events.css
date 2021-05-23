@@ -1,0 +1,91 @@
+/*_____Пятый блок_________*/
+
+.events__title {
+    margin-bottom: 11px;
+}
+.events__container{
+    display: flex;
+    height: 700px;
+    transition: height 1s;
+}
+.active-event {
+    height: auto;
+}
+.events__block {
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    margin-bottom: 50px;
+    border: 1px solid #CACACA;
+    position: relative;
+    
+}
+
+.events__info {
+    background-color: white;
+    padding: 0 46px;
+}
+.events__info h2 {
+    font-size: 23px;
+    margin-bottom: 0;
+}
+.events__img { 
+    height:300px;
+    width: 100%;  
+    background-position: center !important;
+    background-size: cover !important;    
+    background-repeat: no-repeat !important;
+}
+
+.active__event {
+    height: 100%;
+}
+.events__adrees {
+    font-size: 12px;
+    text-align: end;
+   margin: 14px 20px 0px;
+    color: #999999;
+}
+.events__all {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.events-slide{
+   width: 500px !important;
+}
+.events__descr {
+    font-size: 16px;
+    line-height: 2;
+    padding: 7px 0px;
+    
+}
+.events__link  {
+    position: absolute;
+    background-color: transparent;
+    font-size: 16px;
+    bottom: 45px;
+    left: 52px;
+   color: #9D5CD0;
+   border: none;
+   border-bottom: 1px solid #9D5CD0;
+}
+
+.events__img-1 {
+    background: url(/img/events/Rectangle\ 101.jpg);
+}
+.events__img-2 {
+    background: url(/img/events/Rectangle\ 101-1.jpg);
+}
+.events__img-3 {
+    background: url(/img/events/Rectangle\ 101-2.jpg);
+}
+.events__button {
+    display: flex;  
+    height: 59px;
+    color: #9D5CD0 ;
+    font-weight: 600;
+    margin: 50px auto  80px;
+}
+.more {
+    display: none;
+}

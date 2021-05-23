@@ -1,0 +1,89 @@
+/*______________Ховер эффекты________________*/ 
+
+.header__akk:hover * {
+color:  #C283F3;
+transition-duration: .5s;
+fill: #C283F3 ;
+
+}
+.header__select:hover {
+    border:  2px solid #9D5CD0;
+    transition-duration: .3s;
+}
+.header__link:hover {
+    color:  #C283F3;
+    transition-duration: .5s;
+}
+.link-bottom:hover::before,
+.link-bottom:hover::after{
+    background-color:#C283F3 ;
+    transition-duration: .5s;
+
+}
+.item-bottom::after:hover {
+   background-color:  #C283F3 ;
+}
+
+
+
+.header__search-full:hover *  {
+    border-bottom-color:#C283F3 ;
+    fill: #C283F3 ;
+    transition-duration: .5s;
+}
+.start__button:hover {
+    border: 2px solid #D1A9F0;
+    transition-duration: .5s;
+}
+.history__img:hover {
+    box-shadow: 0 0 10px rgba(157, 92, 208, 0.7);
+    transition-duration: .3s;
+}
+.history__link:hover {
+    border-bottom: 1px solid #D1A9F0;
+}
+.history__button:hover{ 
+    background-color: #9D5CD0 ;   
+}
+.history__button:hover::before,
+.history__button:hover::after {
+    background-color:  #FFFFFF;
+}
+.history__period label:hover{
+    color: #9D5CD0 ;
+}
+.btn:hover,
+.form__button:hover,
+.editions__button:hover,
+.events__button:hover,
+.partners__btn:hover {
+    background: #9D5CD0;
+    color: #FFFFFF ;
+    transition-duration: .2s;
+}
+.btn:hover::before,
+.btn:hover::after  {
+   background-color: #FFFFFF;
+   transition-duration: .2s;
+}
+.gallery__img:hover::before,
+.gallery__img:hover::after {
+    content: '';
+    display: block;
+    transition-duration: .13s;
+}
+.partners__img:hover {
+    opacity: 10;
+    filter: none;
+    transition-duration: .3s;
+}
+.editions__category:hover {
+    color:#C283F3;
+    transition-duration: .3s;
+}
+.footer__social:hover {
+    filter:sepia(50%);
+    transition-duration: .3s;
+    
+  
+}

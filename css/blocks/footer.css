@@ -1,0 +1,32 @@
+/*_________Футер__________*/ 
+footer { 
+    background-color: #000000 ;
+  
+}
+.footer__all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 49px 0;
+}
+.footer__sprite {
+    display: flex;
+    align-items: center;
+}
+.footer__social {
+    cursor: pointer;
+    width: 45px;
+    height: 45px;
+    background-position: center;
+    background: url(/img/social/Соцсети.png) no-repeat;
+    background-size: cover;    
+}
+.footer__social:nth-child(2) {
+    margin: 0 19px;
+}
+.footer__inst {
+    background-position: -64.5px 0px;
+}
+.footer__fc{
+    background-position: -129.5px 0px;
+}

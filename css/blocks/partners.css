@@ -1,0 +1,47 @@
+/*_____Восьмой блок_______*/    
+.partners {
+    position: relative;
+}
+.partners__block {
+    display: flex;
+    }
+.partners__title {
+    font-size: 23px;
+    font-weight: 600;
+    padding: 21px 0 3px;
+}
+.partners__container {
+    display: flex;
+ margin: 0 auto;
+}
+
+.partners__border {
+    display: flex;
+    width: 450px;
+    margin: 0 auto;
+    height: 150px;
+    border: 1px solid #CACACA;
+}
+.partners__border img {
+    filter: grayscale(100%);
+    opacity: .5;
+    padding: 44px 66px;
+    margin: 0 auto;
+}
+.partners__block-button {
+    flex-basis: 22%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.partners__btn {
+    position: absolute;
+    z-index: 8;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color:#ECECEC;
+}
+.btn__partners-right {
+    left: 18px;
+}

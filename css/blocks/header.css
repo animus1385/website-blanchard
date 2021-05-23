@@ -1,0 +1,215 @@
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+}
+.header__top {
+    background-color: #000000;
+ 
+}
+.header__unity {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.unity-top {
+    padding: 27px 0 29px;
+}
+.header__burger {
+    display: none;
+    width: 36px;
+    height: 28px;
+    background-color: transparent;
+    border: none;
+    position: relative;
+    overflow: hidden;
+   
+}
+.active {
+    display: none;
+}
+
+.header__menu.is-active,
+.header__list.is-active{
+left:0 !important;
+
+}
+.header__line,
+.header__line::before,
+.header__line::after{   
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;  
+    left: 0;
+    transition: .3s all ease;
+    background-color: white;
+}
+.header__line {
+    top: 0;
+}
+.header__line::before {
+    top: 12px;
+}
+.header__line::after {
+    bottom: -25px;
+}
+.active .header__line::before {
+    left: -10px;
+   
+}
+.active .header__line::after {
+    left: -18px;
+   
+}
+.header__menu {
+   margin: 0 auto 0 180px;
+}
+.header__list {
+    display: flex; 
+}
+.item-top {  
+    margin-right: 67px;
+    letter-spacing: 1px;  
+}
+.header__item:last-child {
+    margin-right: 0;
+}
+.header__item {
+    position: relative;
+}
+.header__akk {
+    z-index: 1;
+    margin-right: 2px;
+}
+.svg path {
+    fill:inherit;
+    stroke:inherit;
+    stroke-width:inherit; 
+ 
+}
+.icon-Vector {
+margin-right: 13px;
+  transition: all .8s ease;
+}
+  .header__link{
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: none;
+    font-size: 16px; 
+    position: relative;
+    
+}
+
+
+/*_______________ Нижняя часть______________ */
+.header__bottom {
+ background-color: #00000093;
+
+ width: 100%;
+}
+.unity-bottom {
+    padding: 20px 0;
+}
+.item-bottom {
+    margin-right: 113px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.link-bottom {
+    position: relative;
+    font-size: 18px;
+}
+.link-bottom::before,
+.link-bottom::after {
+    content: '';
+    position: absolute;
+    width: 7px;
+    height: 1px;
+    right: -15px;
+    margin-left: 8px;
+  background-color: white;
+}
+.link-bottom::before {
+    transform: rotate(45deg);
+  
+}
+.link-bottom::after {
+    transform: rotate(135deg);
+    right: -19px;
+}
+
+.header__search-full {
+    display: flex;
+    align-items: center;
+}
+.header__button {
+    width: 23px ;
+    height: 21px;    
+    border: none;
+    background-color: transparent;  
+    margin-right: 9px;
+}
+
+.header__search {
+    border: none;
+    width: 220px;
+    height: 28px;
+   border-bottom: 1px solid #FFFFFF;
+   background-color:  transparent;
+   color:rgba(255, 255, 255, 0.85) ;
+   font-size: 18px;  
+}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration { display: none; }
+
+.header__search::placeholder {
+    color:rgba(255, 255, 255, 0.85) ;
+   font-size: 19px;
+   font-weight: 400;
+}
+.header__content {
+    padding: 40px;
+    display: none;
+    position: absolute;  
+    width: 220px;
+    height: 300px;
+    color: white;
+    top: 45px;
+    z-index: 15;
+    font-size: 14px;
+    background-color:  rgb(153,153,153);
+}
+.header__content--active {
+    display:block;
+}
+.header__select {
+   margin-bottom: 20px;
+    padding: 10px;
+  
+    background-image: url(/img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 1.png);
+    background-size:cover;
+    border: 2px solid black;
+}
+.simplebar-scrollbar {
+    background-color: #9D5CD0 ;
+}
+.simplebar-track.simplebar-vertical {
+   top: 28px;
+    height: 87%;
+    width: 2px;
+    margin-right: 18px;
+    background-color: #000000; ;
+}
+.select {
+    display: block;
+}
+.active-icon {
+    display:block;
+}

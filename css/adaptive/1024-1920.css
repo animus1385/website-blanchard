@@ -1,0 +1,33 @@
+@media(max-width: 1600px) {
+    .fix-container {
+        max-width: 1400px;
+    }
+    .header__akk, .header__link {
+        font-size: 18px;
+    }
+    .header__menu {
+        margin: 0px auto 0 16px;
+    }
+}
+
+@media(max-width: 1400px) { 
+    .fix-container {
+    max-width: 1200px;
+    }
+    .header__item {
+        padding-right: 42px;
+    }
+}
+@media(max-width: 1200px) { 
+    .fix-container {
+    max-width: 980px;
+    }
+    .header__item {
+        padding-right: 25px;
+    }
+    .header__akk, .header__link {
+        font-size: 17px;
+        
+    }
+    
+}

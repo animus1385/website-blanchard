@@ -1,0 +1,154 @@
+/*____Четвертый блок______*/
+.history__header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.history__title {
+    margin-right: 35px;
+}
+.history__img  {
+
+width: 66px;
+height: 66px;
+background-position: center !important;
+ border-radius: 50px;
+ cursor: pointer;
+ margin-right: 30px;
+}
+.history__countries{
+display: flex;
+margin-top: 70px;
+align-items: center;
+} 
+.history__img__active {
+   
+    width: 66px;
+    height: 66px;
+    border: 1px solid #9D5CD0;
+}
+
+.history__img-1 {
+    background: url(/img/countries/image\ 4.png) no-repeat;
+}
+.history__img-2 {
+    background: url(/img/countries/image\ 6.png) no-repeat;
+}
+.history__img-3 {
+    background: url(/img/countries/image\ 7.png) no-repeat;
+}
+.history__img-4 {
+    background: url(/img/countries/image\ 8.png) no-repeat;
+}
+.history__img-5 {
+    background: url(/img/countries/image\ 5.png) no-repeat;
+}
+.history__descr {
+    line-height: 32px;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.descr-1 {
+    width: 69%;
+}
+.history__info {
+    display: flex;
+    justify-content: space-between;
+}
+.history__left {
+    width: 750px;
+    margin-right: 20px;
+}
+.history__left-img{
+   height: 470px; 
+   background: url(/img/image\ 3.jpg) no-repeat; 
+   background-size:cover;
+   background-position: center;
+}
+.history__celebrity {
+    margin-top: 31px;
+}
+.history__name {
+    font-size: 23px;
+    margin-bottom: 5px;
+}
+.history__age {
+    font-size: 12px;
+    color: #999999;
+}
+.history__right {
+    width: 800px;
+    border-top: 1px solid #CACACA ;
+}
+.history__period:first-child {
+    padding-bottom: 2px;
+}
+.history__period {  
+
+    border-bottom: 1px solid #CACACA;
+    font-size: 24px ;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 35px 0  46px;
+}
+
+.history__button {
+    background-color: #ECECEC;
+    border: none;
+    width: 50px;
+    height: 50px;
+    float: right;
+    border-radius: 30px;
+    
+    position: relative;
+    transition: .9s ease;
+}
+.history__button::before,
+.history__button::after {
+    content: '';
+    position: absolute;
+    display: block;
+    top: 40%;
+    width: 1px;
+    height: 11px;
+    background-color: black;
+}
+.history__button::before {
+    transform: rotate(45deg); 
+    right: 42%;
+}
+.history__button::after {
+    transform: rotate(135deg);
+    left: 40%;
+}
+.history__content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 290px; 
+    width: 97%;
+    
+}
+
+.active-1 {
+    display: block !important ;
+}
+.slide__active {
+    display: none;
+    margin: 43px 0 0;
+    padding: 25px 0;
+    border-top: 1px solid#9D5CD0;
+    border-bottom: 1px solid #9D5CD0;
+}
+
+.history__item {
+    width: 30%;
+    font-size: 15px;
+    line-height: 32px;
+}
+.history__link-active {
+    color: blue;
+}
+
+
+
