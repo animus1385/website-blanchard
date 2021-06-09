@@ -27,6 +27,10 @@
   .history__button:focus {
     transform: rotate(180deg);
 }
+.history__link:active {
+  color: #7943A4;
+
+}
   .history__button:focus,
   .button:focus{
     border: 3px solid #D1A9F0;
@@ -44,6 +48,21 @@ input[type="checkbox"]:checked + .editions__category {
   input[type="checkbox"]:checked + .editions__category::after  {
     opacity: 1; 
   
+}
+.detailed__icon svg:active {
+  fill: #9D5CD0;
+  stroke:white;
+}
+.start__button:active{
+  border: 3px solid #D1A9F0;
+}
+.detailed__descr a:active {
+ color:  #7943A4;
+  }
+.contacts__img:active{
+  border: 1px solid #9643A4;
+  border-radius: 20px;
+  transition: 0s;
 }
 .gallery__img:focus {
   background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)),

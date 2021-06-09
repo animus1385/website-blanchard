@@ -1,12 +1,10 @@
-* {
-    margin: 0 ;
-    padding: 0 ;
 
-}
 body, html {
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
-
+box-sizing: border-box;
+margin: 0;
+padding: 0;
 }
 a {
     text-decoration: none;
@@ -42,7 +40,6 @@ img {
     background-color: transparent;
     border: 1px solid #9D5CD0;
     border-radius: 30px;
-    padding: 17px 40px;
     font-size: 18px;
     margin-top: 10px;
 }
@@ -60,6 +57,7 @@ button {
  margin: 0px 20px ;
  cursor: pointer;
  border: none;
+ 
 }
 
 .slide__list {
@@ -90,6 +88,7 @@ button {
     width: 1px;
     height: 11px;
     background-color: black;
+    transition: all 1s ease;
 }
 .btn::before {
     transform: rotate(45deg); 

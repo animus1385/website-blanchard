@@ -1,16 +1,11 @@
-let list = document.querySelectorAll('.history__img')
-for (let li of list) {
-    let span = document.createElement('span'); /* создание span */
-    span.classList.add('show'); /* добавление класса для span */
-    li.prepend(span); /* вставить span внутри li */
-    span.append(span.nextSibling) /* присоединить к span следующий узел */
-}
 
-list.onclick = function (event) {
+let contries = document.querySelectorAll('.history__img');
 
-    if (event.target.tagName != 'SPAN') return;
-
-    let childrenList = event.target.parentNode.querySelector('ul');
-    if (!childrenList) return;
-    childrenList.classList.toggle('history__img__active')
-}
+contries.forEach(e => {
+    e.addEventListener('click', function () {
+        contries.forEach(elem=>{ elem.classList.remove('history__img__active')});
+        e.classList.add('history__img__active');
+            
+            
+    })
+})

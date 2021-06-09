@@ -1,6 +1,6 @@
 /*_____Шестой блок________*/    
 .editions {
-    background: url(/img/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 4.jpg) no-repeat; 
+    background: url(../../img/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 4.jpg) no-repeat; 
     background-size: cover;
 }
 .editions__title {
@@ -40,6 +40,7 @@ font-size: 17px;
     font-size: 17px;
     cursor: pointer;
     color: #FFFFFF; 
+    transition: all .5s ease;
     line-height: 1.9;
 }
 input[type="checkbox"]{
@@ -76,6 +77,8 @@ input[type="checkbox"] + .editions__category::after {
 }
 
 .editions__books .slide-list {
+    display: flex;
+    align-items: center;
     margin: 40px 0px 30px;
 }
 

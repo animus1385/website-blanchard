@@ -31,12 +31,11 @@
 }
 .events__img { 
     height:300px;
-    width: 100%;  
-    background-position: center !important;
-    background-size: cover !important;    
-    background-repeat: no-repeat !important;
 }
-
+.events__img img {
+    width: 100%;
+    height: 100%;
+}
 .active__event {
     height: 100%;
 }
@@ -70,17 +69,11 @@
    border-bottom: 1px solid #9D5CD0;
 }
 
-.events__img-1 {
-    background: url(/img/events/Rectangle\ 101.jpg);
-}
-.events__img-2 {
-    background: url(/img/events/Rectangle\ 101-1.jpg);
-}
-.events__img-3 {
-    background: url(/img/events/Rectangle\ 101-2.jpg);
-}
 .events__button {
     display: flex;  
+    justify-content: center;
+    align-items: center;
+    width: 160px;
     height: 59px;
     color: #9D5CD0 ;
     font-weight: 600;

@@ -15,10 +15,13 @@
     width: 16px;
     height: 16px;
     left: -6px;
-    bottom: 0px;
+    bottom: 9px;
     cursor: pointer;
-    background-position: center;
-    background: url(/img/icon/i\ -\ Тултип.png) no-repeat;   
+    transition: all .5s ease;
+}
+.detailed__icon svg {
+    fill: white;
+    transition: all .5s ease;
 }
 .detailed__title {
     margin-bottom: 14px;

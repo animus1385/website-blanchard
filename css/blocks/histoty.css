@@ -15,6 +15,7 @@ background-position: center !important;
  border-radius: 50px;
  cursor: pointer;
  margin-right: 30px;
+ transition: all .5s ease;
 }
 .history__countries{
 display: flex;
@@ -29,19 +30,19 @@ align-items: center;
 }
 
 .history__img-1 {
-    background: url(/img/countries/image\ 4.png) no-repeat;
+    background: url(../../img/countries/image\ 4.png) no-repeat;
 }
 .history__img-2 {
-    background: url(/img/countries/image\ 6.png) no-repeat;
+    background: url(../..//img/countries/image\ 6.png) no-repeat;
 }
 .history__img-3 {
-    background: url(/img/countries/image\ 7.png) no-repeat;
+    background: url(../../img/countries/image\ 7.png) no-repeat;
 }
 .history__img-4 {
-    background: url(/img/countries/image\ 8.png) no-repeat;
+    background: url(../../img/countries/image\ 8.png) no-repeat;
 }
 .history__img-5 {
-    background: url(/img/countries/image\ 5.png) no-repeat;
+    background: url(../../img/countries/image\ 5.png) no-repeat;
 }
 .history__descr {
     line-height: 32px;
@@ -59,11 +60,8 @@ align-items: center;
     width: 750px;
     margin-right: 20px;
 }
-.history__left-img{
-   height: 470px; 
-   background: url(/img/image\ 3.jpg) no-repeat; 
-   background-size:cover;
-   background-position: center;
+.history__link {
+    transition: all .5s ease;
 }
 .history__celebrity {
     margin-top: 31px;

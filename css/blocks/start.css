@@ -5,15 +5,15 @@
 }
 
 .start__img-1 {
-    background: url(/img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 2.jpg) no-repeat ;
+    background: url(../../img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 2.jpg) no-repeat ;
     background-size: cover;
 }
 .start__img-2 {
-    background: url(/img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 1.png) no-repeat;
+    background: url(../../img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 1.png) no-repeat;
     background-size: cover;
 }
 .start__img-3 {
-    background: url(/img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 3.png) no-repeat;
+    background: url(../../img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 3.png) no-repeat;
     background-size: cover;
 }
 .start__img {
@@ -60,4 +60,5 @@
     font-weight: 700;
     font-size: 19px;
     padding: 17px 24px;
+    transition: all 1s ease;
 }
