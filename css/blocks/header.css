@@ -144,12 +144,17 @@ margin-right: 9px;
 }
 .link-bottom::before {
     transform: rotate(45deg);
-  
 }
 .link-bottom::after {
     transform: rotate(135deg);
     right: -19px;
 }
+ .active-icon .link-bottom::before {
+    transform: rotate(310deg);
+} 
+ .active-icon .link-bottom::after{
+    transform: rotate(49deg);
+} 
 .header__search-full * {
     transition: all .15s ease;
 }
