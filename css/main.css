@@ -3,6 +3,7 @@
 @import url("../css/blocks/generalis.css");   /*_____Общие стили________*/
 @import url("../css/blocks/fonts.css");       /*_____Шрифты_____________*/
 @import url("../css/choices.min.css");        /*_____Селект_____________*/
+@import url('../css/normalize.css');        /*_____Нормалайз_____________*/
 
 /* ____________Блоки__________________ */
 

@@ -3,12 +3,18 @@
           .fix-container {
               max-width: 668px;
           } 
+          .title {
+            font-size: 46px;         
+          }
+          .project__title {
+            margin-bottom: 24px;
+          }
           .unity-top {
             align-items: center;
             padding-left: 50px;
         }
         .logo   img {
-            width: 35%;
+            width: 37%;
         }
         .header__burger {
             margin: 0; 
@@ -25,16 +31,18 @@
             letter-spacing: 2px;
         }
         .unity-bottom {
-            padding: 35px 49px;
+            padding: 35px 54px;
+        }
+        .header__logo {
+            margin-left: 46px;
         }
         /* Второй блок */
         .project__descr {
             font-size: 16px;
-            margin-bottom: 73px;
         }
         /* трейтий блок */
         .gallery__unity-block {
-            height: 1013px ;  
+            height: 1042px;
         }
      
         .gallery__left {
@@ -81,8 +89,10 @@
         .content-1 {
             width: 318px !important;
         }
+      
         .history__countries {
-            margin-top: 68px;
+            margin-left: 37px;
+            margin-top: 8px;
         }
         .history__img {
             margin-right: 34px ;
@@ -90,14 +100,14 @@
         }
         .history__descr {
             font-size: 16px;
-            margin-bottom: 15px;
+            margin: 13px 0 20px;
         }
         .history__info {
             flex-direction: column;
 
         }
         .history__period:first-child {
-            padding-top: 44px;
+            padding-top: 37px;
             padding-bottom: 0;
         }
         .history__right {
@@ -106,19 +116,20 @@
         .history__left {
             
             order: 1;
-            margin-top: 42px;
+            margin-top: 52px;
             width: 100%;
         }
         .history__content {
-            height: 286px;
+            height: 288px;
             padding: 27px 0;
         }
         .history__period label {
             padding: 36px 0 27px;
+            font-size: 24px;
         }
         .history__item {
             width: 36%;
-            line-height: 31px;
+            line-height: 32px;
         }
         .history__left-img {
             background-size: cover;
@@ -128,22 +139,31 @@
         .history__celebrity {
             margin-top: 31px;
         }
+        .gallery__title {
+            margin-bottom: 28px;
+        }
         .descr-2 {
-        margin-top: 3px !important;
+        margin-top: 9px !important;
         line-height: 32px;
         }
-       
-       
+        .events ,
+        .history {
+            margin: 60px 0 !important;
+        }
+        .events {
+            margin-bottom: 88px !important;
+        }
+        .events__title  {
+        padding: 0;
+         
+        }
         .events-1 {
             margin-right: 30px !important;
         }
         .events-3 {
             display: none;
         }
-        .events__title {
-            padding-top: 55px;
-            margin-bottom: 17px;
-        }
+
         .events__info h2 {
          padding: 0;
         }
@@ -168,7 +188,7 @@
            background: url(/IMG/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 4.png) no-repeat;
         }
         .editions__title {
-            margin-bottom: 19px;
+            margin-bottom: 33px;
         }
         .editions__price {
             position:  inherit;
@@ -178,7 +198,7 @@
         }
         .price-1 {
             width: 61%;
-            margin-top: 34px;
+            margin-top: 33px;
         }
         .editions__all-category {
             flex-wrap: wrap;
@@ -198,7 +218,7 @@
         } 
         .editions__filter {
             width: 100%;
-            margin-bottom: 13px;
+            margin-bottom: 3px;
         }
         .editions__size-swiper {
             left: 114px;
@@ -206,7 +226,7 @@
         }
         
         .editions__filter h3 {      
-            margin-bottom:10px;
+            margin-bottom:14px;
             font-size: 16px;       
          }
          .editions__content { 
@@ -230,11 +250,11 @@
         }
        
         .events__button {
-            margin: 34px auto 88px;
+            margin: 27px auto 85px;
         }
       
         .contacts__communication {
-            margin: 34px 0 18px;
+            margin: 39px 0 18px;
         }
         .cost-1 {
             padding: 0 10px;
@@ -247,6 +267,9 @@
         }
         .editions__cost {
             width: 68%;
+        }
+        .editions__info {
+            margin: 18px 0 12px;
         }
         .editions__size {
             margin-left: 28px;
@@ -264,7 +287,8 @@
             flex-basis: 4%;
         }
         .partners__title {
-            padding: 24px 0 19px;
+            padding: 13px 0 12px;
+            font-size: 24px;
         }
         .partners__container {
             height: 114px;
@@ -275,12 +299,15 @@
             width: 265px;
         }
       
- 
+        .footer__social {
+            width: 69px;
+            height: 60px;
+        }
         .partners__border img {
             padding: 34px 0px;
         }
         .footer__social:nth-child(2) {
-            margin: 0 22px;
+            margin: 0 16px;
         }
         .partners-2 {
             background-size: 81%;
@@ -291,9 +318,6 @@
         .btn-2 {
             right:6.5% ;
         }
-        .contacts__title {
-            padding-top: 64px;
-        }
         .footer__logo img {
             width: 41%;
         }
@@ -301,14 +325,42 @@
             margin-bottom: 19px;
         }
         .footer__all {
-            padding: 42px 0;
+            padding: 40px 0;
+        }
+        .detailed {
+            margin-bottom: 62px !important;
+        }
+        .contacts__title {
+            padding-top: 17px;
+        }
+        .contacts {
+            margin-top: 0 !important;
+            margin-bottom: 7px !important;
+        }
+        .contacts__street {
+            margin-bottom: 40px;
         }
         .form input {
-            padding: 12px 0;
+            width: 293px;
+            padding: 10px 20px;
         }
-        #map {
-            width: 43.9% !important;
-           
+        .form__name, .form__tel {
+            margin-bottom: 23px;
         }
-       
+        .contacts__info {
+            padding: 128px 43px 43px 50px;
+            width: 348px;
+        }  
+        .contacts__img {
+            width: 59px;
+            height: 59px;
+            margin-left: 0px;
+            margin-right: 31px;
+        }      
+        .footer__fc {
+            background-position: -158.5px;
+        }
+        .footer__inst {
+            background-position: -79.5px;
+        }
       }

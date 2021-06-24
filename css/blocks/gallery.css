@@ -11,11 +11,11 @@
 .gallery__title {
     color: #FFFFFF ;
     padding-top: 0;
-    margin-bottom: 21px;
+    margin-bottom: 26px;
 }
 .gallery__unity-block { 
    display: flex;
-   padding: 80px 0 75px;
+   padding: 55px 0 72px;
     position: relative;
 }
   
@@ -57,7 +57,7 @@
 .gallery__descr {
     color: #FFFFFF;
     line-height: 2;
-margin-bottom: -5px;
+margin-bottom: 0px;
     width: 90%;
 }
 .gallery__right {
@@ -98,10 +98,7 @@ width: 100%;
        right: 40%;
 
    }
-   .swiper__img-block img:hover{
-   
 
-   }
 .content-1:nth-child(3n) {
     margin-bottom: 50px;
 }
@@ -110,13 +107,57 @@ width: 100%;
     /* селект  */ 
 
 
-.choices {
-    overflow: visible;
-   margin: 0;
-}
+    .choices {
+        overflow: visible;
+    }
 .choices[data-type*='select-one'] .choices__inner {
     background-color: transparent;
     color: white;
     padding: 0;
-    border-radius: 0px;
+    border-radius: 5px;
+}
+.choices__inner {
+    min-height: 40px;
+    border: 1px solid #FFFFFF;
+    transition: all .5s ease;
+}
+.choices__list--dropdown .choices__item:hover,
+.choices[data-type*='select-one'] .choices__inner:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.choices[data-type*=select-one]:after {
+    width: 15px;
+    height: 15px;
+    top: 25%;
+    border: none;
+    margin: 0;
+    background: url(/img/icon/Rectangle\ 74.png) no-repeat center;
+    border-color: rgb(255, 252, 252) transparent transparent;
+}
+.choices[data-type*=select-one].is-open:after {
+margin: 0;
+transform: rotate(180deg);
+}
+.choices__list--single,
+.choices__list--single .choices__item {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    padding: 0;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+}
+.choices__list--dropdown {
+    background-color: transparent;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid  #999999;
+   
+}
+.choices__list--dropdown .choices__item:not(:last-child) {
+    border-bottom: 1px solid #999999;
+    cursor: pointer;
+    transition: all .5s ease;
 }

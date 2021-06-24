@@ -5,14 +5,14 @@
 }
 .editions__title {
     color: #FFFFFF;
-    padding-top: 8px;
-    margin-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 30px;
 
 }
 .editions__content {
     display: flex;
     justify-content: space-between;
-    padding: 74px 0 50px;
+    padding: 74px 0 48px;
     
 }
 .editions__filter,
@@ -91,7 +91,7 @@ input[type="checkbox"] + .editions__category::after {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-   margin: 23px 0 8px;
+   margin: 23px 0 13px;
 }
 .editions__descr {
     display: flex;
@@ -101,6 +101,7 @@ input[type="checkbox"] + .editions__category::after {
 .editions__author,
 .editions__title-book {
     color: #FFFFFF;
+    margin-bottom: 5px;
 }
 .editions__button {
     Width:120px;
@@ -136,8 +137,11 @@ input[type="checkbox"] + .editions__category::after {
 }
  .editions__cost-price {
      background-color: rgba(157, 92, 208, 0.5); 
-     width: 73px ;
+  width: 73px;
      border: none;
-     padding: 11px 0;
+     padding: 11px 0 ;
+     color: white;
+     text-align: center;
+     
  }
  

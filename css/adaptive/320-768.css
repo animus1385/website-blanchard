@@ -18,13 +18,7 @@
         text-align: center;
         margin: 217px 0 100px;
     }
-    #map {
-        top: 161px;  
-        position: absolute;
-        height: 330px !important;
-        width: 100% !important;
-        
-    }
+   
     .events-slide {
         width: 100% !important;
     }

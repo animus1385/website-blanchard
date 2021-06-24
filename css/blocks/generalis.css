@@ -2,9 +2,12 @@
 body, html {
     font-family: 'Open Sans', sans-serif;
     overflow-x: hidden;
-box-sizing: border-box;
-margin: 0;
-padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6, ul ,p {
+    padding: 0;
+    margin: 0;
 }
 a {
     text-decoration: none;
@@ -29,11 +32,11 @@ img {
 
 /* Заголовки */
 .title {
-    font-size: 47px;
+    font-size: 48px;
     font-weight: 400;
     color: #333333 ;
-    padding-top: 80px;
-    margin-bottom: 17px;
+    margin-bottom: 20px;
+    padding-top: 10px;
 }
 /* Кнопки  */
 .button {
@@ -41,13 +44,14 @@ img {
     border: 1px solid #9D5CD0;
     border-radius: 30px;
     font-size: 18px;
-    margin-top: 10px;
 }
 button {
     cursor: pointer;
 }
 
-
+section:not(:first-child) {
+    margin: 73px 0;
+}
 .btn {
  width: 30px;
  height: 30px;
@@ -63,7 +67,7 @@ button {
 .slide__list {
     display: flex;
     align-items: center;
-    margin: 23px 2px 31px;
+    margin: 49px 2px 31px;
    
 }
 .btn__left {
@@ -99,6 +103,7 @@ button {
     right: 60%;
   
 }
+
 
 .simplebar-content-wrapper {
     overflow: auto;

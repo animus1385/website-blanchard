@@ -23,9 +23,6 @@
     fill: white;
     transition: all .5s ease;
 }
-.detailed__title {
-    margin-bottom: 14px;
-}
 .popup {
     position: absolute;   
     bottom: 29px;

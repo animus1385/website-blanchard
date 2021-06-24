@@ -5,7 +5,7 @@
     align-items: center;
 }
 .history__title {
-    margin-right: 35px;
+    margin: 0;
 }
 .history__img  {
 
@@ -19,8 +19,9 @@ background-position: center !important;
 }
 .history__countries{
 display: flex;
-margin-top: 70px;
 align-items: center;
+margin-left: 31px;
+margin-top: 10px;
 } 
 .history__img__active {
    
@@ -47,7 +48,7 @@ align-items: center;
 .history__descr {
     line-height: 32px;
     font-size: 16px;
-    margin-bottom: 40px;
+    margin: 10px 0 40px;
 }
 .descr-1 {
     width: 69%;
@@ -55,15 +56,22 @@ align-items: center;
 .history__info {
     display: flex;
     justify-content: space-between;
+    flex-basis: 100%;
 }
 .history__left {
-    width: 750px;
+
+flex-basis: 50%;
     margin-right: 20px;
+}
+.history__left img {
+    width: 100%;
 }
 .history__link {
     transition: all .5s ease;
 }
 .history__celebrity {
+    display: flex;
+    flex-direction: column;
     margin-top: 31px;
 }
 .history__name {
@@ -75,19 +83,19 @@ align-items: center;
     color: #999999;
 }
 .history__right {
-    width: 800px;
+    flex-grow: 1;
     border-top: 1px solid #CACACA ;
 }
 .history__period:first-child {
     padding-bottom: 2px;
 }
 .history__period {  
-
+position: relative;
     border-bottom: 1px solid #CACACA;
     font-size: 24px ;
     font-weight: 600;
     cursor: pointer;
-    padding: 35px 0  46px;
+    padding: 43px 0;
 }
 
 .history__button {
@@ -97,8 +105,9 @@ align-items: center;
     height: 50px;
     float: right;
     border-radius: 30px;
-    
-    position: relative;
+    position: absolute;
+    right: 2px;
+    top: 32px;
     transition: .9s ease;
 }
 .history__button::before,
@@ -124,8 +133,7 @@ align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
     height: 290px; 
-    width: 97%;
-    
+    width: 91%;
 }
 
 .active-1 {
@@ -140,7 +148,7 @@ align-items: center;
 }
 
 .history__item {
-    width: 30%;
+    
     font-size: 15px;
     line-height: 32px;
 }

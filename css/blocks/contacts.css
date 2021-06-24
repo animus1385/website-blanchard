@@ -1,21 +1,26 @@
 /*_____Девятый блок_______*/ 
 .contacts {
-    position: relative;
-    border-top: 1px solid #CACACA;
+    margin-bottom: 0 !important;
 }
 .contacts__title {
-    padding-top: 79px;
-    font-size: 47px;
+    padding-top: 11px;
 }
 .contacts__info {
-   padding: 122px 0 100px;
-   border-right: 1px solid #CACACA;
+    display: flex;
+    justify-content: center;
+    width: 660px;
+    padding: 132px 0 103px;
+    padding-left: 40px;
+    border: 1px solid #CACACA;
 }
 .contacts__left{
     display: flex;
-    flex-direction: column;
-
-    
+    flex-direction: column;    
+}
+.contacts__footer {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
 }
 .contacts__office {
     font-size: 23px;
@@ -27,7 +32,7 @@
 .form input {
     width: 348px;
     border-radius: 100px;
-    padding: 14px 25px;
+    padding: 9px 25px;
     transition: all .5s ease;
     border: 1px solid #333333;
 }
@@ -39,18 +44,15 @@
     font-size: 16px;
     padding-left: 0px;
     margin-left: 50px;
-   
-
 }
 .form__name,
 .form__tel {
-    margin-bottom: 15px;
-   
+    margin-bottom: 25px;  
 }
-
 .form__button  {
     width: 157px ;
     height: 59px;
+    font-size: 19px;
 }
 .form__title,
 .contacts-office {
@@ -59,21 +61,20 @@
 }
 .contacts__street {
     margin-top: 10px;
-    margin-bottom: 36px;
+    margin-bottom: 39px;
 }
 .form__title {
-    margin-bottom: 14px;
+    margin-bottom: 20px;
 }
 .contacts__communication {
     font-size: 24px;
-    margin: 35px 0 16px;   
+    margin: 37px 0 18px;   
 }
 .contacts__sprite {
     display: flex;
     height: 40px;
     margin-bottom: 20px;
 }
-
 .contacts__img-1 {
     background: url(../../img/social/Whatsapp-Icon.svg);
     margin-right: 20px;
@@ -89,10 +90,8 @@
     transition: all .5s ease;
 }
  #map  {
-position: absolute;
-bottom: 0;
-right: 0;
-     width:  64.6% !important;
-     height: 80.8% !important;
-     filter: grayscale(1);
+    filter: grayscale(1);
+ }
+ .js-validate-error-label {
+    margin-bottom: 10px;
  }

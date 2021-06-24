@@ -6,9 +6,9 @@
     display: flex;
     }
 .partners__title {
-    font-size: 23px;
+    font-size: 24px;
     font-weight: 600;
-    padding: 21px 0 3px;
+
 }
 .partners__container {
     display: flex;

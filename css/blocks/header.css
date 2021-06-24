@@ -14,7 +14,7 @@
    
 }
 .unity-top {
-    padding: 27px 0 29px;
+    padding: 28px 0 30px ;
 }
 .header__burger {
     display: none;
@@ -64,13 +64,14 @@ left:0 !important;
    
 }
 .header__menu {
-   margin: 0 auto 0 180px;
+   margin: 0 auto 0 181px;
 }
 .header__list {
     display: flex; 
+    padding: 0px ;
 }
 .item-top {  
-    margin-right: 67px;
+    margin-right: 62px;
     letter-spacing: 1px;  
 }
 .header__item:last-child {
@@ -95,7 +96,7 @@ left:0 !important;
  
 }
 .icon-Vector {
-margin-right: 13px;
+margin-right: 9px;
   transition: all .8s ease;
 }
   .header__link{
@@ -104,7 +105,7 @@ margin-right: 13px;
     color: #FFFFFF;
     background-color: transparent;
     border: none;
-    font-size: 16px; 
+    font-size: 17px; 
     position: relative;
     transition: all .5s ease;
     
@@ -137,7 +138,7 @@ margin-right: 13px;
     width: 7px;
     height: 1px;
     right: -15px;
-    top: 14px;
+    top: 9px;
     margin-left: 8px;
   background-color: white;
 }
@@ -162,13 +163,13 @@ margin-right: 13px;
     height: 21px;    
     border: none;
     background-color: transparent;  
-    margin-right: 9px;
+    margin-right: 13px;
   
 }
 
 .header__search {
     border: none;
-    width: 220px;
+    width: 223px;
     height: 28px;
    border-bottom: 1px solid #FFFFFF;
    background-color:  transparent;
@@ -193,11 +194,11 @@ input::-webkit-search-results-decoration { display: none; }
     width: 200px;
     height: 220px;
     color: white;
-    top: 60px;
-    left: -75px;
+    top: 43px;
+    left: 0px;
     z-index: 15;
     font-size: 14px;
-    background-color:  rgb(153,153,153);
+    background-color: #00000093;
   
     
 }
