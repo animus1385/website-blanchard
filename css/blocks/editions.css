@@ -1,18 +1,18 @@
 /*_____Шестой блок________*/    
 .editions {
-    background: url(../../img/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 4.jpg) no-repeat; 
+    background: url(../../img/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 4.webp) no-repeat; 
     background-size: cover;
 }
 .editions__title {
     color: #FFFFFF;
     margin-top: 0;
-    margin-bottom: 30px;
+    margin-bottom: 23px;
 
 }
 .editions__content {
     display: flex;
     justify-content: space-between;
-    padding: 74px 0 48px;
+    padding: 74px 0 42px;
     
 }
 .editions__filter,
@@ -20,8 +20,11 @@
     display: flex;
     flex-direction: column;
     margin-right: 90px ; 
-    margin-bottom: 28px;
+    margin-bottom: 34px;
 
+}
+.editions__all-category {
+    margin-bottom: 34px;
 }
 .editions__all-category li:nth-child(7) {
     width: 270px;
@@ -40,7 +43,7 @@ font-size: 17px;
     font-size: 17px;
     cursor: pointer;
     color: #FFFFFF; 
-    transition: all .5s ease;
+    transition: color .5s ease;
     line-height: 1.9;
 }
 input[type="checkbox"]{
@@ -107,18 +110,20 @@ input[type="checkbox"] + .editions__category::after {
     Width:120px;
     height: 40px;
     padding: 6px 20px;
+  display: flex;
+  justify-content: center;
     border-radius: 30px;
     background-color: transparent;
     border: 2px solid #9D5CD0;
     color: #FFFFFF;
-    font-size: 16px;
+    font-size: 17px;
 }
 .editions__cost {
     display: flex;
     align-items: center;
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 4px;
-    margin-top: 18px;
+    margin-top: 12px;
     color: #FFFFFF;
     width: 78%;
 }

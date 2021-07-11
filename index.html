@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Курсовая</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 
 <body>
@@ -16,7 +16,8 @@
                     <button class="header__burger">
                         <span class="header__line"></span>
                     </button>
-                    <a href="#" class="header__logo logo link"><img src="./img/Лого.png" alt="Логотип"></a>
+                    <a href="#" class="header__logo logo link "><img class="lazyload" data-src="./img/Лого.png"
+                            alt="Логотип"></a>
                     <nav class="header__menu">
                         <ul class="header__list ">
                             <li class="header__item item-top"><a href="#" class="header__link link">О нас</a></li>
@@ -43,36 +44,34 @@
                 <div class="header__unity unity-bottom">
                     <ul class="header__list">
                         <li class="header__item item-bottom">
-                            <div class="header__link link-bottom">Реализм
-                            </div>
+                            <button class="header__link link-bottom">Реализм
+                            </button>
                         </li>
                         <li class="header__item item-bottom">
-                            <div class="header__link link-bottom">Импрессионизм</div>
+                            <button class="header__link link-bottom">Импрессионизм</button>
                         </li>
                         <li class="header__item item-bottom">
-                            <div class="header__link link-bottom">Постимпрессионизм</div>
+                            <button class="header__link link-bottom">Постимпрессионизм</button>
                         </li>
                         <li class="header__item item-bottom">
-                            <div class="header__link link-bottom">Авангард</div>
+                            <button class="header__link link-bottom">Авангард</button>
                         </li>
                         <li class="header__item item-bottom">
-                            <div class="header__link link-bottom">Футуризм </div>
+                            <button class="header__link link-bottom">Футуризм </button>
                         </li>
                     </ul>
                     <div class="header__content" data-simplebar>
-                        <div class="header__select">Автор</div>
-                        <div class="header__select">Тинторетто</div>
-                        <div class="header__select">Фридрих</div>
-                        <div class="header__select">Леонардо</div>
-                        <div class="header__select">Верроккьо</div>
-                        <div class="header__select">Тинторетто</div>
-                        <div class="header__select">Фридрих</div>
-                        <div class="header__select">Леонардо</div>
-                        <div class="header__select">Верроккьо</div>
-                        <div class="header__select">инторетто</div>
-                        <div class="header__select">Фридрих</div>
-                        <div class="header__select">Леонардо</div>
-                        <div class="header__select">Верроккьо</div>
+                        <div class="header__select select-1">Тинторетто</div>
+                        <div class="header__select select-2">Фридрих</div>
+                        <div class="header__select select-3">Леонардо</div>
+                        <div class="header__select select-4">Верроккьо</div>
+                        <div class="header__select select-5">Тинторетто</div>
+                        <div class="header__select select-6">Фридрих</div>
+                        <div class="header__select select-7">Леонардо</div>
+                        <div class="header__select select-8">Верроккьо</div>
+                        <div class="header__select select-9">инторетто</div>
+                        <div class="header__select select-10">Фридрих</div>
+                        <div class="header__select select-11">Леонардо</div>
                     </div>
                     <form class="header__search-full">
                         <button class="header__button">
@@ -95,43 +94,31 @@
         <section class="start">
             <div class="swiper-container start__container">
                 <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide start__img-1 ">
-                        <div class="fix-container start__img">
-                            <div class="start__info">
-                                <div class="start__title">Прикоснитесь <br> к прекрасному</div>
-                                <p class="start__descr">Мы вынуждены отталкиваться от того, что реализация намеченных
-                                    плановых
-                                    заданий
-                                    создаёт предпосылки для новых предложений.</p>
-                            </div>
-                            <button class="start__button button">Подписаться на рассылку</button>
-                        </div>
+                <div class="fix-container start__img">
+                    <div class="start__info">
+                        <div class="start__title">Прикоснитесь к прекрасному</div>
+                        <p class="start__descr">Мы вынуждены отталкиваться от того, что реализация намеченных
+                            плановых
+                            заданий
+                            создаёт предпосылки для новых предложений.</p>
                     </div>
-                    <div class="swiper-slide start__img-2">
-                        <div class="fix-container  start__img">
-                            <div class="start__info">
-                                <div class="start__title">Прикоснитесь <br> к прекрасному</div>
-                                <p class="start__descr">Мы вынуждены отталкиваться от того, что реализация намеченных
-                                    плановых
-                                    заданий
-                                    создаёт предпосылки для новых предложений.</p>
-                            </div>
-                            <button class="start__button button">Подписаться на рассылку</button>
-                        </div>
+                    <button class="start__button button">Подписаться на рассылку</button>
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide start__img-1 ">
+                        <img class="lazyload"
+                            data-src="./img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash 2.webp"
+                            alt="Картинка">
+                    </div>
+                    <div class="swiper-slide start__img-2 ">
+                        <img class="lazyload"
+                            data-src="./img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash 1.webp"
+                            alt="Картинка">
                     </div>
                     <div class="swiper-slide start__img-3 ">
-                        <div class="fix-container start__img">
-                            <div class="start__info">
-                                <div class="start__title">Прикоснитесь <br> к прекрасному</div>
-                                <p class="start__descr">Мы вынуждены отталкиваться от того, что реализация намеченных
-                                    плановых
-                                    заданий
-                                    создаёт предпосылки для новых предложений.</p>
-                            </div>
-                            <button class="start__button button">Подписаться на рассылку</button>
-                        </div>
+                        <img class="lazyload"
+                            data-src="./img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash 3.webp"
+                            alt="Картинка">
                     </div>
                 </div>
             </div>
@@ -188,93 +175,93 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="swiper__img-block">
-                                    <img src="./img/gallery/Rectangle1.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/gallery/Rectangle1.webp " alt="Картинка">
                                 </div>
 
                             </div>
                             <div class="swiper-slide">
                                 <div class="swiper__img-block">
-                                    <img src="./img/gallery/Rectangle2.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/gallery/Rectangle2.webp " alt="Картинка">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="swiper__img-block">
-                                    <img src="./img/gallery/Rectangle3.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/gallery/Rectangle4.webp " alt="Картинка">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="swiper__img-block">
-                                    <img src="./img/gallery/Rectangle4.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/gallery/Rectangle5.webp " alt="Картинка">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="swiper__img-block">
-                                    <img src="./img/gallery/Rectangle5.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/gallery/Rectangle3.webp " alt="Картинка">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="swiper__img-block">
-                                    <img src="./img/gallery/Rectangle6.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/gallery/Rectangle6.webp " alt="Картинка">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="swiper__img-block">
-                                    <img src="./img/gallery/Rectangle7.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/gallery/Rectangle7.webp " alt="Картинка">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="swiper__img-block">
-                                    <img src="./img/gallery/Rectangle8.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/gallery/Rectangle8.webp " alt="Картинка">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="swiper__img-block">
-                                    <img src="./img/gallery/Rectangle9.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/gallery/Rectangle9.webp " alt="Картинка">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="swiper__img-block">
-                                    <img src="./img/gallery/Rectangle10.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/gallery/Rectangle10.webp" alt="Картинка">
                                 </div>
                             </div>
                             <div class="swiper-slide ">
                                 <div class="swiper__img-block">
-                                    <img src="./img/gallery/Rectangle11.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/gallery/Rectangle11.webp" alt="Картинка">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="swiper__img-block">
-                                    <img src="./img/gallery/Rectangle12.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/gallery/Rectangle12.webp" alt="Картинка">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="swiper__img-block">
-                                    <img src="./img/gallery/Rectangle13.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/gallery/Rectangle13.webp" alt="Картинка">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="swiper__img-block">
-                                    <img src="./img/gallery/Rectangle14.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/gallery/Rectangle14.webp" alt="Картинка">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="swiper__img-block">
-                                    <img src="./img/gallery/Rectangle15.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/gallery/Rectangle15.webp" alt="Картинка">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="swiper__img-block">
-                                    <img src="./img/gallery/Rectangle16.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/gallery/Rectangle16.webp" alt="Картинка">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="swiper__img-block">
-                                    <img src="./img/gallery/Rectangle17.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/gallery/Rectangle17.webp" alt="Картинка">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="swiper__img-block">
-                                    <img src="./img/gallery/Rectangle18.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/gallery/Rectangle18.webp" alt="Картинка">
                                 </div>
                             </div>
                         </div>
@@ -307,7 +294,7 @@
                 </p>
                 <div class="history__info">
                     <div class="history__left">
-                        <img class="history__left-img" src="./img/image3.jpg" alt="Картинка">
+                        <img class="history__left-img lazyload" data-src="./img/image3.webp" alt="Картинка">
                         <div class="history__celebrity">
                             <h2 class="history__name">Доменико Гирландайо</h2>
                             <span class="history__age">2 июня 1448 — 11 января 1494.</span>
@@ -832,119 +819,184 @@
                     <div class="events__all swiper-wrapper">
                         <div class="swiper-slide events-slide events-1">
                             <div class="events__block">
-                                <div class="events__img-1 events__img">
-                                    <img src="./img/events/Rectangle101-1.jpg" alt="Картинка">
+                                <div class="events__img-1 events__img ">
+                                    <img class="lazyload" data-src="./img/events/Rectangle101-1.webp" alt="Картинка">
                                 </div>
-                                <div class="events__adrees">Музей им. Щусева <br> с 20 марта по 30 апреля</div>
-                                <div class="events__info">
-                                    <h2 class="events__title">Книжная гравюра в живом восприятии</h2>
-                                    <p class="events__descr">Один из ведущих флорентийских художников Кватроченто,
-                                        основатель
-                                        художественной династии, которую продолжили его брат Давид и сын Ридольфо.<span
-                                            class="more" id="more"> Глава художественной мастерской , где юный
-                                            Микеланджело
-                                        </span><span class="dots" id="dots">...</span>
-                                    </p>
-                                    <button class="events__link link">Подробнее</button>
+                                <div class="events__all-info">
+                                    <div class="events__adrees adress">
+                                        Музей им. Щусева <br> с 20 марта по 30 апреля
+                                    </div>
+                                    <div class="events__info">
+                                        <div class="events__text-top">
+                                            <h2 class="events__title">Книжная гравюра в живом восприятии</h2>
+                                            <p class="events__descr">Один из ведущих флорентийских художников
+                                                Кватроченто,
+                                                основатель
+                                                художественной династии, которую продолжили его брат Давид и сын
+                                                Ридольфо.<span class="more" id="more"> Глава художественной мастерской ,
+                                                    где
+                                                    юный
+                                                    Микеланджело
+                                                </span><span class="dots" id="dots">...</span>
+                                            </p>
+                                        </div>
+                                        <a href="#" class="events__link link">Подробнее</a>
+                                    </div>
                                 </div>
+
                             </div>
                         </div>
                         <div class="swiper-slide events-slide events-2">
                             <div class="events__block">
-                                <div class="events__img-2 events__img">
-                                    <img src="./img/events/Rectangle101-2.jpg" alt="Картинка">
+                                <div class="events__img-2 events__img ">
+                                    <img class="lazyload" data-src="./img/events/Rectangle101-2.webp" alt="Картинка">
                                 </div>
-                                <div class="events__adrees">ММОМА <br> 24 марта 19:00</div>
-                                <div class="events__info">
-                                    <h2 class="events__title">«Открытая дискуссия». Дмитрий Петров и Сергей Ильин.</h2>
-                                    <p class="events__descr">Высокий уровень вовлечения представителей целевой аудитории
-                                        является
-                                        четким
-                                        доказательством простого факта:<span class="more"> постоянный количественный
-                                            рост и сфера нашей активности представляет собой интересный эксперимент
-                                            проверки
-                                            новых принципов формирования</span> <span class="dots">...</span>
-                                    </p>
-                                    <button class="events__link link">Подробнее</button>
+                                <div class="events__all-info">
+                                    <div class="events__adrees">ММОМА <br> 24 марта 19:00
+                                    </div>
+                                    <div class="events__info">
+                                        <div class="events__text-top">
+                                            <h2 class="events__title">«Открытая дискуссия». Дмитрий Петров и Сергей
+                                                Ильин.
+                                            </h2>
+                                            <p class="events__descr">Высокий уровень вовлечения представителей целевой
+                                                аудитории
+                                                является
+                                                четким
+                                                доказательством простого факта:<span class="more"> постоянный
+                                                    количественный
+                                                    рост и сфера нашей активности представляет собой интересный
+                                                    эксперимент
+                                                    проверки
+                                                    новых принципов формирования</span> <span class="dots">...</span>
+                                            </p>
+
+                                        </div>
+                                        <a href="#" class="events__link link">Подробнее</a>
+                                    </div>
+
                                 </div>
+
                             </div>
                         </div>
                         <div class="swiper-slide events-slide events-3 ">
                             <div class="events__block">
-                                <div class="events__img-3 events__img">
-                                    <img src="./img/events/Rectangle101.jpg" alt="Картинка">
+                                <div class="events__img-3 events__img ">
+                                    <img class="lazyload" data-src="./img/events/Rectangle101.webp" alt="Картинка">
                                 </div>
-                                <div class="events__adrees">Еврейский музей <br> с 31 марта по 21 апреля</div>
-                                <div class="events__info">
-                                    <h2 class="events__title">Выставка «Формация 2020»</h2>
-                                    <p class="events__descr">Идейные соображения высшего порядка, а также современная
-                                        методология
-                                        разработки играет важную роль в формировании глубокомысленных рассуждений.
-                                        <span class="more">Также как перспективное планирование играет определяющее
-                                            значение
-                                            для новых принципов формирования-технической и кадровой базы
-                                        </span><span class="dots">...</span>
-                                    </p>
-                                    <button class="events__link link">Подробнее</button>
+                                <div class="events__all-info">
+                                    <div class="events__adrees">
+                                        <p class="adress__text">Еврейский музей <br> с 31 марта по 21 апреля </p>
+                                    </div>
+                                    <div class="events__info">
+                                        <div class="events__text-top">
+                                            <h2 class="events__title">Выставка «Формация 2020»</h2>
+                                            <p class="events__descr">Идейные соображения высшего порядка, а также
+                                                современная
+                                                методология
+                                                разработки играет важную роль в формировании глубокомысленных
+                                                рассуждений.
+                                                <span class="more">Также как перспективное планирование играет
+                                                    определяющее
+                                                    значение
+                                                    для новых принципов формирования-технической и кадровой базы
+                                                </span><span class="dots">...</span>
+                                            </p>
+
+                                        </div>
+                                        <a href="#" class="events__link link">Подробнее</a>
+                                    </div>
                                 </div>
+
                             </div>
                         </div>
                         <div class="swiper-slide events-slide events-4 ">
                             <div class="events__block">
-                                <div class="events__img-4 events__img">
-                                    <img src="./img/events/Rectangle104.png" alt="Картинка">
+                                <div class="events__img-4 events__img ">
+                                    <img class="lazyload" data-src="./img/events/Rectangle104.webp" alt="Картинка">
                                 </div>
-                                <div class="events__adrees">Музей им. Щусева <br> с 20 марта по 30 апреля</div>
-                                <div class="events__info">
-                                    <h2 class="events__title">Книжная гравюра в живом восприятии</h2>
-                                    <p class="events__descr">Один из ведущих флорентийских художников Кватроченто,
-                                        основатель
-                                        художественной династии, которую продолжили его брат Давид и сын Ридольфо.
-                                        Глава<span class="more">художественной мастерской , где юный
-                                            Микеланджело
-                                        </span><span class="dots">...</span></p>
-                                    <button class="events__link link">Подробнее</button>
+                                <div class="events__all-info">
+                                    <div class="events__adrees">Музей им. Щусева <br> с 20 марта по 30 апреля
+                                    </div>
+                                    <div class="events__info">
+                                        <div class="events__text-top">
+                                            <h2 class="events__title">Книжная гравюра в живом восприятии</h2>
+                                            <p class="events__descr">Один из ведущих флорентийских художников
+                                                Кватроченто,
+                                                основатель
+                                                художественной династии, которую продолжили его брат Давид и сын
+                                                Ридольфо.
+                                                Глава<span class="more">художественной мастерской , где юный
+                                                    Микеланджело
+                                                </span><span class="dots">...</span></p>
+
+                                        </div>
+                                        <a href="#" class="events__link link">Подробнее</a>
+                                    </div>
+
                                 </div>
+
                             </div>
                         </div>
                         <div class="swiper-slide events-slide events-5">
                             <div class="events__block">
-                                <div class="events__img-5 events__img">
-                                    <img src="./img/events/Rectangle105.png" alt="Картинка">
+                                <div class="events__img-5 events__img ">
+                                    <img class="lazyload" data-src="./img/events/Rectangle105.webp" alt="Картинка">
                                 </div>
-                                <div class="events__adrees">ММОМА <br> 24 марта 19:00</div>
-                                <div class="events__info">
-                                    <h2 class="events__title">«Открытая дискуссия». Дмитрий Петров и Сергей Ильин.</h2>
-                                    <p class="events__descr">Высокий уровень вовлечения представителей целевой аудитории
-                                        является
-                                        четким
-                                        доказательством простого факта:<span class="more"> постоянный количественный
-                                            рост и сфера нашей активности представляет собой интересный эксперимент
-                                            проверки
-                                            новых принципов формирования</span> <span class="dots">...</span>
-                                    </p>
-                                    <button class="events__link link">Подробнее</button>
+                                <div class="events__all-info">
+                                    <div class="events__adrees">ММОМА <br> 24 марта 19:00
+                                    </div>
+                                    <div class="events__info">
+                                        <div class="events__text-top">
+                                            <h2 class="events__title">«Открытая дискуссия». Дмитрий Петров и Сергей
+                                                Ильин.
+                                            </h2>
+                                            <p class="events__descr">Высокий уровень вовлечения представителей целевой
+                                                аудитории
+                                                является
+                                                четким
+                                                доказательством простого факта:<span class="more"> постоянный
+                                                    количественный
+                                                    рост и сфера нашей активности представляет собой интересный
+                                                    эксперимент
+                                                    проверки
+                                                    новых принципов формирования</span> <span class="dots">...</span>
+                                            </p>
+                                        </div>
+                                        <a href="#" class="events__link link">Подробнее</a>
+                                    </div>
+
                                 </div>
+
                             </div>
                         </div>
                         <div class="swiper-slide events-slide  events-6">
                             <div class="events__block">
-                                <div class="events__img-6 events__img">
-                                    <img src="./img/events/Rectangle101.jpg" alt="Картинка">
+                                <div class="events__img-6 events__img ">
+                                    <img class="lazyload" data-src="./img/events/Rectangle101.webp" alt="Картинка">
                                 </div>
-                                <div class="events__adrees">Еврейский музей <br> с 31 марта по 21 апреля</div>
-                                <div class="events__info">
+                                <div class="events__all-info">
+                                    <div class="events__adrees">Еврейский музей <br> с 31 марта по 21 апреля
+                                    </div>
+                                    <div class="events__info">
+                                        <div class="events__text-top">
+                                            <h2 class="events__title">Выставка «Формация 2020»</h2>
+                                            <p class="events__descr">Идейные соображения высшего порядка, а также
+                                                современная
+                                                методология
+                                                разработки играет важную роль в формировании глубокомысленных
+                                                рассуждений.
+                                                Также как перспективное <span class="more"> планирование играет
+                                                    определяющее
+                                                    значение
+                                                    для новых принципов формирования-технической и кадровой базы
+                                                </span><span class="dots">...</span></p>
+                                        </div>
+                                        <a href="#" class="events__link link">Подробнее</a>
+                                    </div>
 
-                                    <h2 class="events__title">Выставка «Формация 2020»</h2>
-                                    <p class="events__descr">Идейные соображения высшего порядка, а также современная
-                                        методология
-                                        разработки играет важную роль в формировании глубокомысленных рассуждений.
-                                        Также как перспективное <span class="more"> планирование играет определяющее
-                                            значение
-                                            для новых принципов формирования-технической и кадровой базы
-                                        </span><span class="dots">...</span></p>
-                                    <button class="events__link link">Подробнее</button>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -1054,7 +1106,7 @@
                         <div class="swiper-wrapper editions__size">
                             <div class="swiper-slide content-2">
                                 <div class="editions__book-1 editions__book">
-                                    <img src="./img/editions/Rectangle111.jpg" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/editions/Rectangle111.webp " alt="Картинка">
                                     <div class="editions__info">
                                         <div class="editions__descr">
                                             <strong class="editions__title-book">Искусство цвета</strong>
@@ -1067,7 +1119,7 @@
                             </div>
                             <div class="swiper-slide content-2">
                                 <div class="editions__book-2 editions__book">
-                                    <img src="./img/editions/Rectangle111-1.jpg" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/editions/Rectangle111-1.webp " alt="Картинка">
                                     <div class="editions__info">
                                         <div class="editions__descr">
                                             <strong class="editions__title-book">Типографика
@@ -1081,7 +1133,7 @@
                             </div>
                             <div class="swiper-slide content-2">
                                 <div class="editions__book-3 editions__book">
-                                    <img src="./img/editions/Rectangle111-2.jpg" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/editions/Rectangle111-2.webp " alt="Картинка">
                                     <div class="editions__info">
                                         <div class="editions__descr">
                                             <strong class="editions__title-book">Книга про буквы
@@ -1095,7 +1147,7 @@
                             </div>
                             <div class="swiper-slide content-2">
                                 <div class="editions__book-4 editions__book">
-                                    <img src="./img/editions/Rectangle111.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/editions/Rectangle112.webp " alt="Картинка">
                                     <div class="editions__info">
                                         <div class="editions__descr">
                                             <strong class="editions__title-book">Книга про буквы
@@ -1109,7 +1161,7 @@
                             </div>
                             <div class="swiper-slide content-2">
                                 <div class="editions__book-5 editions__book">
-                                    <img src="./img/editions/Rectangle111-1.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/editions/Rectangle111-4.webp " alt="Картинка">
                                     <div class="editions__info">
                                         <div class="editions__descr">
                                             <strong class="editions__title-book">Книга про буквы
@@ -1123,7 +1175,7 @@
                             </div>
                             <div class="swiper-slide content-2">
                                 <div class="editions__book-6 editions__book">
-                                    <img src="./img/editions/Rectangle111-2.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/editions/Rectangle111-5.webp" alt="Картинка">
                                     <div class="editions__info">
                                         <div class="editions__descr">
                                             <strong class="editions__title-book">Книга про буквы
@@ -1137,7 +1189,7 @@
                             </div>
                             <div class="swiper-slide content-2">
                                 <div class="editions__book-7 editions__book">
-                                    <img src="./img/editions/Rectangle111-3.png" alt="Картинка">
+                                    <img class="lazyload" data-src="./img/editions/Rectangle111-3.webp " alt="Картинка">
                                     <div class="editions__info">
                                         <div class="editions__descr">
                                             <strong class="editions__title-book">Книга про буквы
@@ -1212,7 +1264,7 @@
                     социальных резервов призывают нас к новым свершениям, которые, в свою очередь, должны быть
                     смешаны с
                     не уникальными данными до степени совершенной неузнаваемости. Подробнее:
-                    <a href="#">blanchard-art.ru/projects/about</a>
+                    <a href="/blanchard-art.ru/projects/about">blanchard-art.ru/projects/about</a>
                 </div>
             </div>
             <div class="partners">
@@ -1227,49 +1279,49 @@
                                 <!-- Slides -->
                                 <div class="swiper-slide  partners__size">
                                     <div class="partners__border">
-                                        <img src="./img/partners/one.png" alt="Картинка">
+                                        <img class="lazyload" data-src="./img/partners/one.png " alt="Картинка">
                                     </div>
                                 </div>
                                 <div class="swiper-slide partners__size">
                                     <div class="partners__border">
-                                        <img src="./img/partners/two.png" alt="Картинка">
+                                        <img class="lazyload" data-src="./img/partners/two.png " alt="Картинка">
                                     </div>
                                 </div>
                                 <div class="swiper-slide partners__size">
                                     <div class="partners__border">
-                                        <img src="./img/partners/three.png" alt="Картинка">
+                                        <img class="lazyload" data-src="./img/partners/three.png " alt="Картинка">
                                     </div>
                                 </div>
                                 <div class="swiper-slide partners__size">
                                     <div class="partners__border">
-                                        <img src="./img/partners/four.png" alt="Картинка">
+                                        <img class="lazyload" data-src="./img/partners/four.png " alt="Картинка">
                                     </div>
                                 </div>
                                 <div class="swiper-slide partners__size">
                                     <div class="partners__border">
-                                        <img src="./img/partners/five.png" alt="Картинка">
-                                    </div>
-                                </div>
-                                <div class="swiper-slide partners__size">
-                                    <div class="partners__border">
-
-                                        <img src="./img/partners/six.png" alt="Картинка">
+                                        <img class="lazyload" data-src="./img/partners/five.png " alt="Картинка">
                                     </div>
                                 </div>
                                 <div class="swiper-slide partners__size">
                                     <div class="partners__border">
 
-                                        <img src="./img/partners/seven.png" alt="Картинка">
+                                        <img class="lazyload" data-src="./img/partners/six.png " alt="Картинка">
                                     </div>
                                 </div>
                                 <div class="swiper-slide partners__size">
                                     <div class="partners__border">
-                                        <img src="./img/partners/eight.png" alt="Картинка">
+
+                                        <img class="lazyload" data-src="./img/partners/seven.png " alt="Картинка">
                                     </div>
                                 </div>
                                 <div class="swiper-slide partners__size">
                                     <div class="partners__border">
-                                        <img src="./img/partners/nine.png" alt="Картинка">
+                                        <img class="lazyload" data-src="./img/partners/eight.png " alt="Картинка">
+                                    </div>
+                                </div>
+                                <div class="swiper-slide partners__size">
+                                    <div class="partners__border">
+                                        <img class="lazyload" data-src="./img/partners/nine.png " alt="Картинка">
                                     </div>
                                 </div>
                             </div>
@@ -1311,7 +1363,8 @@
     <footer class="footer">
         <div class="fix-container">
             <div class="footer__all">
-                <a href="#" class="footer__logo logo link"><img src="./img/Лого.png" alt="Логотип"></a>
+                <a href="#" class="footer__logo logo link"><img class="lazyload" data-src="./img/Лого.png"
+                        alt="Логотип"></a>
                 <div class="footer__sprite">
 
                     <a class="footer__vk footer__social" href="https://vk.com/">
@@ -1328,26 +1381,29 @@
     <script src="./js/swiper/swiper-bundle.js"></script>
     <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="./js/simplebar.min.js"></script>
-    <script src="./js/customScroll.js" defer></script>
     <script src="./js/swiper/swiper.js" defer></script>
     <script src="./js/swiper/swiper-gallery.js" defer></script>
     <script src="./js/swiper/swiper-events.js" defer></script>
     <script src="./js/swiper/swiper-editions.js" defer></script>
     <script src="./js/swiper/swiper-partners.js" defer></script>
+    <script src="./js/gallery-script.js" defer></script>
     <script src="./js/contries.js" defer></script>
     <script src="./js/acordion.js" defer></script>
     <script src="./js/burger.js" defer></script>
     <script src="./js/map.js" defer></script>
     <script src="./js/header-buttons.js" defer></script>
     <script src="./js/form-input.js" defer></script>
-    <script src="./js/jquery.inputmask.js"></script>
     <script src="https://api-maps.yandex.ru/2.1/?apikey=вашAPI-ключ&lang=ru_RU"></script>
-    <script src="./js/choices.min.js"></script>
+    <script src="./js/choices.js"></script>
     <script src="./js/choices-scripts.js"></script>
     <script src="./js/just-validate.min.js"></script>
     <script src="./js/inputmask.js"></script>
     <script src="./js/inputmask-custom.js"></script>
     <script src="./js/validForm.js"></script>
+    <script src="./js/lazyload.min.js"></script>
+    <script>
+        lazyload();
+    </script>
 </body>
 
 </html>

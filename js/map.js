@@ -47,4 +47,12 @@ function init() {
     })
     myMap.controls.add(zoomControl);
 
+    
+}
+let contactsLeft = document.querySelector('.contacts__left');
+let mapNew = document.querySelector('#map')
+
+if (document.body.offsetWidth <= 450) {
+
+    contactsLeft.prepend(mapNew)
 }

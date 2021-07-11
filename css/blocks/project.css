@@ -2,9 +2,12 @@
 
 
 .project__info {
-    width: 68% ;
+    width: 67% ;
+}
+.project__title {
+    margin-bottom: 22px;
 }
 .project__descr {
-    line-height: 2;;
+    line-height: 32px;
     font-size: 16px;
 }

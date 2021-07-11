@@ -1,0 +1,6 @@
+@media (max-width: 920px) {
+    .fix-container {
+        max-width: 790px;
+        width: 100%;
+    }
+}

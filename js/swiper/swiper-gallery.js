@@ -4,24 +4,20 @@ var mySwiperGAL = new Swiper('.gallery__right', {
     spaceBetween: 45,
     slidesPerColumnFill: "row",
     slidesPerColumn: 2,
-
+    autoHeight: true,
     // Navigation arrows
     navigation: {
         nextEl: '.btn__right',
         prevEl: '.btn__left',
     },
     breakpoints: {
-        0: {
-            slidesPerView: 1,
-            slidesPerGroup: 1,
-            slidesPerColumn: 1,
-            slidesPerColumnFill: "column",
-        },
         320: {
-            slidesPerView: 1,
+            slidesPerView: 'auto',
             slidesPerGroup: 1,
             slidesPerColumn: 1,
-            slidesPerColumnFill: "column",
+            slidesPerColumnFill: 'column',
+            autoHeight: false,
+            spaceBetween: 0,
         },
         700: {
             slidesPerView: 2,
@@ -29,15 +25,17 @@ var mySwiperGAL = new Swiper('.gallery__right', {
             spaceBetween: 32,
             slidesPerColumn: 2,
         },
-        769: {
-            slidesPerView: 2,
+        768: {
+            slidesPerView: 1,
             slidesPerGroup: 2,
+            spaceBetween: 17,
+            slidesPerColumn: 2,
+            
         },
         1024: {
-            spaceBetween: 32,
+            spaceBetween: 34,
             slidesPerView: 2,
             slidesPerGroup: 2,
-
         },
         1920: {
             slidesPerView: 3,

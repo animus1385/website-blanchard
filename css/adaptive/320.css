@@ -2,25 +2,25 @@
  @media (max-width : 320px) {
     .fix-container {
         max-width: 292px;
-        margin: 0 15px;
+      margin: 0 auto;
     }
     .header__logo {
-        margin-left: 28px;
+        margin: 0;
     }
     .unity-top {
         display: flex;
         justify-content: space-between;
-        padding: 11px 0;
+        padding: 12px 0px;
     }
     .unity-bottom {
         padding: 14px;
     }
     
     .logo img {
-        width: 51%;
+        width: 43%;
     }
     .logo {
-        width: 79%;
+        width: 82%;
     }
     .header__line, 
     .header__line::before, 
@@ -29,11 +29,14 @@
         width: 22px;
     }
     .header__line::before {
-        top: 7px;
+        top: 5px;
         left: -6px;
     }
+    .header__line {
+        top: 3px;
+    }    
     .header__line::after {
-    bottom: -14px;
+    bottom: -12px;
     left: -9px;
     }
   
@@ -43,7 +46,8 @@
     }
     .header__burger {
         width: 20px;
-        height: 15px;
+        height: 20px;
+        margin-left: 15px;
     }
     .header__menu {
         bottom: -44px;
@@ -59,7 +63,7 @@
     .header__button {
         width: 17px;
         height: 16px;
-        margin-right: 23px;
+        margin-right: 8px;
     }
     .start__container {
         height: 355px;
@@ -111,8 +115,8 @@
         height: 962px;
     }
     .gallery__descr {
-        line-height: 1.9;
-        width: 90%;
+        line-height: 32px;
+        width: 95%;
     }
     .gallery__sort {
         width: 99%;
@@ -122,9 +126,6 @@
     }
     .events, .history {
         margin: 0px  !important;
-    }
-    .gallery__right .swiper-wrapper {
-        height: 78%;
     }
     .slide .btn:first-child {
         margin-left: 20px;
@@ -143,15 +144,12 @@
     
     .gallery__right {
         display: flex;
-        flex-direction: column;
-        height: 49%;
-        top: 294px;
-
-      
+        flex-direction: column;     
     }
+    
     .slide__list {
         order: 2;
-        margin: 21px auto;
+        margin: 16px auto 21px;
     }
     .content-1 {
         width: auto !important;
@@ -198,6 +196,9 @@
         margin: 27px 0px 0px;
     padding: 0px;
     }
+    .content-2 {
+        margin-bottom: 55px !important;
+    }
     .history__period label {
         font-size: 18.1px;
         padding: 23px 0;
@@ -236,23 +237,21 @@
         max-width: 118%;
     }
     .events__title {
-        padding-top: 15px;
+        padding-top: 55px;
     }
     .events__container {
         margin-top: 14px;
         margin-bottom: 35px;
     }
     .events__link {
-        left: 28px;
-        bottom: 50px;
         font-size: 17px;
     }
     .events__info {
         padding: 0 24px;
     }
     .events__descr {
-        padding-top: 40px;
         word-spacing: 7px;
+        padding: 37px 5px 0px;
     }
     .editions__title {
         font-size: 27px;
@@ -268,6 +267,7 @@
     }
     .editions__size {
         margin-left: 0px;
+        height: 100%;
     }
     .editions img {
         width: 130px;
@@ -278,15 +278,15 @@
     .editions__info {
         flex-direction: column;   
         font-size: 12px;
-    
     }
     .price-1 {
         margin-top: 71px;
     }
     .editions__cost-price {
-        padding: 12px 0;
+        padding: 10px 0;
         width: 72px;
     }
+    
     .cost-2 {
         padding: 0 9px;
     }
@@ -321,10 +321,17 @@
     } 
     .partners__btn {
         position: relative;
+        top: 3%;
     }
     .detailed__icon {
         left: -1px;
-        top: 1px;
+        top: -2px;
+    }
+    .editions__size {
+        height: auto !important;
+    }
+    .partners__size {
+        width: 170px !important;
     }
     .contacts__title {
         padding-top: 0px;
@@ -343,77 +350,20 @@
     }
     .form__title , .contacts__office {
         font-size: 18px; 
-        margin-bottom:6px;  
+        margin-bottom:3px;  
         margin-top: 6px;  
     }
     .form__title {
         margin-bottom: 23px;
     }
-    .form__name {
-        margin-bottom: 15px;
-    }
     .btn__partners-right {
         left: 17px;
     }
-    .contacts__street {
-        margin-top: 0px;
-        margin-bottom: 356px;
-        font-size: 13px;
+    .footer__social {
+        width: 50px;
+        height: 50px;
     }
-    .contacts__img {
-        width: 49px;
-        height: 49px;
-        margin-left: 2px;
-        margin-right: 20px;
-    }
-    #map {
-        top: 67px;    
-        position: absolute;
-        width: 100% !important;
-        z-index: 5;
-        height: 310px ;
-        right: 0;
-        left: 0;
-    }
-    .form input {
-        width: 240px;
-        padding: 10px 25px;
-    }
-    .form__name {
-        margin-bottom: 19px;
-    }
-   .form__tel {
-        margin-bottom: 21px;
-    }
-    .form__button {
-        font-size: 13px;
-        width: 130px;
-        height: 39px;
-        padding: 10px 40px;
-    }
-    .contacts {
-        margin-bottom: 20px !important;
-    }
-    .contacts__communication {
-        font-size: 18px;
-        margin: 25px 0 15px;
-    }
-    .footer__all  {
-        flex-direction: column-reverse;
-        padding: 20px 0 ;
-    }
-.footer__logo {
-    justify-content: center;
-    display: flex;
-}
-.footer__social {
-    width: 50px;
-    height: 50px;
-}
-    .footer__sprite {
-        margin-bottom: 20px;
-        
-    }
+   
     .footer__logo  img {
         width: 42%;
     }

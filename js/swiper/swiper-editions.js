@@ -19,7 +19,7 @@ var mySwiperED = new Swiper('.editions__books', {
         320: {
             direction: 'vertical',
             slidesPerColumn: 2,
-            spaceBetween: 27,
+            spaceBetween: 25,
 
             slidesPerView: 'auto',
 
@@ -40,13 +40,13 @@ var mySwiperED = new Swiper('.editions__books', {
         768: {
             direction: 'horizontal',
             slidesPerView: 2,
-            spaceBetween: -15,
+            spaceBetween: -19,
             slidesPerGroup: 1
         },
         1024: {
 
             slidesPerView: 2,
-            spaceBetween: 40,
+            spaceBetween: 45,
         },
         1400: {
             slidesPerView: 3,

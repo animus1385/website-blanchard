@@ -2,25 +2,23 @@
 .contacts {
     margin-bottom: 0 !important;
 }
-.contacts__title {
-    padding-top: 11px;
-}
+
 .contacts__info {
     display: flex;
     justify-content: center;
     width: 660px;
     padding: 132px 0 103px;
-    padding-left: 40px;
+    padding-left:160px;
     border: 1px solid #CACACA;
 }
 .contacts__left{
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;  
+flex-grow: 1;
 }
 .contacts__footer {
     display: flex;
     justify-content: space-between;
-    position: relative;
 }
 .contacts__office {
     font-size: 23px;
@@ -30,10 +28,10 @@
     flex-direction: column;
 }
 .form input {
-    width: 348px;
+    width: 400px;
     border-radius: 100px;
     padding: 9px 25px;
-    transition: all .5s ease;
+    transition: background-color .5s ease;
     border: 1px solid #333333;
 }
 .form-active {
@@ -87,10 +85,11 @@
     height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: all .5s ease;
+    transition: opacity .5s ease;
 }
  #map  {
     filter: grayscale(1);
+flex-grow: 1;
  }
  .js-validate-error-label {
     margin-bottom: 10px;

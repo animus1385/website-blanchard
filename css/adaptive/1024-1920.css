@@ -1,6 +1,6 @@
 @media(max-width: 1600px) {
     .fix-container {
-        max-width: 1400px;
+        max-width: 1350px;
     }
     .header__akk, .header__link {
         font-size: 16px;
@@ -11,11 +11,15 @@
     .events-slide {
         width: 445px !important;
     }
+    .contacts__info {
+      margin: 0 auto;
+        width: auto;
+    }
 }
 
 @media(max-width: 1400px) { 
     .fix-container {
-    max-width: 1200px;
+    max-width: 1150px;
     }
     .item-bottom {
         margin-right: 80px;
@@ -26,7 +30,7 @@
 }
 @media(max-width: 1200px) { 
     .fix-container {
-    max-width: 980px;
+    max-width: 950px;
     }
   
     .header__akk, .header__link {
@@ -51,5 +55,11 @@
     }
     .events-slide {
         width: 470px !important;
+    }
+    .editions__filter, .editions__all-category {
+        margin-right: 50px;
+    }
+    .editions__cost-price {
+        width: 55px;
     }
 }

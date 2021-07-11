@@ -3,14 +3,18 @@ let contentHeader = document.querySelector('.header__content');
 
 link.forEach(e => {
     e.addEventListener('click', function () {
-        e.classList.toggle('active-icon');
-        contentHeader.classList.toggle('header__content--active');
+        link.forEach(elem => elem.classList.remove('active-icon'));
+        contentHeader.classList.add('header__content--active');
         e.appendChild(contentHeader)
 
     })
 })
 
-
+document.addEventListener('click', function (e) {
+    if (e.target.classList == 'active-icon') {
+        console.log(e.target)
+    }
+})
 
 
 

@@ -1,8 +1,10 @@
 /* Адаптив | Планшетная версия (1024px) */
 @media ( max-width: 1024px ) {
-   
+    .title {
+        font-size: 47px;
+    }
     .fix-container {
-        max-width: 925px;
+        max-width: 924px;
         width: 100%;
     }
     header {
@@ -32,7 +34,7 @@
         display: none;
     }
     .logo {
-        width: 88%;
+        width: 87.7%;
     }
     .logo   img {
         width: 23%;
@@ -82,70 +84,98 @@
     .header__burger {
         display: block;
         margin-left: 50px;
+        height: 41px;
+    }
+    .header__line {
+        top: 7px;
     }
     .header__button {
-        margin-top: 15px;
-        margin-right: 20px;
+        margin-top: 14px;
+        margin-right: 25px;
     }
     .header__button svg {
         width: 30px;
         height: 30px;
     }
+    .unity-top {
+        padding: 29px 0 ;
+    }
 
  /* Первый блок */
 
+
     .start__container {
-         height: 770px;
+         height: 768px;
      }
     .start__info {
         margin: 217px 0 0 ;
         width: 100%;
      }
     .start__button  {
-        margin-bottom: 116px;
+        margin-bottom: 115px;
+        font-size: 18px;
      }
     .start__title {
         font-size: 70px;
         line-height: 1.14;
-        margin-bottom: 12px;
+        margin-bottom: 15px;
         letter-spacing: 2px;
+        width: 62%;
+        margin-left: -5px;
     }
      .start__descr {
         width: 72%;
+        letter-spacing: 0.4px;
      }
  
  /* Второй блок */ 
-
     .project__info {
         width: 100%;
     }
     .project__descr {
         font-size: 16px;
-        margin-bottom: 71px;
     }
     /* Третий блок */  
+    .gallery {
+        margin: 30px;
+    }
     .gallery img {
         width: 280px;
     }
+    .choices__list--single, .choices__list--single .choices__item {
+        font-size: 12px;
+    }
     .gallery__unity-block {
-        padding-bottom:  72px;
+        padding-bottom:  70px;
+        height: 839px;
     }
     .gallery__left {
         width: 435px;
         z-index: 1;
-        margin-right: 55px;
+        margin-right: 50px;
     }
-    .gallery__title{
-        margin-bottom: 23px;
+    .btn__right {
+        left: -3px;
+    }
+    .slide__list {
+        margin: 50px 2px 30px;
+    }
+    .gallery .swiper-slide:nth-child(4n+3),
+    .gallery .swiper-slide:nth-child(4n+4) {
+        margin-top: 31px !important;
+    }
+    .gallery__filter {     
+        margin-bottom: 18px;
+
     }
     .gallery__descr {
         width: 100%;
         font-size: 16px;
-        line-height: 1.98;
+        line-height: 32px;
     }
     .history__countries {
         margin-left: 34px;
-        margin-top: 17px;
+        margin-top: 19px;
     }
     .history__celebrity {
         margin-top: 31px;
@@ -156,14 +186,14 @@
     .descr-1 {
         width: 100%;
         font-size: 16px;
-        margin-bottom: 36px;
+        margin: 6px 0 39px;
     }
-    .history__left {
-        flex-basis: 48%;
-        margin-right: 54px;
+    .history__title {
+        padding: 0;
     }
-    .history__right {
-        width:  440px;
+    .history__left  {
+        margin-right: 50px;
+        flex-basis: 47.3%;
     }
     .history__name {
         margin-bottom: 12px;
@@ -176,10 +206,11 @@
         line-height: 2;
     }
     .history__left-img {
-        height: 273px;
         width: 438px;
-        background-position: center;
-        background-size: 440px;    
+    }
+    .slide__active {
+        display: none;
+        margin: 46px 0 0;
     }
     .header__logo {
         display: flex;
@@ -189,45 +220,46 @@
         height:389px;
         width: 100%;
     }
-    .history__item {
-        width: 57%;
-    }
     .history__period label {
         padding: 36px 0 27px;
-        font-size: 23px;
+        font-size: 24px;
+    }
+    .history__period{
+        padding: 40px 0 46px;
     }
     /*  */
     .events__container {
         margin-top: 21px;
     }
     .events__info {
-        height: 480px;
-        padding: 0 39px;
+        padding: 0 34px;
     }
     .events__adrees {
         margin: 12px 16px 6px;
     }
     .events-slide {
-        width: 297px !important;
+        width: 290px !important;
     }
     .events__info h2 {
         font-size: 23px;
-        margin-bottom: 0px;
-        line-height: 1.4;
+        line-height: 33px;
     }
     .events__descr {
         font-size: 15px;
-        padding: 4px 0px;
-        line-height: 2.15;
-        word-spacing: 10px;
+        padding:0px;
+        word-spacing: 9px;
+
     }
     .events__link {
-        bottom: 54px;
-        left:35px;
-        font-size: 16px;
+        width: 40%;
+        font-size: 15px;
+        margin: 0px 0px 45px;
+    }
+    .events__img img  {
+        height: 202px;
     }
     .events__button {
-        margin: 34px auto 80px;
+        margin: 34px auto 79px;
         padding: 17px 32px;
         font-size: 18px;
     }
@@ -235,7 +267,7 @@
         height: 682px;
     }
     .events__img {
-        height: 33%;
+        height: 29%;
     }
     .more {
         display: none;
@@ -252,6 +284,8 @@
     }
     .editions__title {
         font-size: 47px;
+        padding-top: 14px;
+        margin-bottom: 27px;
     }
     .editions img {
         width: 289px;
@@ -271,6 +305,9 @@
     .partners__border img {
         padding: 37px 23px;
     }
+    .editions__cost-price {
+        width: 71px;
+    }
     .editions__info {  
         margin: 13px 0 12px;
     }
@@ -279,7 +316,11 @@
     }
     .editions__cost {
         margin: 0;      
+        width: 98%;
     } 
+    .editions__content {
+        padding: 74px 0 40px;
+    }
     .editions__price h3 {
         margin-bottom: 14px;      
     }
@@ -291,7 +332,9 @@
     }
 
     /*  */
-
+    .detailed__title {
+        margin-bottom: 22px;
+    }
     .detailed__descr {
         width: 100%; 
     }
@@ -299,7 +342,9 @@
     /*  */
     
     .partners__title {
-        font-size: 24px;       
+        font-size: 24px;  
+        padding-top: 6px;    
+        margin-bottom: 25px; 
     }
     .partners__size {
         width: 88%;
@@ -309,7 +354,12 @@
     }
     .partners__border {
         height: 127px;
-        width: 383px;
+        width: 384px;
+        margin: 0 91px 0 23px;
+    }
+    .detailed__icon {
+        left: -10px;
+        bottom: 8px;
     }
     .btn__partners-right {       
         left: -78%;
@@ -318,60 +368,64 @@
         width: 59px;
         height: 59px;
         margin-left: 0px;
-        margin-right: 29px;
+        margin-right: 31px;
+    }
+    .contacts__title {
+        padding-top: 18px;
     }
     .contacts__info {
-        padding: 132px 43px 82px 0px;
-        width: 440px;
+        padding: 127px 49px 103px;
+       width: 485px;
+    }
+    .contacts__left { 
+        width: 100%;
     }
     .contacts__communication {
-        margin: 40px 0 18px; 
+        margin: 39px 0 18px; 
     }
     .contacts__office {
         font-size: 23px;
     }
     .contacts__street {
-        margin-bottom: 38px;
+        margin-top: 14px;
+        margin-bottom: 36px;
     }
     .form__title {
-        margin-bottom: 16px;
+        margin-bottom: 19px;
     }
     
     .form input {
-        width: 285px;
-        padding: 12px  25px;
+        width: 87%;
+        padding: 10px  25px;
     }
     .form__name, .form__tel {
-        margin-bottom: 21px;
+        margin-bottom: 23px;
     }
     .form__button {
         margin-top:0 ;
-      font-size: 20px;
-        width: 154px;
-    }
-    #map {
-        width: 52.6% !important;
+        font-size: 19px;
+        width: 156px;
     }
     .footer__social:nth-child(2) {
-        margin: 0 22px;
+        margin: 0 23px;
     } 
     .footer__all {
-        padding: 44px 0;
+        padding: 39px 0;
     }
     .footer__logo img  {
         width: 25%;
     }
     .footer__social {
         width: 65px;
-        height: 57px;    
+        height: 62px;   
     }   
     .footer__inst {
-        background-position: -77.5px ;
+        background-position: -84.5px ;
     }
     .footer__fc {
-        background-position: -155.5px ;
+        background-position: -168.5px ;
     }   
     .contacts {
-        margin-bottom: 10px !important;
+        margin-bottom: 0;
     }
 }

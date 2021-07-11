@@ -15,7 +15,7 @@ background-position: center !important;
  border-radius: 50px;
  cursor: pointer;
  margin-right: 30px;
- transition: all .5s ease;
+ transition: box-shadow .5s ease;
 }
 .history__countries{
 display: flex;
@@ -48,10 +48,11 @@ margin-top: 10px;
 .history__descr {
     line-height: 32px;
     font-size: 16px;
-    margin: 10px 0 40px;
+    margin: 9px 0 40px;
 }
 .descr-1 {
     width: 69%;
+    margin: 13px 0 40px;
 }
 .history__info {
     display: flex;
@@ -60,23 +61,23 @@ margin-top: 10px;
 }
 .history__left {
 
-flex-basis: 50%;
-    margin-right: 20px;
+flex-basis: 47%;
+    margin-right: 48px;
 }
 .history__left img {
     width: 100%;
 }
 .history__link {
-    transition: all .5s ease;
+    transition: color .5s ease;
 }
 .history__celebrity {
     display: flex;
     flex-direction: column;
-    margin-top: 31px;
+    margin-top: 29px;
 }
 .history__name {
     font-size: 23px;
-    margin-bottom: 5px;
+    margin-bottom: 12px;
 }
 .history__age {
     font-size: 12px;

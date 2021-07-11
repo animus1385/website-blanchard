@@ -1,37 +1,25 @@
 @font-face {
     font-family: 'Open Sans';
     src: local('Open Sans Regular'), local('Open-Sans-Regular'),
-        url('/fonts/OpenSans-Regular.woff2') format('woff2'),
-        url('/fonts/OpenSans-Regular.woff') format('woff');
+        url('../../fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('../../fonts/OpenSans-Regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
   }
   @font-face {
     font-family: 'Open Sans';
     src: local('Open Sans Semi Bold'), local('Open-Sans-Semi-Bold'),
-        url('/fonts/OpenSans-SemiBold.woff2') format('woff2'),
-        url('/fonts/OpenSans-SemiBold.woff') format('woff');
+        url('../../fonts/OpenSans-SemiBold.woff2') format('woff2'),
+        url('../../fonts/OpenSans-SemiBold.woff') format('woff');
     font-weight: 600;
     font-style: normal;
   }
   @font-face {
     font-family: 'Open Sans';
     src: local('Open Sans Bold'), local('Open-Sans-Bold'),
-        url('/fonts/OpenSans-Bold.woff2') format('woff2'),
-        url('/fonts/OpenSans-Bold.woff') format('woff');
+        url('../../fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('../../fonts/OpenSans-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
   }
-  @font-face {
-    font-family: 'icomoon';
-    src:  url('/fonts/icomoon.eot?wk1hod');
-    src:  url('/fonts/icomoon.eot?wk1hod#iefix') format('embedded-opentype'),
-      url('/fonts/icomoon.ttf?wk1hod') format('truetype'),
-      url('/fonts/icomoon.woff?wk1hod') format('woff'),
-      url('/fonts/icomoon.svg?wk1hod#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
   
- 

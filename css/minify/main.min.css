@@ -1,0 +1,36 @@
+/* __________Общие стили _____________*/
+@import url("../../css/simplebar.min.css");   /* _________Скролл _____________*/
+@import url("../minify/blocks.min/generalis.min.css");   /*_____Общие стили________*/
+@import url("../../minify/blocks.min/fonts.min.css");       /*_____Шрифты_____________*/
+@import url("../../css/choices.min.css");        /*_____Селект_____________*/
+@import url('../../css/normalize.css');        /*_____Нормалайз_____________*/
+
+/* ____________Блоки__________________ */
+
+@import url("../minify/blocks.min/header.min.css");      /*________Хедер___________*/
+@import url("../minify/blocks.min/start.min.css");       /*_____первый блок________*/
+@import url("../minify/blocks.min/project.min.css");     /*_____Второй блок________*/
+@import url("../minify/blocks.min/gallery.min.css");     /*_____Третий блок________*/
+@import url("../minify/blocks.min/histoty.min.css");     /*_____Четвертый блок_____*/
+@import url("../minify/blocks.min/events.min.css");      /*_____Пятый блок_________*/
+@import url("../minify/blocks.min/editions.min.css");    /*_____Шестой блок________*/
+@import url("../minify/blocks.min/detailed.min.css");    /*_____Седьмой блок_______*/
+@import url("../minify/blocks.min/partners.min.css");    /*_____Восьмой блок_______*/
+@import url("../minify/blocks.min/contacts.min.css");    /*_____Девятый блок_______*/
+@import url("../minify/blocks.min/footer.min.css");      /*_________Футер__________*/
+
+/* ____________"Эффекты"__________________ */
+
+@import url("../minify/effects/hover-effects.min.css"); /*______Ховер эффекты___*/
+@import url( "../minify/effects/all-clicks.min.css");    /*______Все Клики_______*/
+@import url( "../minify/effects/swiper/swiper-bundle.css"); /*______Свайпер__________*/
+@import url( "../minify/effects/swiper/swiper-bundle.min.css"); /*______Свайпер(мин.стили)__________*/
+
+/* ____________"Адаптив"__________________ */
+@import url('../minify/adaptive/1024-1920.min.css');/* ____ Десктоп версия (1024-1920px)___ */
+@import url("../minify/adaptive/1024.min.css");     /* ____ Планшетная версия (1024px)_____ */
+@import url("../minify/adaptive/768.min.css");      /* ____ Планшетная версия (768px)______ */
+@import url("../minify/adaptive/320-768.min.css");  /* ____ Мобильная версия (320-768px)___ */   
+@import url("../minify/adaptive/320.min.css");      /* ____ Мобильная версия (320px)_______ */
+
+

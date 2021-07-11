@@ -1,33 +1,37 @@
 /*_____________ Блок 1____________ */
 
 .start__container {
-    height: 800px;   
+    height: 799px; 
+    position: relative;  
 }
 
-.start__img-1 {
-    background: url(../../img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 2.jpg) no-repeat ;
-    background-size: cover;
-}
-.start__img-2 {
-    background: url(../../img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 1.png) no-repeat;
-    background-size: cover;
-}
-.start__img-3 {
-    background: url(../../img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 3.png) no-repeat;
-    background-size: cover;
-}
 .start__img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
+  
+    z-index:5;
+}
+.start .swiper-wrapper {
+position: absolute;
+top: 0;
+
+z-index: 0;
+flex-grow: 1;
+}
+.start .swiper-wrapper img {
+    width: auto;
+    height: 100%;
 }
 .start__info {
-    margin: 243px 0 0;
+    margin: 239px 0 0;
     line-height: 1.1;
-  
+    z-index:5;
+    width: 37%;
 }
 .start__title {
+    word-break: break-all;
     font-size: 66px;
     line-height: 1.25;
     margin-bottom: 19px;
@@ -39,8 +43,7 @@
    
     font-size: 19px;
     line-height: 1.61;
-    letter-spacing: 0.5px;
-    width: 600px;
+    letter-spacing: .5px;
 }
 .start__title,
 .start__descr {
@@ -60,5 +63,6 @@
     font-weight: 700;
     font-size: 19px;
     padding: 17px 24px;
-    transition: all 1s ease;
+    transition: background-color .3s ease;
+    z-index:5;
 }

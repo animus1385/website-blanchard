@@ -3,6 +3,7 @@
     width: 66%;
     line-height: 32px;
     font-size: 16.1px;
+    position: relative;
 }
 .detailed__tooltip {
     position: relative;      
@@ -17,11 +18,11 @@
     left: -6px;
     bottom: 9px;
     cursor: pointer;
-    transition: all .5s ease;
+
 }
 .detailed__icon svg {
     fill: white;
-    transition: all .5s ease;
+    transition: fill .5s ease;
 }
 .popup {
     position: absolute;   

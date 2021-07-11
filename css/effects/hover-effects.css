@@ -7,8 +7,8 @@ fill: #C283F3 ;
 
 }
 .header__select:hover {
-    border:  2px solid #9D5CD0;
-    transition-duration: .3s;
+   outline:  2px solid #9D5CD0;
+    transition:  outline .3s;
 }
 .header__link:hover {
     color:  #C283F3;
@@ -16,7 +16,7 @@ fill: #C283F3 ;
 .link-bottom:hover::before,
 .link-bottom:hover::after{
     background-color:#C283F3 ;
-    transition-duration: .5s;
+    transition-duration: .3s;
 
 }
 .item-bottom::after:hover {
@@ -53,7 +53,7 @@ fill: #C283F3 ;
 .editions__button,
 .events__button,
 .partners__btn {
-    transition: all 1s ease;
+    transition: background-color .4s ease;
 }
 .btn:hover,
 .form__button:hover,

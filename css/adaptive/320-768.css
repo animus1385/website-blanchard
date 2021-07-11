@@ -1,7 +1,18 @@
 /* ____ Мобильная версия (320-768px)______ */ 
+@media (max-width: 720px ) {
+    .history__img {
+        margin-right: 20px;
+    }
+    .history__item {
+        width: 30%;
+    }
+    .logo img {
+        width: 60%;
+    }
+}
  @media (max-width: 680px ) {
     .fix-container {
-        max-width: 550px;
+        max-width: 540px;
     }
     .start__title {
        font-size: 69px;
@@ -48,12 +59,6 @@
         margin-top: 0px;
         margin-bottom: 359px;
     }
-    .gallery__right {
-        display: flex;
-        flex-direction: column;
-        height: 45%;
-        top: 350px;
-    }
     .start__info {
         margin: 217px 0 100px;
     }
@@ -73,6 +78,10 @@
         order: 2;
         margin: 21px auto;
     }
+    .gallery img {
+        width: 230px;
+        height: 230px;
+    }
     .content-1 {
         width: auto !important;
     }
@@ -81,13 +90,16 @@
         align-items: center;
     }
     .history__countries {
-        margin: 0 auto 20px;
+        margin-left: 7px;
+    }
+    .history__img {
+        margin-right: 12px;
     }
     .history__content {
-        height: 585px;
+        height: 427px;
     }
     .history__item {
-        width: 57%;
+        width: auto;
     }
     .descr-1 {
         display: none;
@@ -166,10 +178,13 @@
         flex-wrap: wrap;
         justify-content: space-between;
     }
-  
+    .detailed__descr {
+        width: auto;
+    }
     
     .contacts__left {
         border: none;
+        display: flex;
     }
     .editions__info {
         font-size: 12px;
@@ -178,7 +193,8 @@
     }
     .editions__button {
         Width: 129px;
-        padding: 8px 20px;
+        padding: 12px 20px;
+        font-size: 13px;
     }
     .editions__info {
         margin: 8px 0 3px;
@@ -192,29 +208,63 @@
  }
  @media (max-width: 550px ) {
     .fix-container {
-        max-width: 450px; 
+        max-width: 430px; 
+    }
+    .history__content {
+        height: auto;
     }
     .start__title {
         font-size: 55px;
      }
     .start__info {
         text-align: center;
-        margin: 217px 0 60px;
+       
     }
- }
+    .gallery .swiper-slide:nth-child(4n+3), .gallery .swiper-slide:nth-child(4n+4) {
+        margin-top: 0 !important;
+    }
+    .gallery__sort {
+        margin-bottom: 121px;
+    }
+    .events__block {
+        height: 682px;
+        margin-bottom: 0;
+    }
+    .events__adrees {
+        margin: 15px 13px 21px;
+    }
+
+}
  @media (max-width: 450px ) {
     .fix-container {
-        max-width: 380px;
+        max-width: 300px;
+    }
+    .logo img {
+        width: 90%;
+    }
+    .history__img {
+
+        width: 50px;
+        height: 50px;
     }
     .start__title {
         font-size: 45px;
+        width: 100%;
+       margin: 0 auto;
+        word-spacing: 0px;
     }
     .start__button {
       
         font-size: 22px
     }
+    .project__descr {
+        line-height: 28px;
+    }
     .start__info {
         margin: 217px 0 100px;
+    }
+    .btn__partners-right {
+        left: -292%;
     }
     .gallery__img {
         height: 367px !important;
@@ -227,5 +277,75 @@
     .editions__info {
         font-size: 9px; 
        
+    }
+    .contacts__street {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 13px;
+    }
+    .contacts__img {
+        width: 49px;
+        height: 49px;
+        margin-left: 2px;
+        margin-right: 20px;
+    }
+    .form input {
+        width: 100%;
+        padding: 9px 25px;
+    }
+    .form__name {
+        margin-bottom: 22px;
+    }
+   .form__tel {
+        margin-bottom: 21px;
+    }
+    .contacts {
+        position: relative;
+    }
+    .contacts__office {
+        order: 0;
+    }
+    .contacts__street {
+        order: 1;
+        margin-bottom: 18px;
+    }
+    #map {
+        order: 2;
+        width: 100%;
+        height: 320px;
+        margin-bottom: 21px;
+    }
+    .form {
+        order: 3;
+    }
+    .contacts__communication {
+        order: 4;
+    }
+    .contacts__sprite {
+        order: 5;
+    }
+    .form__button {
+        font-size: 13px;
+        width: 130px;
+        height: 39px;
+        padding: 10px 40px;
+    }
+    .contacts {
+        margin-bottom: 20px !important;
+    }
+    .contacts__communication {
+        font-size: 18px;
+        margin: 25px 0 15px;
+    }
+    .footer__all {
+        flex-direction: column-reverse;
+        padding: 20px 0;
+    }
+    .footer__sprite {
+        margin-bottom: 20px;
+    }
+    .footer__logo {
+        justify-content: center;
+        display: flex;
     }
  } 
