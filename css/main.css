@@ -29,7 +29,7 @@
 /* ____________"Адаптив"__________________ */
 @import url('../css/adaptive/1024-1920.css');/* ____ Десктоп версия (1024-1920px)___ */
 @import url("../css/adaptive/1024.css");     /* ____ Планшетная версия (1024px)_____ */
-@import url('../adaptive/768-1024.css');
+@import url('../css/adaptive/768-1024.css');
 @import url("../css/adaptive/768.css");      /* ____ Планшетная версия (768px)______ */
 @import url("../css/adaptive/320-768.css");  /* ____ Мобильная версия (320-768px)___ */   
 @import url("../css/adaptive/320.css");      /* ____ Мобильная версия (320px)_______ */
