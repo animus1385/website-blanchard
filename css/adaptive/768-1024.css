@@ -1,6 +1,9 @@
 @media (max-width: 920px) {
-    .fix-container {
-        max-width: 790px;
-        width: 100%;
-    }
+  .fix-container {
+    max-width: 790px;
+    width: 100%;
+  }
+  .history__item {
+    margin: 0;
+  }
 }

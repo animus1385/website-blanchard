@@ -1,19 +1,22 @@
 /* _______Трейтий блок__________ */
+
 .gallery {
   background: url(../../img/gallery/birmingham-museums-trust-MK_98NuC4-4-unsplash3.webp)
     no-repeat;
   background-size: cover;
 }
+
 .gallery__title {
   color: #ffffff;
-  padding-top: 0;
   margin-bottom: 26px;
+  margin-top: 30px;
 }
+
 .gallery__unity-block {
   display: flex;
   padding: 55px 0 72px;
   position: relative;
-  height: 996px;
+  height: 994px;
 }
 
 .gallery__filter-full {
@@ -22,6 +25,7 @@
   height: 100%;
   justify-content: space-between;
 }
+
 .gallery__left {
   display: flex;
   flex-direction: column;
@@ -29,15 +33,19 @@
   width: 35%;
   margin-right: 48px;
 }
+
 .gallery__sort {
   display: flex;
   flex-direction: column;
 }
+
 .gallery__filter {
   color: #ffffff;
-  font-size: 17px;
-  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 18px;
 }
+
 .gallery__author,
 .gallery__left input {
   background-color: transparent;
@@ -50,17 +58,20 @@
 .gallery__left input::placeholder {
   color: #999999;
 }
+
 .gallery__descr {
   color: #ffffff;
-  line-height: 2;
+  line-height: 32px;
   margin-bottom: 0px;
   width: 90%;
-  word-spacing: 3px;
+  font-weight: 600;
 }
+
 .gallery__right {
   height: 100%;
   width: 100%;
 }
+
 .swiper__img-block {
   cursor: pointer;
   position: relative;
@@ -70,6 +81,7 @@
   width: 100%;
   height: 100%;
 }
+
 .swiper__img-block::before {
   content: "";
   display: none;
@@ -81,6 +93,7 @@
   bottom: 5%;
   background-color: black;
 }
+
 .swiper__img-block::after {
   content: "";
   display: none;
@@ -101,17 +114,20 @@
 .choices {
   overflow: visible;
 }
+
 .choices[data-type*="select-one"] .choices__inner {
   background-color: transparent;
   color: white;
   padding: 0;
   border-radius: 5px;
 }
+
 .choices__inner {
   min-height: 40px;
   border: 1px solid #ffffff;
   transition: background-color 0.3s ease;
 }
+
 .choices__list--dropdown .choices__item:hover,
 .choices[data-type*="select-one"] .choices__inner:hover {
   background-color: rgba(255, 255, 255, 0.2);
@@ -123,13 +139,15 @@
   top: 25%;
   border: none;
   margin: 0;
-  background: url(/img/icon/Rectangle74.png) no-repeat center;
+  background: url(../../img/icon/Rectangle74.png) no-repeat center;
   border-color: rgb(255, 252, 252) transparent transparent;
 }
+
 .choices[data-type*="select-one"].is-open:after {
   margin: 0;
   transform: rotate(180deg);
 }
+
 .choices__list--single,
 .choices__list--single .choices__item {
   position: absolute;
@@ -139,14 +157,16 @@
   margin-left: 8px;
   display: flex;
   align-items: center;
-  font-size: 19px;
+  font-size: 16px;
 }
+
 .choices__list--dropdown {
   background-color: transparent;
   color: white;
   border-radius: 6px;
   border: 1px solid #999999;
 }
+
 .choices__list--dropdown .choices__item:not(:last-child) {
   border-bottom: 1px solid #999999;
   cursor: pointer;

@@ -30,4 +30,8 @@ var mySwiperPAR = new Swiper('.partners__container', {
             slidesPerView: 3,
         }
     },
+    autoplay: {
+        delay: 1000,
+    },
+    speed: 800,
 })

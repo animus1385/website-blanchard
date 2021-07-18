@@ -1,13 +1,15 @@
 /* ______________Блок 2_________________ */
 
-
 .project__info {
-    width: 67% ;
+  width: 67%;
 }
+
 .project__title {
-    margin-bottom: 22px;
+  margin-bottom: 22px;
 }
+
 .project__descr {
-    line-height: 32px;
-    font-size: 16px;
+  line-height: 32px;
+  font-size: 16px;
+  padding: 5px 0 71px;
 }

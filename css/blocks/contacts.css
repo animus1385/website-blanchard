@@ -1,96 +1,141 @@
-/*_____Девятый блок_______*/ 
+/*_____Девятый блок_______*/
+
 .contacts {
-    margin-bottom: 0 !important;
+  margin-bottom: 0;
+  position: relative;
 }
 
 .contacts__info {
-    display: flex;
-    justify-content: center;
-    width: 660px;
-    padding: 132px 0 103px;
-    padding-left:160px;
-    border: 1px solid #CACACA;
+  display: flex;
 }
-.contacts__left{
-    display: flex;
-    flex-direction: column;  
-flex-grow: 1;
+.contacts__title  {
+  margin-top: 83px;
 }
+.contacts__unity-left {
+  display: flex;
+  flex-basis: 35.5%;
+  justify-content: center;
+  border: 1px solid #cacaca;
+  background-color: white;
+}
+
+.contacts__left {
+  display: flex;
+  padding: 116px 0px 106px 40px;
+  flex-direction: column;
+
+  z-index: 1;
+}
+
 .contacts__footer {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
+
 .contacts__office {
-    font-size: 23px;
+  font-size: 24px;
+  font-weight: 400;
 }
+
 .form {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
+
 .form input {
-    width: 400px;
-    border-radius: 100px;
-    padding: 9px 25px;
-    transition: background-color .5s ease;
-    border: 1px solid #333333;
+  width: 400px;
+  border-radius: 100px;
+  padding: 9px 25px;
+  transition: background-color 0.5s ease;
+  border: 1px solid #333333;
 }
+
 .form-active {
-    background-color: #EAEAEA;
+  background-color: #eaeaea;
 }
+
 .form input::placeholder {
-    color: #999999 ;
-    font-size: 16px;
-    padding-left: 0px;
-    margin-left: 50px;
+  color: #999999;
+  font-size: 16px;
+  padding-left: 0px;
+  margin-left: 50px;
 }
+
 .form__name,
 .form__tel {
-    margin-bottom: 25px;  
+  margin-bottom: 26px;
 }
-.form__button  {
-    width: 157px ;
-    height: 59px;
-    font-size: 19px;
+
+.form__button {
+  padding: 17px 35px;
+  font-size: 19px;
+  margin-right: auto;
+  font-weight: 600;
 }
+
 .form__title,
 .contacts-office {
-    font-size: 24px;
-    margin-bottom: 2px;
+  font-size: 24px;
+  margin-bottom: 2px;
 }
+
 .contacts__street {
-    margin-top: 10px;
-    margin-bottom: 39px;
+  margin-top: 13px;
+  margin-bottom: 39px;
 }
+
 .form__title {
-    margin-bottom: 20px;
+  margin-bottom: 17px;
 }
+
 .contacts__communication {
-    font-size: 24px;
-    margin: 37px 0 18px;   
+  font-size: 24px;
+  margin: 40px 0 16px;
 }
+
 .contacts__sprite {
-    display: flex;
-    height: 40px;
-    margin-bottom: 20px;
+  display: flex;
+  height: 40px;
+  margin-bottom: 20px;
 }
+
 .contacts__img-1 {
-    background: url(../../img/social/Whatsapp-Icon.svg);
-    margin-right: 20px;
+  background: url(../../img/social/Whatsapp-Icon.svg);
+  margin-right: 20px;
 }
+
 .contacts__img-2 {
-    background: url(../../img/social/Telegram_2019_Logo.svg);
+  background: url(../../img/social/Telegram_2019_Logo.svg);
 }
+
 .contacts__img {
-    width: 40px;
-    height: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: opacity .5s ease;
+  width: 40px;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: opacity 0.5s ease;
 }
- #map  {
-    filter: grayscale(1);
-flex-grow: 1;
- }
- .js-validate-error-label {
-    margin-bottom: 10px;
- }
+
+.alert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: rgba(43, 5, 5, 0.541);
+  color: rgb(255, 255, 255);
+  z-index: 9;
+
+  height:50px;
+  border-radius: 20px;
+  margin: 20px 0;
+}
+
+#map {
+  display: flex;
+  filter: grayscale(1);
+  flex-grow: 1;
+}
+
+.js-validate-error-label {
+  margin-bottom: 10px;
+}

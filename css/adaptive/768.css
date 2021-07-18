@@ -1,388 +1,372 @@
-      /* ____ Планшетная версия (768px)______ */
-      @media (max-width: 768px) {
-          .fix-container {
-              max-width: 668px;
-          } 
-          .title {
-            font-size: 46px;         
-          }
-          .project__title {
-            margin-bottom: 24px;
-          }
-          .unity-top {
-            align-items: center;
-            padding-left: 50px;
-        }
-        .logo   img {
-            width: 37%;
-        }
-        .header__burger {
-            margin: 0; 
-        }
-          .start__container {
-            height: 768px;
-        }
-          .start__descr {
-            width: 100%;
-        }
-        .start__title {
-            margin-bottom: 16px;
-            font-size: 69px;
-            letter-spacing: 2px;
-            width: 85%;
+/* ____ Планшетная версия (768px)______ */
 
-        }
-        .unity-bottom {
-            padding: 35px 54px;
-        }
-        .header__logo {
-            margin-left: 46px;
-        }
-        /* Второй блок */
-        .project__descr {
-            font-size: 16px;
-        }
-        /* трейтий блок */
-     
-        .gallery__left {
-            width: 100%;
-         height: auto;
-           margin: 0;
-        }
-        .gallery__sort {
-            width: 42%;
-            order: 0;
-            margin-bottom: 88px;
-        }
-        .gallery__descr {
-            order: 2;
-        }
-        .gallery img {
-            width: 317px;
-            height: 280px;
-        }
-        .gallery__unity-block {
-            height: 1169px;
-        }
-        .gallery__filter-full {
-            justify-content: initial;
-        }
-        .gallery__right {
-           order: 1;
-           flex-grow: 1;
-        }
-        .slide__list {
-            margin: 21px 0px 28px;
-        }
-        .slide__active {
-            margin: 45px 0px 0px;
-        padding: 0px;
-        }
-        .gallery__img {
-            width: 318px;
-            height: 279px;
-            background-size: cover !important;
-            margin: 0;
-        }
-        .header__button {
-           margin: 0;
-            width: 30px;
-            height: 30px;
-        }
-        .content-1 {
-            width: 318px !important;
-        }
-      .history__img {
-         margin-right: 34px;
-      }
-        .history__countries {
-            margin-left: 37px;
-            margin-top: 7px;
-        }
-        .history__descr {
-            font-size: 16px;
-            margin: 13px 0 20px;
-        }
-        .history__info {
-            flex-direction: column;
+@media (max-width: 768px) {
+  .fix-container {
+    max-width: 668px;
+  }
+  .title {
+    font-size: 46px;
+  }
+  .project__title {
+    margin-bottom: 18px;
+  }
+  .unity-top {
+    align-items: center;
+    padding-left: 50px;
+  }
 
-        }
-        .history__period:first-child {
-            padding-top: 41px;
-            padding-bottom: 0;
-        }
-        .history__right {
-            width: 100%;
-            order: 0;
-        }
-        .history__left {
-            width: 100%;
-            order: 1;
-            margin:  50px 0 auto;
-        }
-        .history__content {
-            padding: 25px 0;
-            height: 341px;
-        }
-        .history__period label {
-            padding: 36px 0 27px;
-            font-size: 24px;
-        }
-        .history__item {
-            width: 35.8%;
-            line-height: 32px;
-        }
-        .history__left-img {
-            background-size: cover;
-            width: 100%;
-        }
-        .history__celebrity {
-            margin-top: 31px;
-        }
-        .gallery__title {
-            margin-bottom: 28px;
-            order: 0;
-        }
-        .descr-2 {
-        margin-top: 9px !important;
-        line-height: 32px;
-        }
-        .events ,
-        .history {
-            margin: 75px 0  42px!important;
-        }
-        .events__title  {
-        padding: 0;
-        margin-top: -20px;
-         
-        }
-        .events-1 {
-            margin-right: 30px !important;
-        }
-        .events-3 {
-            display: none;
-        }
-
-        .events__info h2 {
-         padding: 0;
-        }
-        .events__descr {
-            font-size: 15px;
-            line-height: 2.19;
-            padding-top: 3px;
-            word-spacing: 4px;
-          
-        }
-        .events__block {
-            height: 700px;
-        }
-        .events__link {
-            margin: 0px 0px 61px;
-        }
-        .enents__title {
-            font-size: 24px;
-        }
-        .events__info {
-            padding: 0 32px;
-        }
-        
-        .enents__link{
-            left: 34px;
-            bottom: 50px;
-        }
-        .editions {
-           background: url(/IMG/birmingham-museums-trust-MK_98NuC4-4-unsplash\ 4.webp) no-repeat;
-           background-size: cover;
-        }
-        .editions__title {
-            margin-bottom: 28px;
-        }
-        .editions__price {
-            position:  inherit;
-            align-items: flex-start;
-            
-            flex-direction: column;
-        }
-        .history__link {
-            margin-right: 0px;
-        }
-        .price-1 {
-            width: 61%;
-            margin-top: 33px;
-        }
-        .editions__all-category {
-            flex-wrap: wrap;
-            width: 100%;
-            height: 128px;
-            justify-content: space-between;
-            margin-bottom: 0;
-        }
-        .editions__all-category li {
-            margin-right: 58px;
-        }
-        .editions__all-category li:nth-child(7) {
-            margin-right: 28px;
-        }
-        .editions__category {
-            font-size: 16px;
-        } 
-        .events__adrees {
-            margin: 12px 16px 23px;
-        }
-        .editions__filter {
-            width: 100%;
-            margin-bottom: 3px;
-        }
-        .editions__size-swiper {
-            left: 114px;
-            top: -16px;
-        }
-        
-        .editions__filter h3 {      
-            margin-bottom:14px;
-            font-size: 16px;       
-         }
-         .editions__content { 
-             flex-direction: column;
-             justify-content:flex-start;
-             padding: 74px 0 79px;
-         }
-        .content-2 {
-            display: flex;
-         
-        }
-        .editions__books {
-            width: 100%;
-        }
-        .events-slide {
-            width: 317px !important;
-        }
-       
-        .editions__books .slide-list {
-            margin: 40px 0 31px;
-        }
-       
-        .events__button {
-            margin: 37px auto 83px;
-        }
-      
-        .contacts__communication {
-            margin: 39px 0 18px;
-        }
-        .cost-1 {
-            padding: 0 10px;
-        }
-        .editions__cost-price {
-            width: 73px;
-        }
-        .cost-2 {
-            padding: 0 8px;
-        }
-        .editions__cost {
-            width: 68%;
-        }
-        .editions__info {
-            margin: 18px 0 12px;
-        }
-        .editions__size {
-            margin-left: 28px;
-        }
-        .editions img {
-            width: 289px;
-            height: 318px;
-        }
-        .detailed__descr {
-            line-height: 2.0;
-            font-size: 16px;
-        }
-        .partners__block-button {
-            flex-basis: 4%;
-        }
-        .partners__title {
-            padding: 45px 0 6px;
-            font-size: 24px;
-        }
-        .partners__container {
-            height: 114px;
-            width: 90%;
-        }
-        .partners__btn {
-            top: 35%;
-        }
-        .partners__border {
-            height: 105px;
-            width: 265px;
-            margin: 0 auto;
-        }
-      .detailed__title {
-          margin-bottom: 23px;
-      }
-      .detailed__icon {
-        left: -7px;
-        bottom: 7px;
-    }
-        .footer__social {
-            width: 69px;
-            height: 60px;
-        }
-        .partners__border img {
-            padding: 34px 0px;
-        }
-        .footer__social:nth-child(2) {
-            margin: 0 16px;
-        }
-        .partners-2 {
-            background-size: 81%;
-        }
-        .btn-1 {
-            left:6.5% ;
-        }
-        .btn-2 {
-            right:6.5% ;
-        }
-        .footer__logo img {
-            width: 41%;
-        }
-        .form__title {
-            margin-bottom: 19px;
-        }
-        .footer__all {
-            padding: 40px 0;
-        }
-        .detailed {
-            margin-bottom: 62px !important;
-        }
-        .contacts__title {
-            padding-top: 17px;
-        }
-        .contacts {
-            margin: 0 !important;
-        }
-        .contacts__street {
-            margin-top: 14px;
-            margin-bottom: 37px;
-        }
-        .form input {
-            width: 333px;
-            padding: 10px 20px;
-        }
-        .form__name, .form__tel {
-            margin-bottom: 23px;
-        }
-        .contacts__info {
-            padding: 128px 43px 103px 50px;
-            width: auto;
-        }  
-        .contacts__img {
-            width: 59px;
-            height: 59px;
-            margin-left: 0px;
-            margin-right: 31px;
-        }      
-        .footer__fc {
-            background-position: -158.5px;
-        }
-        .footer__inst {
-            background-position: -79.5px;
-        }
-      }
+  .header__burger {
+    margin: 0;
+  }
+  .start__descr {
+    width: 100%;
+  }
+  .start__title {
+    margin-bottom: 8px;
+    font-size: 72px;
+    width: 85%;
+  }
+  .unity-bottom {
+    padding: 35px 54px;
+  }
+  .header__logo {
+    margin-left: 46px;
+  }
+  /* Второй блок */
+  .project__descr {
+    font-size: 16px;
+  }
+  /* трейтий блок */
+  .gallery__left {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .gallery__sort {
+    width: 42%;
+    order: 0;
+    margin-bottom: 88px;
+  }
+  .gallery__descr {
+    order: 2;
+  }
+  .gallery img {
+    width: 317px;
+    height: 280px;
+  }
+  .gallery__unity-block {
+    height: 1169px;
+  }
+  .gallery__filter-full {
+    justify-content: initial;
+  }
+  .gallery__right {
+    order: 1;
+    flex-grow: 1;
+  }
+  .slide__list {
+    margin: 21px 0px 28px;
+  }
+  .slide__active {
+    margin: 45px 0px 0px;
+    padding: 0px;
+  }
+  .gallery__img {
+    width: 318px;
+    height: 279px;
+    background-size: cover !important;
+    margin: 0;
+  }
+  .header__button {
+    margin: 0;
+    width: 30px;
+    height: 30px;
+  }
+  .content-1 {
+    width: 318px !important;
+  }
+  .history__img {
+    margin-right: 34px;
+  }
+  .history__countries {
+    margin-left: 37px;
+    margin-top: 7px;
+  }
+  .history__period {
+    padding: 40px 0 46px;
+}
+  .history__descr {
+    font-size: 16px;
+    margin: 13px 0 20px;
+  }
+  .history__info {
+    flex-direction: column;
+  }
+  .history__period:first-child {
+    padding-top: 41px;
+    padding-bottom: 0;
+  }
+  .history__right {
+    width: 100%;
+    order: 0;
+  }
+  .history__left {
+    width: 100%;
+    order: 1;
+    margin: 50px 0 auto;
+  }
+  .history__content {
+    padding: 25px 0;
+    height: 341px;
+  }
+  .history__period label {
+    padding: 36px 0 27px;
+    font-size: 24px;
+  }
+  .history__item {
+    width: 35.8%;
+    line-height: 32px;
+  }
+  .history__unity-block {
+    padding: 74px 0;
+  }
+  .history__left-img {
+    background-size: cover;
+    width: 100%;
+  }
+  .history__celebrity {
+    margin-top: 31px;
+  }
+  .gallery__title {
+    margin-bottom: 28px;
+    order: 0;
+  }
+  .descr-2 {
+    margin-top: 9px !important;
+    line-height: 32px;
+  }
+  .events__title {
+    padding: 0;
+    margin-top: -20px;
+  }
+  .events-1 {
+    margin-right: 30px !important;
+  }
+  .events-3 {
+    display: none;
+  }
+  .events__info h2 {
+    padding: 0;
+  }
+  .events__descr {
+    font-size: 15px;
+    line-height: 2.19;
+    padding-top: 3px;
+    word-spacing: 4px;
+  }
+  .events__container {
+    margin-top: 23px;
+  }
+  .events__block {
+    height: 700px;
+  }
+  .events__link {
+    margin: 0px 0px 61px;
+  }
+  .enents__title {
+    font-size: 24px;
+  }
+  .events__info {
+    padding: 0 32px;
+  }
+  .enents__link {
+    left: 34px;
+    bottom: 50px;
+  }
+  .editions {
+    background: url("../../IMG/birmingham-museums-trust-MK_98NuC4-4-unsplash4.webp")
+      no-repeat;
+    background-size: cover;
+  }
+  .editions__title {
+    margin-bottom: 28px;
+  }
+  .editions__price {
+    position: inherit;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .history__link {
+    margin-right: 0px;
+  }
+  .price-1 {
+    width: 61%;
+    margin-top: 33px;
+  }
+  .editions__all-category {
+    flex-wrap: wrap;
+    width: 100%;
+    height: 128px;
+    justify-content: space-between;
+    margin-bottom: 0;
+  }
+  .editions__all-category li {
+    margin-right: 58px;
+  }
+  .editions__all-category li:nth-child(7) {
+    margin-right: 28px;
+  }
+  .editions__category {
+    font-size: 16px;
+  }
+  .events__adrees {
+    margin: 12px 16px 3px;
+    line-height: 16px;
+  }
+  .editions__filter {
+    width: 100%;
+    margin-bottom: 3px;
+  }
+  .editions__size-swiper {
+    left: 114px;
+    top: -16px;
+  }
+  .editions__filter h3 {
+    margin-bottom: 14px;
+    font-size: 16px;
+  }
+  .editions__content {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 74px 0 81px;
+  }
+  .content-2 {
+    display: flex;
+  }
+  .editions__books {
+    width: 100%;
+  }
+  .events-slide {
+    width: 317px !important;
+  }
+  .editions__books .slide-list {
+    margin: 40px 0 31px;
+  }
+  .events__button {
+    margin: 37px auto 85px;
+  }
+  .contacts__communication {
+    margin: 39px 0 18px;
+  }
+  .cost-1 {
+    padding: 0 10px;
+  }
+  .editions__cost-price {
+    width: 73px;
+  }
+  .cost-2 {
+    padding: 0 8px;
+  }
+  .editions__cost {
+    width: 68%;
+  }
+  .editions__info {
+    margin: 18px 0 12px;
+  }
+  .editions__size {
+    margin-left: 28px;
+  }
+  .editions img {
+    width: 289px;
+    height: 318px;
+  }
+  .detailed__descr {
+    line-height: 32px;
+    font-size: 16px;
+    width: 99%;
+  }
+  .partners__block-button {
+    flex-basis: 4%;
+  }
+  .partners__title {
+    margin-top: 28px;
+    font-size: 24px;
+  }
+  .partners__container {
+    height: 114px;
+    width: 90%;
+  }
+  .partners__btn {
+    top: 35%;
+  }
+  .partners__border {
+    height: 105px;
+    width: 265px;
+    margin: 0 auto;
+  }
+  .detailed__title {
+    margin-bottom: 23px;
+  }
+  .detailed__icon {
+    left: -7px;
+    bottom: 7px;
+  }
+  .footer__social {
+    width: 69px;
+    height: 60px;
+  }
+  .partners__border img {
+    padding: 34px 0px;
+  }
+  .footer__social:nth-child(2) {
+    margin: 0 16px;
+  }
+  .partners-2 {
+    background-size: 81%;
+  }
+  .btn-1 {
+    left: 6.5%;
+  }
+  .btn-2 {
+    right: 6.5%;
+  }
+  .footer__logo img {
+    width: 41%;
+  }
+  .form__title {
+    margin-bottom: 20px;
+  }
+  .footer__all {
+    padding: 40px 0;
+  }
+  .detailed {
+    margin-bottom: 62px !important;
+  }
+  .contacts__left {
+    padding: 123px 50px 106px 48px;
+  }
+  .contacts__street {
+    margin-top: 14px;
+    margin-bottom: 32px;
+  }
+  .form input {
+    width: 333px;
+    padding: 10px 20px;
+  }
+  .form__name,
+  .form__tel {
+    margin-bottom: 23px;
+  }
+  .contacts__img {
+    width: 59px;
+    height: 59px;
+    margin-left: 0px;
+    margin-right: 31px;
+  }
+  .footer__fc {
+    background-position: -158.5px;
+  }
+  .footer__inst {
+    background-position: -79.5px;
+  }
+}

@@ -1,5 +1,5 @@
 
-let contries = document.querySelectorAll('.history__img');
+let contries = document.querySelectorAll('.history__elem');
 
 contries.forEach(e => {
     e.addEventListener('click', function () {

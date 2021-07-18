@@ -1,152 +1,171 @@
-/*_____Шестой блок________*/    
+/*_____Шестой блок________*/
+
 .editions {
-    background: url(../../img/birmingham-museums-trust-MK_98NuC4-4-unsplash4.webp) no-repeat; 
-    background-size: cover;
+  background: url(../../img/birmingham-museums-trust-MK_98NuC4-4-unsplash4.webp)
+    no-repeat;
+  background-size: cover;
 }
+
 .editions__title {
-    color: #FFFFFF;
-    margin-top: 0;
-    margin-bottom: 23px;
-
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 28px;
 }
+
 .editions__content {
-    display: flex;
-    justify-content: space-between;
-    padding: 74px 0 42px;
-    
+  display: flex;
+  justify-content: space-between;
+  padding: 84px 0 39px;
 }
+
 .editions__filter,
-.editions__all-category {    
-    display: flex;
-    flex-direction: column;
-    margin-right: 90px ; 
-    margin-bottom: 34px;
-
-}
 .editions__all-category {
-    margin-bottom: 34px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 90px;
+  margin-bottom: 34px;
 }
-.editions__all-category li:nth-child(7) {
-    width: 270px;
-}
-.editions__filter h2 {
-    font-size: 16px;
-    color: white;
-    margin-bottom: 5px;
-}
-.editions__price h3 {
-font-size: 17px;
-}
-.editions__category {
-    position: relative;
-    padding-left: 24px;
-    font-size: 17px;
-    cursor: pointer;
-    color: #FFFFFF; 
-    transition: color .5s ease;
-    line-height: 1.9;
-}
-input[type="checkbox"]{
- display: none;
-}
-input[type="checkbox"] + .editions__category::before {
-    content: '';
-    position: absolute;
-    left: 0;  
-    top: 5px;
-    width: 12px;
-    height: 12px; 
-    border: 1px solid#FFFFFF;
-}
-input[type="checkbox"] + .editions__category::after {
-    content: '';
-   position: absolute;
-    width: 4px;
-    height: 4px;
-    top: 10px ;
-    left: 5px;
-    opacity: 0;
-    border-radius: 30px;
-    transition: opacity .3s ease-in-out ;
-   background-color:#C283F3;
 
+.editions__all-category {
+  margin-bottom: 34px;
 }
+
+.editions__all-category li:nth-child(7) {
+  width: 270px;
+}
+
+.editions__filter h2 {
+  font-size: 16px;
+  color: white;
+  margin-bottom: 7px;
+}
+
+.editions__price h3 {
+  font-size: 17px;
+}
+
+.editions__category {
+  position: relative;
+  padding-left: 24px;
+  font-size: 17px;
+  cursor: pointer;
+  color: #ffffff;
+  transition: color 0.5s ease;
+  line-height: 1.9;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + .editions__category::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 5px;
+  width: 12px;
+  height: 12px;
+  border: 1px solid#FFFFFF;
+}
+
+input[type="checkbox"] + .editions__category::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  top: 10px;
+  left: 5px;
+  opacity: 0;
+  border-radius: 30px;
+  transition: opacity 0.3s ease-in-out;
+  background-color: #c283f3;
+}
+
 .editions__books,
-.editions__book {                                     
-    display: flex;
-    flex-direction: column;
-  
-    
+.editions__book {
+  display: flex;
+  flex-direction: column;
 }
 
 .editions__books .slide-list {
-    display: flex;
-    align-items: center;
-    margin: 40px 0px 30px;
+  display: flex;
+  align-items: center;
+  margin: 30px 0px;
 }
 
 .editions__img {
-    background-size: contain ;
-    width: 100%;
-    height: 390px ;
+  background-size: contain;
+  width: 100%;
+  height: 390px;
 }
+
 .editions__info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-   margin: 23px 0 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 24px 0 10px;
 }
+
 .editions__descr {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+.editions__title-book {
+  font-weight: bold;
+font-size: 16px;
 }
 .editions__price,
 .editions__author,
 .editions__title-book {
-    color: #FFFFFF;
-    margin-bottom: 5px;
-}
-.editions__button {
-    Width:120px;
-    height: 40px;
-    padding: 6px 20px;
-  display: flex;
-  justify-content: center;
-    border-radius: 30px;
-    background-color: transparent;
-    border: 2px solid #9D5CD0;
-    color: #FFFFFF;
-    font-size: 17px;
-}
-.editions__cost {
-    display: flex;
-    align-items: center;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-radius: 4px;
-    margin-top: 12px;
-    color: #FFFFFF;
-    width: 78%;
+  color: #ffffff;
+  margin-bottom: 5px;
+  
 }
 
-.cost-1{
-    padding: 0 11px;
+.editions__button {
+  margin-right: auto;
+  padding: 9px 23px;
+  display: flex;
+  justify-content: center;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 2px solid #9d5cd0;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
 }
+
+.editions__cost {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  margin-top: 12px;
+  color: #ffffff;
+  width: 78%;
+}
+
+.cost-1 {
+  padding: 0 11px;
+}
+
 .cost-2 {
-    padding: 0 9px;
+  padding: 0 9px;
 }
+
 .editions__rub {
-    padding: 0 9px;
+  padding: 0 9px;
 }
-.place  {
-    background-color: transparent;
+
+.place {
+  background-color: transparent;
 }
- .editions__cost-price {
-     background-color: rgba(157, 92, 208, 0.5); 
+
+.editions__cost-price {
+  background-color: rgba(157, 92, 208, 0.5);
   width: 73px;
-     border: none;
-     padding: 11px 0 ;
-     color: white;
-     text-align: center;
-     
- }
- 
+  border: none;
+  padding: 11px 0 11px 8px;
+  color: white;
+  text-align: left;
+}
