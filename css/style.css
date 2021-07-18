@@ -2,7 +2,8 @@
     font-family: "Open Sans";
     font-display: swap;
     src: local("Open Sans Regular"), local("Open-Sans-Regular"),
-      url("../../fonts/OpenSans-Regular.woff2") format("woff2");
+      url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+      url("../fonts/OpenSans-Regular.woff") format("woff");
     font-weight: 400;
     font-style: normal;
   }
@@ -11,7 +12,8 @@
     font-family: "Open Sans";
     font-display: swap;
     src: local("Open Sans Semi Bold"), local("Open-Sans-Semi-Bold"),
-      url("../../fonts/OpenSans-SemiBold.woff2") format("woff2");
+      url("../fonts/OpenSans-SemiBold.woff2") format("woff2"),
+      url("../fonts/OpenSans-SemiBold.woff") format("woff");
     font-weight: 600;
     font-style: normal;
   }
@@ -20,7 +22,8 @@
     font-family: "Open Sans";
     font-display: swap;
     src: local("Open Sans Bold"), local("Open-Sans-Bold"),
-      url("../../fonts/OpenSans-Bold.woff2") format("woff2");
+      url("../fonts/OpenSans-Bold.woff2") format("woff2"),
+      url("../fonts/OpenSans-Bold.woff") format("woff");
     font-weight: 700;
     font-style: normal;
   }
@@ -402,24 +405,24 @@
   .select-1,
   .select-5,
   .select-9 {
-    background-image: url(../../img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash2.webp);
+    background-image: url(../img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash2.webp);
   }
   
   .select-2,
   .select-6,
   .select-10 {
-    background-image: url(../../img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash3.webp);
+    background-image: url(../img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash3.webp);
   }
   
   .select-3,
   .select-7,
   .select-11 {
-    background-image: url(../../img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash1.webp);
+    background-image: url(../img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash1.webp);
   }
   
   .select-4,
   .select-8 .select-12 {
-    background-image: url(../../img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash2.webp);
+    background-image: url(../img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash2.webp);
   }
   .header__select {
     display: flex;
@@ -537,7 +540,7 @@
 /* _______Трейтий блок__________ */
 
 .gallery {
-    background: url(../../img/gallery/birmingham-museums-trust-MK_98NuC4-4-unsplash3.webp)
+    background: url(../img/gallery/birmingham-museums-trust-MK_98NuC4-4-unsplash3.webp)
       no-repeat;
     background-size: cover;
   }
@@ -636,7 +639,7 @@
     position: absolute;
     width: 81px;
     height: 80px;
-    background: url(../../img/icon/Group10.png) no-repeat;
+    background: url(../img/icon/Group10.png) no-repeat;
     top: 40%;
     right: 40%;
   }
@@ -675,7 +678,7 @@
     top: 25%;
     border: none;
     margin: 0;
-    background: url(../../img/icon/Rectangle74.png) no-repeat center;
+    background: url(../img/icon/Rectangle74.png) no-repeat center;
     border-color: rgb(255, 252, 252) transparent transparent;
   }
   
@@ -743,23 +746,23 @@
   }
   
   .history__img-1 {
-    background: url(../../img/countries/image\ 4.png) no-repeat;
+    background: url(../img/countries/image\ 4.png) no-repeat;
   }
   
   .history__img-2 {
-    background: url(../..//img/countries/image\ 6.png) no-repeat;
+    background: url(..//img/countries/image\ 6.png) no-repeat;
   }
   
   .history__img-3 {
-    background: url(../../img/countries/image\ 7.png) no-repeat;
+    background: url(../img/countries/image\ 7.png) no-repeat;
   }
   
   .history__img-4 {
-    background: url(../../img/countries/image\ 8.png) no-repeat;
+    background: url(../img/countries/image\ 8.png) no-repeat;
   }
   
   .history__img-5 {
-    background: url(../../img/countries/image\ 5.png) no-repeat;
+    background: url(../img/countries/image\ 5.png) no-repeat;
   }
   .history__img {
     width: 46px;
@@ -1017,7 +1020,7 @@
 /*_____Шестой блок________*/
 
 .editions {
-    background: url(../../img/birmingham-museums-trust-MK_98NuC4-4-unsplash4.webp)
+    background: url(../img/birmingham-museums-trust-MK_98NuC4-4-unsplash4.webp)
       no-repeat;
     background-size: cover;
   }
@@ -1395,12 +1398,12 @@
   }
   
   .contacts__img-1 {
-    background: url(../../img/social/Whatsapp-Icon.svg);
+    background: url(../img/social/Whatsapp-Icon.svg);
     margin-right: 20px;
   }
   
   .contacts__img-2 {
-    background: url(../../img/social/Telegram_2019_Logo.svg);
+    background: url(../img/social/Telegram_2019_Logo.svg);
   }
   
   .contacts__img {
@@ -1453,7 +1456,7 @@ footer {
   }
   
   .footer__social {
-    background-image: url(../../img/social/social.png);
+    background-image: url(../img/social/social.png);
     cursor: pointer;
     width: 45px;
     height: 45px;
@@ -2356,7 +2359,7 @@ footer {
       bottom: 50px;
     }
     .editions {
-      background: url("../../IMG/birmingham-museums-trust-MK_98NuC4-4-unsplash4.webp")
+      background: url(../IMG/birmingham-museums-trust-MK_98NuC4-4-unsplash4.webp)
         no-repeat;
       background-size: cover;
     }
