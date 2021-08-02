@@ -93,14 +93,16 @@ button {
   cursor: pointer;
 }
 .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 30px;
   height: 30px;
   border-radius: 30px;
   background-color: #535353;
   position: relative;
-  margin: 0px 3px;
   cursor: pointer;
-  border: none;
+  border: 2px solid transparent;
 }
 
 .slide__list {
@@ -109,45 +111,30 @@ button {
   margin: 18px 0px 29px;
 }
 
-.btn__left {
-  transform: rotate(90deg);
-}
+
 
 .list__counter {
   color: #ffffff;
   font-size: 16px;
   width: auto !important;
-  margin: 0 15px;
+  margin: 0 19px;
 }
 
 .btn__right {
-  transform: rotate(270deg);
+transform: rotate(180deg);
 }
 
-.btn::before,
-.btn::after {
-  content: "";
-  position: absolute;
-  display: block;
-  top: 38%;
-  width: 2px;
-  height: 9px;
-  background-color: white;
+.btn__img {
+  width:100%;
+  height: 100%;
+  background: url(../img/icon/Rectangle\ 67.svg) no-repeat 30% center ;
   transition: background-color 1s ease;
 }
 .swiper-button-disabled {
-  background: #8b8b8bfb;
+  background: #b3b3b3;
   pointer-events: none;
 }
-.btn::before {
-  transform: rotate(45deg);
-  left: 55%;
-}
 
-.btn::after {
-  transform: rotate(135deg);
-  right: 55%;
-}
 .simplebar-content {
   padding: 0px !important;
 }
@@ -408,30 +395,43 @@ input::-webkit-search-results-decoration {
 
 .select-1,
 .select-5,
-.select-9 {
+.select-9,
+.select-13,
+.select-17,
+.select-22  {
   background-image: url(../img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash2.webp);
 }
 
 .select-2,
 .select-6,
-.select-10 {
+.select-10,
+.select-14,
+.select-18,
+.select-23 {
   background-image: url(../img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash3.webp);
 }
 
 .select-3,
 .select-7,
-.select-11 {
+.select-11,
+.select-15,
+.select-19,
+.select-24 {
   background-image: url(../img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash1.webp);
 }
 
 .select-4,
-.select-8 .select-12 {
+.select-8 
+.select-12,
+.select-16
+.select-21,
+.select-25 {
   background-image: url(../img/start-block/birmingham-museums-trust-MK_98NuC4-4-unsplash2.webp);
 }
 .header__select {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+
   padding: 10px;
   color: white;
   border: 2px solid #9e5cd000;
@@ -442,6 +442,12 @@ input::-webkit-search-results-decoration {
   background-repeat: no-repeat;
   background-size: cover;
   transition: border-color 0.3s ease, background-color 0.5s ease;
+}
+.header__content li{
+  margin-bottom: 20px;
+}
+.header__content li:last-child {
+  margin-bottom: 0;
 }
 .simplebar-scrollbar {
   background-color: white;
@@ -584,7 +590,9 @@ input::-webkit-search-results-decoration {
   display: flex;
   flex-direction: column;
 }
-
+.gallery .slide__list {
+  margin: 18px 2px 29px;
+}
 .gallery__filter {
   color: #ffffff;
   font-weight: 600;
@@ -612,7 +620,10 @@ input::-webkit-search-results-decoration {
   width: 90%;
   font-weight: 600;
 }
-
+.gallery__descr-link {
+  color: #c283f3;
+  transition: color 0.3s ease-in-out;
+}
 .gallery__right {
   height: 100%;
   width: 100%;
@@ -688,7 +699,7 @@ input::-webkit-search-results-decoration {
 .choices[data-type*="select-one"]:after {
   width: 15px;
   height: 15px;
-  top: 25%;
+  top: 33%;
   border: none;
   margin: 0;
   background: url(../img/icon/Rectangle\ 54.svg) no-repeat center;
@@ -1509,14 +1520,17 @@ footer {
   color: #c283f3;
   fill: #c283f3;
 }
-
 .header__select:hover {
-  border-color: #9d5cd0;
+  border-color: #9D5CD0;
+}
+.header__select:active {
+  border-color: #D1A9F0;
   background-blend-mode: difference;
-  background-color: rgba(194, 130, 243, 0.4);
+  background-color: #c283f340  ;
 }
 
-.header__link:hover {
+.header__link:hover,
+.gallery__descr-link:hover {
   color: #c283f3;
 }
 
@@ -1634,7 +1648,8 @@ footer {
   fill: #7943a4;
 }
 
-.header__link:focus {
+.header__link:focus,
+.gallery__descr-link:focus {
   color: #7943a4;
 }
 .link-bottom:focus::before,
@@ -1649,7 +1664,7 @@ footer {
 }
 
 .btn:active {
-  border: 2px solid #d1a9f0;
+  border-color: #d1a9f0;
 }
 
 .history__link:active {
