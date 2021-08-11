@@ -75,7 +75,12 @@
 				<div class="header__unity unity-bottom">
 					<ul class="header__list">
 						<li class="header__item item-bottom header__elem-bottom">
-							<button class="header__link link-bottom">Реализм </button>
+							<button class="header__link link-bottom">Реализм
+								<div class="header__button-arrow">
+									<span class="header__button-arrow-1"></span>
+									<span class="header__button-arrow-2"></span>
+								</div>
+							</button>
 							<ul class="header__content" data-simplebar>
 								<li><a href="#" class="header__select select-1">Фридрих</a></li>
 								<li><a href="#" class="header__select select-2">Фридрих</a></li>
@@ -105,7 +110,12 @@
 							</ul>
 						</li>
 						<li class="header__item item-bottom header__elem-bottom">
-							<button class="header__link link-bottom">Импрессионизм</button>
+							<button class="header__link link-bottom">Импрессионизм
+								<div class="header__button-arrow">
+									<span class="header__button-arrow-1"></span>
+									<span class="header__button-arrow-2"></span>
+								</div>
+							</button>
 							<ul class="header__content" data-simplebar>
 								<li><a href="#" class="header__select select-2">Фридрих</a></li>
 								<li><a href="#" class="header__select select-3">Леонардо</a></li>
@@ -134,7 +144,12 @@
 							</ul>
 						</li>
 						<li class="header__item item-bottom header__elem-bottom">
-							<button class="header__link link-bottom">Постимпрессионизм</button>
+							<button class="header__link link-bottom">Постимпрессионизм
+								<div class="header__button-arrow">
+									<span class="header__button-arrow-1"></span>
+									<span class="header__button-arrow-2"></span>
+								</div>
+							</button>
 							<ul class="header__content" data-simplebar>
 								<li><a href="#" class="header__select select-2">Фридрих</a></li>
 								<li><a href="#" class="header__select select-3">Леонардо</a></li>
@@ -163,7 +178,12 @@
 							</ul>
 						</li>
 						<li class="header__item item-bottom header__elem-bottom">
-							<button class="header__link link-bottom">Авангард</button>
+							<button class="header__link link-bottom">Авангард
+								<div class="header__button-arrow">
+									<span class="header__button-arrow-1"></span>
+									<span class="header__button-arrow-2"></span>
+								</div>
+							</button>
 							<ul class="header__content" data-simplebar>
 								<li><a href="#" class="header__select select-2">Фридрих</a></li>
 								<li><a href="#" class="header__select select-3">Леонардо</a></li>
@@ -192,7 +212,12 @@
 							</ul>
 						</li>
 						<li class="header__item item-bottom header__elem-bottom">
-							<button class="header__link link-bottom">Футуризм</button>
+							<button class="header__link link-bottom">Футуризм
+								<div class="header__button-arrow">
+									<span class="header__button-arrow-1"></span>
+									<span class="header__button-arrow-2"></span>
+								</div>
+							</button>
 							<ul class="header__content" data-simplebar>
 								<li><a href="#" class="header__select select-2">Фридрих</a></li>
 								<li><a href="#" class="header__select select-3">Леонардо</a></li>
@@ -248,11 +273,11 @@
 		</div>
 	</header>
 	<main>
-		<div class="start">
+		<section class="start">
 			<div class="swiper-container start__container">
 				<div class="fix-container start__img">
 					<div class="start__info">
-						<div class="start__title">Прикоснитесь к прекрасному</div>
+						<h1 class="start__title">Прикоснитесь к прекрасному</h1>
 						<p class="start__descr">
 							Мы вынуждены отталкиваться от того, что реализация намеченных
 							плановых заданий создаёт предпосылки для новых предложений.
@@ -277,7 +302,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 		<section class="project">
 			<div class="fix-container">
 				<div class="project__info">
@@ -449,24 +474,20 @@
 						<h1 class="history__title title">Каталог</h1>
 						<ul class="history__countries">
 							<li class="history__elem">
-								<div class="history__img-1 history__img"></div>
-								<a href="#" class="history-link link"></a>
+								<button class="history__img-1 history__img"></button>
 							</li>
 							<li class="history__elem">
-								<div class="history__img-2 history__img"></div>
-								<a href="#" class="history-link link"></a>
+								<button class="history__img-2 history__img"></button>
 							</li>
 							<li class="history__elem">
-								<div class="history__img-3 history__img"></div>
-								<a href="#" class="history-link link"></a>
+								<button class="history__img-3 history__img"></button>
+
 							</li>
 							<li class="history__elem">
-								<div class="history__img-4 history__img"></div>
-								<a href="#" class="history-link link"></a>
+								<button class="history__img-4 history__img"></button>
 							</li>
 							<li class="history__elem">
-								<div class="history__img-5 history__img"></div>
-								<a href="#" class="history-link link"></a>
+								<button class="history__img-5 history__img"></button>
 							</li>
 						</ul>
 					</div>
@@ -500,8 +521,10 @@
 						</div>
 						<div class="history__right">
 							<div class="history__period">
-								<label for="history__button-1">С 1400 по 1499 гг. </label>
-								<button id="history__button-1" class="history__button history__button-active"></button>
+								<h2 class="history__title-button" tabindex="0"><span> С 1400 по 1499 гг.</span>
+									<button id="history__button-1"
+										class="history__button history__button-active"></button>
+								</h2>
 								<div class="slide slide__active active-1">
 									<ul class="history__content">
 										<li class="history__item">
@@ -600,8 +623,9 @@
 								</div>
 							</div>
 							<div class="history__period">
-								<label for="history__button-2">С 1500 по 1599 гг.</label>
-								<button id="history__button-2" class="history__button"></button>
+								<h2 class="history__title-button" tabindex="0"><span> С 1500 по 1599 гг.</span>
+									<button id="history__button-2" class="history__button"></button>
+								</h2>
 								<div class="slide slide__active">
 									<ul class="history__content">
 										<li class="history__item">
@@ -700,8 +724,9 @@
 								</div>
 							</div>
 							<div class="history__period">
-								<label for="history__button-3">С 1600 по 1699 гг. </label>
-								<button id="history__button-3" class="history__button"></button>
+								<h2 class="history__title-button" tabindex="0"><span>С 1600 по 1699 гг.</span>
+									<button id="history__button-3" class="history__button"></button>
+								</h2>
 								<div class="slide slide__active">
 									<ul class="history__content">
 										<li class="history__item">
@@ -800,8 +825,9 @@
 								</div>
 							</div>
 							<div class="history__period">
-								<label for="history__button-4">С 1700 по 1799 гг. </label>
-								<button id="history__button-4" class="history__button"></button>
+								<h2 class="history__title-button" tabindex="0"><span> С 1700 по 1799 гг.</span>
+									<button id="history__button-4" class="history__button"></button>
+								</h2>
 								<div class="slide slide__active">
 									<ul class="history__content">
 										<li class="history__item">
@@ -900,8 +926,9 @@
 								</div>
 							</div>
 							<div class="history__period">
-								<label for="history__button-5">С 1800 по 1899 гг. </label>
-								<button id="history__button-5" class="history__button"></button>
+								<h2 class="history__title-button" tabindex="0"><span> С 1800 по 1899 гг.</span>
+									<button id="history__button-5" class="history__button"></button>
+								</h2>
 								<div class="slide slide__active">
 									<ul class="history__content">
 										<li class="history__item">
@@ -1000,8 +1027,9 @@
 								</div>
 							</div>
 							<div class="history__period">
-								<label for="history__button-6">С 1900 по 1999 гг. </label>
-								<button id="history__button-6" class="history__button"></button>
+								<h2 class="history__title-button" tabindex="0"><span>С 1900 по 1999 гг.</span>
+									<button id="history__button-6" class="history__button"></button>
+								</h2>
 								<div class="slide slide__active">
 									<ul class="history__content">
 										<li class="history__item">
@@ -1100,8 +1128,9 @@
 								</div>
 							</div>
 							<div class="history__period">
-								<label for="history__button-7">С 2000 гг. </label>
-								<button id="history__button-7" class="history__button"></button>
+								<h2 class="history__title-button" tabindex="0"><span>С 2000 гг.</span>
+									<button id="history__button-7" class="history__button"></button>
+								</h2>
 								<div class="slide slide__active">
 									<ul class="history__content">
 										<li class="history__item">
@@ -1236,7 +1265,10 @@
 														Микеланджело </span><span class="dots" id="dots">...</span>
 												</p>
 											</div>
-											<a href="#" class="events__link link">Подробнее</a>
+											<a href="#" class="events__link-block">
+												<span class="events__link">Подробнее</span>
+											</a>
+
 										</div>
 									</div>
 								</div>
@@ -1269,7 +1301,9 @@
 													<span class="dots">...</span>
 												</p>
 											</div>
-											<a href="#" class="events__link link">Подробнее</a>
+											<a href="#" class="events__link-block">
+												<span class="events__link">Подробнее</span>
+											</a>
 										</div>
 									</div>
 								</div>
@@ -1302,7 +1336,9 @@
 														class="dots">...</span>
 												</p>
 											</div>
-											<a href="#" class="events__link link">Подробнее</a>
+											<a href="#" class="events__link-block">
+												<span class="events__link">Подробнее</span>
+											</a>
 										</div>
 									</div>
 								</div>
@@ -1332,7 +1368,9 @@
 													</span><span class="dots">...</span>
 												</p>
 											</div>
-											<a href="#" class="events__link link">Подробнее</a>
+											<a href="#" class="events__link-block">
+												<span class="events__link">Подробнее</span>
+											</a>
 										</div>
 									</div>
 								</div>
@@ -1365,7 +1403,9 @@
 													<span class="dots">...</span>
 												</p>
 											</div>
-											<a href="#" class="events__link link">Подробнее</a>
+											<a href="#" class="events__link-block">
+												<span class="events__link">Подробнее</span>
+											</a>
 										</div>
 									</div>
 								</div>
@@ -1397,7 +1437,9 @@
 														кадровой базы </span><span class="dots">...</span>
 												</p>
 											</div>
-											<a href="#" class="events__link link">Подробнее</a>
+											<a href="#" class="events__link-block">
+												<span class="events__link">Подробнее</span>
+											</a>
 										</div>
 									</div>
 								</div>
@@ -1666,7 +1708,7 @@
 						бесполезности. Прежде всего, постоянное
 						информационно-пропагандистское
 						<span class="detailed__tooltip">
-							<span class="detailed__icon">
+							<button class="detailed__icon">
 								<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 									<path d="M15.5 8C15.5 12.1421
                                                         12.1421 15.5 8
@@ -1698,7 +1740,7 @@
                                                             4.81126 8.28718
                                                             4.90259 8 4.90259Z" fill="black" />
 								</svg>
-							</span>
+							</button>
 							<span class="popup">Пример современных тенденций - современная методология
 								разработки
 							</span>
@@ -1708,7 +1750,7 @@
 						сомнений, что действия представителей оппозиции могут быть
 						рассмотрены
 						<span class="detailed__tooltip">
-							<span class="detailed__icon">
+							<button class="detailed__icon">
 								<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
 									<path d="M15.5 8C15.5
                                                                 12.1421 12.1421
@@ -1757,14 +1799,14 @@
                                                                     4.90259 8
                                                                     4.90259Z" fill="black" />
 								</svg>
-							</span>
+							</button>
 							<span class="popup">Приятно, граждане, наблюдать, как сделанные на базе аналитики
 								выводы вызывают у вас эмоции
 							</span>
 						</span>
 						исключительно в разрезе маркетинговых и финансовых
 						<span class="detailed__tooltip">
-							<span class="detailed__icon">
+							<button class="detailed__icon">
 								<svg width="16" height="16" viewBox="0 0
                                                                     16 16" xmlns="http://www.w3.org/2000/svg">
 									<path d="M15.5
@@ -1827,7 +1869,7 @@
                                                                             8
                                                                             4.90259Z" fill="black" />
 								</svg>
-							</span>
+							</button>
 							<span class="popup">В стремлении повысить качество</span>
 						</span>
 						предпосылок. Банальные, но неопровержимые выводы, а также
@@ -1846,69 +1888,71 @@
 					</h1>
 					<div class="partners__block">
 						<div class="partners__block-button">
-							<button class="partners__btn btn btn__left btn__partners-left"></button>
+							<button class="partners__btn btn btn__left btn__partners-left"> <span
+									class="btn__img"></span> </button>
 						</div>
 						<div class="swiper-container partners__container">
 							<div class="swiper-wrapper">
 								<!-- Slides -->
 								<div class="swiper-slide partners__size">
-									<div class="partners__border">
+									<a href="#" class="partners__border">
 										<img class="lazyload" src="#" data-src="./img/partners/one.png"
 											alt="Картинка" />
-									</div>
+									</a>
 								</div>
 								<div class="swiper-slide partners__size">
-									<div class="partners__border">
+									<a href="#" class="partners__border">
 										<img class="lazyload" src="#" data-src="./img/partners/two.png"
 											alt="Картинка" />
-									</div>
+									</a>
 								</div>
 								<div class="swiper-slide partners__size">
-									<div class="partners__border">
+									<a href="#" class="partners__border">
 										<img class="lazyload" src="#" data-src="./img/partners/three.png"
 											alt="Картинка" />
-									</div>
+									</a>
 								</div>
 								<div class="swiper-slide partners__size">
-									<div class="partners__border">
+									<a href="#" class="partners__border">
 										<img class="lazyload" src="#" data-src="./img/partners/four.png"
 											alt="Картинка" />
-									</div>
+									</a>
 								</div>
 								<div class="swiper-slide partners__size">
-									<div class="partners__border">
+									<a href="#" class="partners__border">
 										<img class="lazyload" src="#" data-src="./img/partners/five.png"
 											alt="Картинка" />
-									</div>
+									</a>
 								</div>
 								<div class="swiper-slide partners__size">
-									<div class="partners__border">
+									<a href="#" class="partners__border">
 										<img class="lazyload" src="#" data-src="./img/partners/six.png"
 											alt="Картинка" />
-									</div>
+									</a>
 								</div>
 								<div class="swiper-slide partners__size">
-									<div class="partners__border">
+									<a href="#" class="partners__border">
 										<img class="lazyload" src="#" data-src="./img/partners/seven.png"
 											alt="Картинка" />
-									</div>
+									</a>
 								</div>
 								<div class="swiper-slide partners__size">
-									<div class="partners__border">
+									<a href="#" class="partners__border">
 										<img class="lazyload" src="#" data-src="./img/partners/eight.png"
 											alt="Картинка" />
-									</div>
+									</a>
 								</div>
 								<div class="swiper-slide partners__size">
-									<div class="partners__border">
+									<a href="#" class="partners__border">
 										<img class="lazyload" src="#" data-src="./img/partners/nine.png"
 											alt="Картинка" />
-									</div>
+									</a>
 								</div>
 							</div>
 						</div>
 						<div class="partners__block-button">
-							<button class="partners__btn btn btn__right btn__partners-right"></button>
+							<button class="partners__btn btn btn__right btn__partners-right"> <span
+									class="btn__img"></span> </button>
 						</div>
 					</div>
 				</div>
