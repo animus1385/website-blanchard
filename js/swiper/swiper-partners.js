@@ -3,7 +3,7 @@ var mySwiperPAR = new Swiper('.partners__container', {
     direction: 'horizontal',
     loop: true,
     slidesPerView: 3,
-    spaceBetween: 30,
+    spaceBetween: 32,
 
     // Navigation arrows
     navigation: {
@@ -28,6 +28,7 @@ var mySwiperPAR = new Swiper('.partners__container', {
         },
         1920: {
             slidesPerView: 3,
+            
         }
     },
     autoplay: {
