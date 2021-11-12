@@ -1795,7 +1795,6 @@ input::-webkit-search-results-decoration {
 #map {
   display: flex;
   flex-grow: 1;
-  height: 100%;
 }
 [class*="ymaps-2"][class*="-ground-pane"] {
   filter: grayscale(1);
