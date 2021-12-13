@@ -1,3 +1,13 @@
+/* ____________"Эффекты"__________________ */
+
+@import url("../css/effects/hover-effects.css");
+/*______Ховер эффекты___*/
+
+@import url("../css/effects/all-clicks.css");
+/*______Все Клики_______*/
+
+@import url("../css/effects/swiper/swiper-bundle.min.css");
+
 /* __________Общие стили _____________*/
 
 @import url("../css/simplebar.css");
@@ -9,7 +19,7 @@
 @import url("../css/choices.min.css");
 /*_____Селект_____________*/
 
-@import url('../css/normalize.css');
+@import url("../css/normalize.css");
 /*_____Нормалайз_____________*/
 
 @import url("../css/blocks/generalis.css");
@@ -50,27 +60,17 @@
 @import url("../css/blocks/footer.css");
 /*_________Футер__________*/
 
-/* ____________"Эффекты"__________________ */
-
-@import url("../css/effects/hover-effects.css");
-/*______Ховер эффекты___*/
-
-@import url("../css/effects/all-clicks.css");
-/*______Все Клики_______*/
-
-
-@import url("../css/effects/swiper/swiper-bundle.min.css");
 /*______Свайпер(мин.стили)__________*/
 
 /* ____________"Адаптив"__________________ */
 
-@import url('../css/adaptive/1024-1920.css');
+@import url("../css/adaptive/1024-1920.css");
 /* ____ Десктоп версия (1024-1920px)___ */
 
 @import url("../css/adaptive/1024.css");
 /* ____ Планшетная версия (1024px)_____ */
 
-@import url('../css/adaptive/768-1024.css');
+@import url("../css/adaptive/768-1024.css");
 @import url("../css/adaptive/768.css");
 /* ____ Планшетная версия (768px)______ */
 
