@@ -44,7 +44,7 @@ var mySwiperGAL = new Swiper('.gallery__right', {
 
         },
         1024: {
-            spaceBetween: 34,
+            spaceBetween: 35,
             slidesPerView: 2,
             slidesPerGroup: 2,
         },

@@ -11,7 +11,9 @@ let valid = new JustValidate('.form', {
                     return valid.messages.name.function
                 }
                 return
-            }
+            },
+            
+
         },
         tel: {
             required: true,
