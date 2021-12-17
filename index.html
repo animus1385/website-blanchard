@@ -11,7 +11,8 @@
 	<link rel="stylesheet" href="css/simplebar.css">
 	<link rel="stylesheet" href="css/choices.min.css">
 	<link rel="stylesheet" href="css/normalize.css">
-
+	<link rel="stylesheet" href="css/lightgallery-bundle.min.css">
+	<link rel="stylesheet" href="css/lg-zoom.css">
 	<link rel="stylesheet" href="css/style.css">
 
 	<link rel="preload" href="fonts/OpenSans-Bold.woff2" as="font" crossorigin>
@@ -358,7 +359,7 @@
 			<div class="swiper-container start__container">
 				<div class="fix-container start__img">
 					<div class="start__info">
-						<h2 class="start__title">Прикоснитесь к прекрасному</h2>
+						<h2 class="start__title">Прикоснитесь к&nbsp;прекрасному</h2>
 						<p class="start__descr">
 							Мы вынуждены отталкиваться от того, что реализация намеченных
 							плановых заданий создаёт предпосылки для новых предложений.
@@ -424,7 +425,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="gallery__right swiper-container">
+					<div class="gallery__right swiper-container  ">
 						<div class=" slide__list">
 							<button class="btn__left btn">
 								<svg width="7" height="12" viewBox="0 0 7 12" fill="none" class='arrow-button'
@@ -442,115 +443,79 @@
 
 							</button>
 						</div>
-						<div class="swiper-wrapper">
-							<div class="swiper-slide">
-								<div class="swiper__img-block">
-									<img src="#" class="lazyload" data-src="./img/gallery/Rectangle1.webp"
-										alt="Картинка" />
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="swiper__img-block">
-									<img src="#" class="lazyload" data-src="./img/gallery/Rectangle2.webp"
-										alt="Картинка" />
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="swiper__img-block">
-									<img src="#" class="lazyload" data-src="./img/gallery/Rectangle3.webp"
-										alt="Картинка" />
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="swiper__img-block">
-									<img src="#" class="lazyload" data-src="./img/gallery/Rectangle4.webp"
-										alt="Картинка" />
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="swiper__img-block">
-									<img src="#" class="lazyload" data-src="./img/gallery/Rectangle5.webp"
-										alt="Картинка" />
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="swiper__img-block">
-									<img src="#" class="lazyload" data-src="./img/gallery/Rectangle6.webp"
-										alt="Картинка" />
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="swiper__img-block">
-									<img src="#" class="lazyload" data-src="./img/gallery/Rectangle7.webp"
-										alt="Картинка" />
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="swiper__img-block">
-									<img src="#" class="lazyload" data-src="./img/gallery/Rectangle8.webp"
-										alt="Картинка" />
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="swiper__img-block">
-									<img src="#" class="lazyload" data-src="./img/gallery/Rectangle9.webp"
-										alt="Картинка" />
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="swiper__img-block">
-									<img src="#" class="lazyload" data-src="./img/gallery/Rectangle10.webp"
-										alt="Картинка" />
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="swiper__img-block">
-									<img src="#" class="lazyload" data-src="./img/gallery/Rectangle11.webp"
-										alt="Картинка" />
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="swiper__img-block">
-									<img src="#" class="lazyload" data-src="./img/gallery/Rectangle12.webp"
-										alt="Картинка" />
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="swiper__img-block">
-									<img src="#" class="lazyload" data-src="./img/gallery/Rectangle13.webp"
-										alt="Картинка" />
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="swiper__img-block">
-									<img src="#" class="lazyload" data-src="./img/gallery/Rectangle14.webp"
-										alt="Картинка" />
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="swiper__img-block">
-									<img src="#" class="lazyload" data-src="./img/gallery/Rectangle15.webp"
-										alt="Картинка" />
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="swiper__img-block">
-									<img src="#" class="lazyload" data-src="./img/gallery/Rectangle16.webp"
-										alt="Картинка" />
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="swiper__img-block">
-									<img src="#" class="lazyload" data-src="./img/gallery/Rectangle17.webp"
-										alt="Картинка" />
-								</div>
-							</div>
-							<div class="swiper-slide">
-								<div class="swiper__img-block">
-									<img src="#" class="lazyload" data-src="./img/gallery/Rectangle18.webp"
-										alt="Картинка" />
-								</div>
-							</div>
+						<div class="swiper-wrapper lightgallery">
+							<a href="./img/gallery/Rectangle1.webp" class="swiper__img-block swiper-slide  ">
+								<img src="./img/gallery/Rectangle1.webp" class="lazyload"
+									data-src="./img/gallery/Rectangle1.webp" alt="Картинка" />
+							</a>
+							<a href="./img/gallery/Rectangle2.webp" class="swiper-slide swiper__img-block">
+								<img src="./img/gallery/Rectangle2.webp" class="lazyload"
+									data-src="./img/gallery/Rectangle2.webp" alt="Картинка" />
+							</a>
+							<a href="./img/gallery/Rectangle3.webp" class="swiper-slide swiper__img-block">
+								<img src="./img/gallery/Rectangle3.webp" class="lazyload"
+									data-src="./img/gallery/Rectangle3.webp" alt="Картинка" />
+							</a>
+							<a href="./img/gallery/Rectangle4.webp" class="swiper-slide swiper__img-block">
+								<img src="./img/gallery/Rectangle4.webp" class="lazyload"
+									data-src="./img/gallery/Rectangle4.webp" alt="Картинка" />
+							</a>
+							<a href="./img/gallery/Rectangle5.webp" class="swiper-slide swiper__img-block">
+								<img src="./img/gallery/Rectangle5.webp" class="lazyload"
+									data-src="./img/gallery/Rectangle5.webp" alt="Картинка" />
+							</a>
+							<a href="./img/gallery/Rectangle6.webp" class="swiper-slide swiper__img-block">
+								<img src="./img/gallery/Rectangle6.webp" class="lazyload"
+									data-src="./img/gallery/Rectangle6.webp" alt="Картинка" />
+							</a>
+							<a href="./img/gallery/Rectangle7.webp" class="swiper-slide swiper__img-block">
+								<img src="./img/gallery/Rectangle7.webp" class="lazyload"
+									data-src="./img/gallery/Rectangle7.webp" alt="Картинка" />
+							</a>
+							<a href="./img/gallery/Rectangle8.webp" class="swiper-slide swiper__img-block">
+								<img src="./img/gallery/Rectangle8.webp" class="lazyload"
+									data-src="./img/gallery/Rectangle8.webp" alt="Картинка" />
+							</a>
+							<a href="./img/gallery/Rectangle9.webp" class="swiper-slide swiper__img-block">
+								<img src="./img/gallery/Rectangle9.webp" class="lazyload"
+									data-src="./img/gallery/Rectangle9.webp" alt="Картинка" />
+							</a>
+							<a href="./img/gallery/Rectangle10.webp" class="swiper-slide swiper__img-block">
+								<img src="./img/gallery/Rectangle10.webp" class="lazyload"
+									data-src="./img/gallery/Rectangle10.webp" alt="Картинка" />
+							</a>
+							<a href="./img/gallery/Rectangle11.webp" class="swiper-slide swiper__img-block">
+								<img src="./img/gallery/Rectangle11.webp" class="lazyload"
+									data-src="./img/gallery/Rectangle11.webp" alt="Картинка" />
+							</a>
+							<a href="./img/gallery/Rectangle12.webp" class="swiper-slide swiper__img-block">
+								<img src="./img/gallery/Rectangle12.webp" class="lazyload"
+									data-src="./img/gallery/Rectangle12.webp" alt="Картинка" />
+							</a>
+							<a href="./img/gallery/Rectangle13.webp" class="swiper-slide swiper__img-block">
+								<img src="./img/gallery/Rectangle13.webp" class="lazyload"
+									data-src="./img/gallery/Rectangle13.webp" alt="Картинка" />
+							</a>
+							<a href="./img/gallery/Rectangle14.webp" class="swiper-slide swiper__img-block">
+								<img src="./img/gallery/Rectangle14.webp" class="lazyload"
+									data-src="./img/gallery/Rectangle14.webp" alt="Картинка" />
+							</a>
+							<a href="./img/gallery/Rectangle15.webp" class="swiper-slide swiper__img-block">
+								<img src="./img/gallery/Rectangle15.webp" class="lazyload"
+									data-src="./img/gallery/Rectangle15.webp" alt="Картинка" />
+							</a>
+							<a href="./img/gallery/Rectangle16.webp" class="swiper-slide swiper__img-block">
+								<img src="./img/gallery/Rectangle16.webp" class="lazyload"
+									data-src="./img/gallery/Rectangle16.webp" alt="Картинка" />
+							</a>
+							<a href="./img/gallery/Rectangle17.webp" class="swiper-slide swiper__img-block">
+								<img src="./img/gallery/Rectangle17.webp" class="lazyload"
+									data-src="./img/gallery/Rectangle17.webp" alt="Картинка" />
+							</a>
+							<a href="./img/gallery/Rectangle18.webp" class="swiper-slide swiper__img-block">
+								<img src="./img/gallery/Rectangle18.webp" class="lazyload"
+									data-src="./img/gallery/Rectangle18.webp" alt="Картинка" />
+							</a>
 
 						</div>
 					</div>
@@ -1539,40 +1504,46 @@
 			<div class="fix-container">
 				<h2 class="contacts__title title">Контакты</h2>
 			</div>
-			<div class="contacts__info">
-				<div class="contacts__unity-left">
-					<div class="contacts__left">
-						<h3 class="contacts__office">Шоурум №4</h3>
-						<p class="contacts__street">Леонтьевский переулок, дом 5/1</p>
-						<form class="contacts__form form" action="#">
-							<h4 class="form__title">Заказать обратный звонок</h4>
-							<div class="form__input-block">
-								<input class="form__name" type="text" placeholder="Имя*" data-validate-field="name"
-									name="name" />
-							</div>
-							<div class="form__input-block">
-								<input class="form__tel" type="tel" placeholder="Телефон*" data-validate-field="tel"
-									name="tel" />
-							</div>
-							<button class="form__button button" type="submit">Заказать</button>
-						</form>
-						<div class="mess"></div>
-						<span class="contacts__communication">Связаться в один клик</span>
-						<ul class="contacts__social">
-							<li class="contacts__elem">
-								<a href="https://telegram.org/" class="contacts__img-1 contacts__img">
-								</a>
-							</li>
-							<li class="contacts__elem">
-								<a href="https://web.whatsapp.com/" class="contacts__img-2 contacts__img">
-								</a>
-							</li>
-						</ul>
+			<div class="contacts__unity">
+				<div class="fix-container">
+					<div class="contacts__unity-content">
+						<div class="contacts__left">
+							<h3 class="contacts__office">Шоурум №4</h3>
+							<p class="contacts__street">Леонтьевский переулок, дом 5/1</p>
+							<form class="contacts__form form" action="#">
+								<h4 class="form__title">Заказать обратный звонок</h4>
+								<div class="form__input-block">
+									<input class="form__name" type="text" placeholder="Имя*" data-validate-field="name"
+										name="name" />
+								</div>
+								<div class="form__input-block">
+									<input class="form__tel" type="tel" placeholder="Телефон*" data-validate-field="tel"
+										name="tel" />
+								</div>
+								<button class="form__button button" type="submit">Заказать</button>
+							</form>
+							<div class="mess"></div>
+							<span class="contacts__communication">Связаться в один клик</span>
+							<ul class="contacts__social">
+								<li class="contacts__elem">
+									<a href="https://telegram.org/" class="contacts__img-1 contacts__img">
+									</a>
+								</li>
+								<li class="contacts__elem">
+									<a href="https://web.whatsapp.com/" class="contacts__img-2 contacts__img">
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="contacts__info">
+							<div class="contacts__map" id="map"></div>
+						</div>
 					</div>
 				</div>
-				<div class="contacts__map" id="map"></div>
-
 			</div>
+
+
+
 
 
 
@@ -1625,19 +1596,25 @@
 	</footer>
 	<script src="https://api-maps.yandex.ru/2.1/?apikey=вашAPI-ключ&lang=ru_RU"></script>
 
-	<script src="js/jquery-3.5.1.min.js"></script>
-	<script src="js/jquery-ui.min.js"></script>
-	<script src="js/swiper/swiper-bundle.min.js"></script>
-	<script src="js/simplebar.min.js" defer></script>
-	<script src="js/choices.min.js" defer></script>
-	<script src="js/just-validate.min.js" defer></script>
-	<script src="js/inputmask.js" defer></script>
-	<script src="js/lazyload.min.js"></script>
-
-	<script src="js/script.min.js" defer></script>
-
+	<script src="/js/lib/jquery-3.5.1.min.js"></script>
+	<script src="/js/lib/jquery-ui.min.js"></script>
+	<script src="/js/lib/swiper-bundle.min.js"></script>
+	<script src="/js/lib/simplebar.min.js"></script>
+	<script src="/js/lib/choices.min.js"></script>
+	<script src="/js/lib/just-validate.min.js"></script>
+	<script src="/js/lib/lazyload.min.js"></script>
+	<script src="/js/lib/inputmask.js"></script>
+	<script type="module" src="js/script.js"></script>
+	<script src="/js/lightgallery.umd.js"></script>
+	<script src="/js/gallery/lg-thumbnail.umd.js"></script>
+	<script src="/js/gallery/lg-zoom.umd.js"></script>
+	<script src="/js/gallery/lg-fullscreen.umd.js"></script>
 	<script>
 		lazyload();
+		lightGallery(document.querySelector('.lightgallery'), {
+			plugins: [lgZoom, lgThumbnail, lgFullscreen],
+			speed: 500,
+		});
 	</script>
 </body>
 

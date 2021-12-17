@@ -1,372 +1,426 @@
-/* ____ Планшетная версия (768px)______ */
+@media (max-width: 1018px) {
+	.header__item:last-child {
+		margin-right: auto;
+	}
 
-@media (max-width: 768px) {
-  .fix-container {
-    max-width: 668px;
-  }
-  .title {
-    font-size: 46px;
-  }
-  .project__title {
-    margin-bottom: 18px;
-  }
-  .unity-top {
-    align-items: center;
-    padding-left: 50px;
-  }
+	.title {
+		font-size: 48px;
+		position: relative;
+		margin-bottom: 20px;
+	}
+	.project__title {
+		margin-bottom: 16px;
+		left: 0;
+	}
+	.unity-top {
+		align-items: center;
+		padding: 29px 0px 28px;
+	}
+	.logo {
+		margin-right: 9px;
+	}
 
-  .header__burger {
-    margin: 0;
-  }
-  .start__descr {
-    width: 100%;
-  }
-  .start__title {
-    margin-bottom: 8px;
-    font-size: 72px;
-    width: 85%;
-  }
-  .unity-bottom {
-    padding: 35px 54px;
-  }
-  .header__logo {
-    margin-left: 46px;
-  }
-  /* Второй блок */
-  .project__descr {
-    font-size: 16px;
-  }
-  /* трейтий блок */
-  .gallery__left {
-    width: 100%;
-    height: auto;
-    margin: 0;
-  }
-  .gallery__sort {
-    width: 42%;
-    order: 0;
-    margin-bottom: 88px;
-  }
-  .gallery__descr {
-    order: 2;
-  }
-  .gallery img {
-    width: 317px;
-    height: 280px;
-  }
-  .gallery__unity-block {
-    height: 1169px;
-  }
-  .gallery__filter-full {
-    justify-content: initial;
-  }
-  .gallery__right {
-    order: 1;
-    flex-grow: 1;
-  }
-  .slide__list {
-    margin: 21px 0px 28px;
-  }
-  .slide__active {
-    margin: 45px 0px 0px;
-    padding: 0px;
-  }
-  .gallery__img {
-    width: 318px;
-    height: 279px;
-    background-size: cover !important;
-    margin: 0;
-  }
-  .header__button {
-    margin: 0;
-    width: 30px;
-    height: 30px;
-  }
-  .content-1 {
-    width: 318px !important;
-  }
-  .history__img {
-    margin-right: 34px;
-  }
-  .history__countries {
-    margin-left: 37px;
-    margin-top: 7px;
-  }
-  .history__period {
-    padding: 40px 0 46px;
-}
-  .history__descr {
-    font-size: 16px;
-    margin: 13px 0 20px;
-  }
-  .history__info {
-    flex-direction: column;
-  }
-  .history__period:first-child {
-    padding-top: 41px;
-    padding-bottom: 0;
-  }
-  .history__right {
-    width: 100%;
-    order: 0;
-  }
-  .history__left {
-    width: 100%;
-    order: 1;
-    margin: 50px 0 auto;
-  }
-  .history__content {
-    padding: 25px 0;
-    height: 341px;
-  }
-  .history__period label {
-    padding: 36px 0 27px;
-    font-size: 24px;
-  }
-  .history__item {
-    width: 35.8%;
-    line-height: 32px;
-  }
-  .history__unity-block {
-    padding: 74px 0;
-  }
-  .history__left-img {
-    background-size: cover;
-    width: 100%;
-  }
-  .history__celebrity {
-    margin-top: 31px;
-  }
-  .gallery__title {
-    margin-bottom: 28px;
-    order: 0;
-  }
-  .descr-2 {
-    margin-top: 9px !important;
-    line-height: 32px;
-  }
-  .events__title {
-    padding: 0;
-    margin-top: -20px;
-  }
-  .events-1 {
-    margin-right: 30px !important;
-  }
-  .events-3 {
-    display: none;
-  }
-  .events__info h2 {
-    padding: 0;
-  }
-  .events__descr {
-    font-size: 15px;
-    line-height: 2.19;
-    padding-top: 3px;
-    word-spacing: 4px;
-  }
-  .events__container {
-    margin-top: 23px;
-  }
-  .events__block {
-    height: 700px;
-  }
-  .events__link {
-    margin: 0px 0px 61px;
-  }
-  .enents__title {
-    font-size: 24px;
-  }
-  .events__info {
-    padding: 0 32px;
-  }
-  .enents__link {
-    left: 34px;
-    bottom: 50px;
-  }
-  .editions {
-    background: url("../../IMG/birmingham-museums-trust-MK_98NuC4-4-unsplash4.webp")
-      no-repeat;
-    background-size: cover;
-  }
-  .editions__title {
-    margin-bottom: 28px;
-  }
-  .editions__price {
-    position: inherit;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .history__link {
-    margin-right: 0px;
-  }
-  .price-1 {
-    width: 61%;
-    margin-top: 33px;
-  }
-  .editions__all-category {
-    flex-wrap: wrap;
-    width: 100%;
-    height: 128px;
-    justify-content: space-between;
-    margin-bottom: 0;
-  }
-  .editions__all-category li {
-    margin-right: 58px;
-  }
-  .editions__all-category li:nth-child(7) {
-    margin-right: 28px;
-  }
-  .editions__category {
-    font-size: 16px;
-  }
-  .events__adrees {
-    margin: 12px 16px 3px;
-    line-height: 16px;
-  }
-  .editions__filter {
-    width: 100%;
-    margin-bottom: 3px;
-  }
-  .editions__size-swiper {
-    left: 114px;
-    top: -16px;
-  }
-  .editions__filter h3 {
-    margin-bottom: 14px;
-    font-size: 16px;
-  }
-  .editions__content {
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 74px 0 81px;
-  }
-  .content-2 {
-    display: flex;
-  }
-  .editions__books {
-    width: 100%;
-  }
-  .events-slide {
-    width: 317px !important;
-  }
-  .editions__books .slide-list {
-    margin: 40px 0 31px;
-  }
-  .events__button {
-    margin: 37px auto 85px;
-  }
-  .contacts__communication {
-    margin: 39px 0 18px;
-  }
-  .cost-1 {
-    padding: 0 10px;
-  }
-  .editions__cost-price {
-    width: 73px;
-  }
-  .cost-2 {
-    padding: 0 8px;
-  }
-  .editions__cost {
-    width: 68%;
-  }
-  .editions__info {
-    margin: 18px 0 12px;
-  }
-  .editions__size {
-    margin-left: 28px;
-  }
-  .editions img {
-    width: 289px;
-    height: 318px;
-  }
-  .detailed__descr {
-    line-height: 32px;
-    font-size: 16px;
-    width: 99%;
-  }
-  .partners__block-button {
-    flex-basis: 4%;
-  }
-  .partners__title {
-    margin-top: 28px;
-    font-size: 24px;
-  }
-  .partners__container {
-    height: 114px;
-    width: 90%;
-  }
-  .partners__btn {
-    top: 35%;
-  }
-  .partners__border {
-    height: 105px;
-    width: 265px;
-    margin: 0 auto;
-  }
-  .detailed__title {
-    margin-bottom: 23px;
-  }
-  .detailed__icon {
-    left: -7px;
-    bottom: 7px;
-  }
-  .footer__social {
-    width: 69px;
-    height: 60px;
-  }
-  .partners__border img {
-    padding: 34px 0px;
-  }
-  .footer__social:nth-child(2) {
-    margin: 0 16px;
-  }
-  .partners-2 {
-    background-size: 81%;
-  }
-  .btn-1 {
-    left: 6.5%;
-  }
-  .btn-2 {
-    right: 6.5%;
-  }
-  .footer__logo img {
-    width: 41%;
-  }
-  .form__title {
-    margin-bottom: 20px;
-  }
-  .footer__all {
-    padding: 40px 0;
-  }
-  .detailed {
-    margin-bottom: 62px !important;
-  }
-  .contacts__left {
-    padding: 123px 50px 106px 48px;
-  }
-  .contacts__street {
-    margin-top: 14px;
-    margin-bottom: 32px;
-  }
-  .form input {
-    width: 333px;
-    padding: 10px 20px;
-  }
-  .form__name,
-  .form__tel {
-    margin-bottom: 23px;
-  }
-  .contacts__img {
-    width: 59px;
-    height: 59px;
-    margin-left: 0px;
-    margin-right: 31px;
-  }
-  .footer__fc {
-    background-position: -158.5px;
-  }
-  .footer__inst {
-    background-position: -79.5px;
-  }
+	.header__burger {
+		margin: 0;
+		height: 43px;
+	}
+	.header__line::after {
+		bottom: -24px;
+	}
+	.start__descr {
+		width: 100%;
+	}
+	.start__title {
+		margin-bottom: 11px;
+		font-size: 72px;
+		width: 85%;
+		line-height: 83px;
+	}
+
+	.unity-bottom {
+		padding: 35px 54px;
+	}
+
+	/* Второй блок */
+	.project__descr {
+		padding: 5px 0 69px;
+	}
+	/* трейтий блок */
+	.gallery__left {
+		width: 100%;
+		height: auto;
+		margin: 0;
+	}
+	.gallery__sort {
+		width: 42%;
+		order: 0;
+		margin-bottom: 30px;
+	}
+	.gallery__descr {
+		order: 2;
+	}
+	.gallery img {
+		width: 100%;
+		height: 100%;
+	}
+	.swiper__img-block {
+		width: 317px;
+		height: 280px;
+	}
+
+	.gallery__filter-full {
+		justify-content: initial;
+		flex-direction: column;
+	}
+	.gallery__right {
+		order: 1;
+		flex-grow: 1;
+		height: 768px;
+	}
+	.slide__list {
+		margin: 21px 0px 29px;
+	}
+	.gallery__img {
+		width: 318px;
+		height: 279px;
+		background-size: cover !important;
+		margin: 0;
+	}
+	.header__button {
+		margin: 0;
+		width: 27px;
+		height: 35px;
+		left: 0px;
+		bottom: -1px;
+	}
+
+	.content-1 {
+		width: 318px !important;
+	}
+	.history__unity-block {
+		padding: 72px 0 54px;
+	}
+	.history__descr {
+		font-size: 16px;
+		margin: 8px 0 20px;
+	}
+	.history__info {
+		flex-direction: column;
+	}
+	.history__right {
+		width: 100%;
+		order: 0;
+		margin-bottom: 50px;
+	}
+	.history__button {
+		right: 1px;
+	}
+	.history__name {
+		margin-bottom: 12px;
+	}
+	.history__left {
+		width: 100%;
+		order: 1;
+	}
+	.history__img-block {
+		height: 420px;
+		width: 100%;
+	}
+	.history__content {
+		height: 313px;
+	}
+	.history__header {
+		margin-bottom: 1px;
+	}
+
+	.history__item {
+		font-size: 16px;
+		line-height: 32px;
+		font-weight: normal;
+	}
+	
+	.history__item:nth-child(-n + 11) {
+		margin: 0;
+	}
+	.history__item:nth-child(4),
+	.history__item:nth-child(12) {
+		margin-right: 54px;
+	}
+
+	.history__left-img {
+		background-size: cover;
+		width: 100%;
+	}
+	.history__countries {
+		padding: 0 0 14px 40px;
+		margin-top: 12px;
+	}
+	.history__title {
+		margin-bottom: 0;
+	}
+	.history__elem {
+		align-items: center;
+		padding-top: 8px;
+		margin-right: 54px;
+		width: 46px;
+		height: 54px;
+	}
+
+	.history__elem:last-child {
+		margin-right: 0;
+	}
+
+	.gallery__title {
+		margin-bottom: 28px;
+		order: 0;
+	}
+
+	.descr-2 {
+		line-height: 32px;
+	}
+
+	.events__title {
+		padding: 0;
+	}
+	.events-3 {
+		display: none;
+	}
+	.events-slide {
+		width: 317px;
+	}
+	.events__container {
+		margin-bottom: 33px;
+	}
+	.events-slide:not(:nth-child(3n)) {
+		margin: 0;
+	}
+	.events-slide:nth-child(odd) {
+		margin-right: 34px;
+	}
+	.events__info h2 {
+		padding: 0;
+		margin: 0;
+	}
+	.events__descr {
+		font-size: 16px;
+		line-height: 32px;
+		padding-top: 3px;
+	}
+
+	.events__block {
+		height: 684px;
+	}
+	.events__link {
+		margin: 0px 0px 48px;
+		font-size: 16px;
+		width: 35%;
+	}
+	.events__img img {
+		height: 200px;
+	}
+	.events__info h3 {
+		margin-bottom: 0px;
+	}
+	.events__img {
+		max-height: 199px;
+		margin-bottom: 15px;
+	}
+	.enents__title {
+		font-size: 24px;
+	}
+	.enents__link {
+		left: 34px;
+		bottom: 50px;
+	}
+	.editions {
+		background: url(../IMG/birmingham-museums-trust-MK_98NuC4-4-unsplash4.webp)
+			no-repeat;
+		background-size: cover;
+	}
+	.editions__title {
+		margin-bottom: 28px;
+	}
+	.editions__price {
+		position: inherit;
+		align-items: flex-start;
+		flex-direction: column;
+	}
+
+	.price-1 {
+		width: 100%;
+	}
+	.editions__all-category {
+		flex-wrap: wrap;
+		width: 100%;
+		height: 161px;
+		justify-content: space-between;
+		margin-bottom: 31px;
+	}
+	.editions__all-category li {
+		margin-right: 40px;
+		width: 28%;
+	}
+	.editions__all-category li:nth-child(7) {
+		margin-right: 71px;
+	}
+	.editions__all-category li:nth-child(12) {
+		margin-bottom: auto;
+	}
+	.editions__category {
+		font-size: 16px;
+	}
+	.events__adress {
+		margin: 0px 15px 3px;
+		line-height: 16px;
+		font-weight: 600;
+	}
+
+	.editions__filter {
+		width: 100%;
+		margin-bottom: 3px;
+	}
+	.editions__size {
+		padding-left: 27px;
+	}
+	.editions__filter h3 {
+		margin-bottom: 14px;
+		font-size: 16px;
+	}
+	.editions__content {
+		flex-direction: column;
+		justify-content: flex-start;
+		padding: 89px 0 80px;
+	}
+	.content-2 {
+		display: flex;
+	}
+	.editions__books {
+		width: 100%;
+		padding: 0;
+	}
+
+	.editions__books .slide-list {
+		margin: 0;
+		padding: 13px 0 29px;
+	}
+	
+	.contacts__social {
+		height: 100%;
+	}
+	.cost-1 {
+		padding: 0 10px;
+	}
+	.editions__cost-price {
+		width: 73px;
+	}
+	.cost-2 {
+		padding: 0 8px;
+	}
+	.editions__cost {
+		width: 68%;
+	}
+
+	.editions__button {
+		font-size: 16px;
+	}
+	.editions img {
+		width: 289px;
+		height: 320px;
+	}
+	.category__list-title {
+		margin-bottom: 7px;
+	}
+	.detailed__descr {
+		line-height: 32px;
+		font-size: 16px;
+		width: 99%;
+	}
+	.partners__block-button {
+		flex-basis: 4%;
+	}
+	.partners__title {
+		font-size: 24px;
+		margin-bottom: 32px;
+	}
+	.partners__container {
+		height: 114px;
+		width: 90%;
+	}
+	.partners__btn {
+		top: 33%;
+	}
+	.partners__border {
+		height: 105px;
+		width: 265px;
+		margin: 0 auto;
+	}
+	.detailed__title {
+		margin-bottom: 21px;
+	}
+	.detailed__descr a {
+		display: flex;
+		
+		width: 39%;
+	}
+	.detailed__unity-block {
+		padding: 85px 0 27px;
+	}
+	.detailed__icon {
+		left: -3px;
+	}
+	.footer__social {
+		width: 69px;
+		height: 60px;
+	}
+	.partners__border img {
+		padding: 34px 0px;
+	}
+	.footer__social:nth-child(2) {
+		margin: 0 16px;
+	}
+	.partners-2 {
+		background-size: 81%;
+	}
+	.btn-1 {
+		left: 6.5%;
+	}
+	.btn-2 {
+		right: 6.5%;
+	}
+	.form__title {
+		margin-bottom: 19px;
+	}
+	.footer__all {
+		padding: 40px 0;
+	}
+
+	.partners__block {
+		padding-bottom: 77px;
+	}
+	.contacts__title {
+		margin-bottom: 21px;
+	}
+	.contacts__left {
+		padding: 125px 43px 83px  49px;
+
+	}
+	.contacts__street {
+		margin-bottom: 35px;
+	}
+	.form__name {
+		padding-bottom: 9px;
+	}
+	.form__tel {
+		padding-bottom: 10px;
+	}
+
+	.contacts__communication {
+		margin-bottom: 17px;
+	}
+	.footer__elem {
+		width: 62px;
+	}
+	.footer__elem:not(:last-child) {
+		margin-right: 28px;
+	}
 }
