@@ -1,8 +1,5 @@
 export function filter() {
     $(document).ready(function () {
-        if ($(window).width() <= 1024) {
-            $('.unity-top').append($('.header__search-full'));
-        }
         if ($(window).width() <= 500) {
             $('.editions__all-category--new').append($('.ed__elem-4'));
             $('.editions__elem').addClass('active-2')

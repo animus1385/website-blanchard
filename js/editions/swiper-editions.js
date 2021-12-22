@@ -18,24 +18,34 @@ export function swiperEditions() {
                 slidesPerView: "auto",
             },
             501: {
-                direction:  "horizontal",
-                spaceBetween:20,  
-                slidesPerView: 2,   
+                direction: "horizontal",
+                spaceBetween: 20,
+                slidesPerView: 2,
             },
             767: {
-                direction:  "horizontal",
-                spaceBetween: 0,  
-                slidesPerView: 2,      
+                direction: "horizontal",
+                spaceBetween: 0,
+                slidesPerView: 2,
             },
             768: {
-                width: 613,
-                
                 slidesPerView: 2,
                 spaceBetween: 37,
                 slidesPerGroup: 1,
-                
+                width: 613
             },
-            1024: { slidesPerView: 2, spaceBetween: 55,  width: 640, },
+            769:{
+                slidesPerView:2,
+                width: 730
+            },
+            900: {
+                slidesPerView:2,
+                width: 850
+            },
+            1010: {
+                width: 890
+            },
+            1024: { slidesPerView: 2, spaceBetween: 55, },
+
             1400: { slidesPerView: 3, },
             1920: {
                 width: 1162
