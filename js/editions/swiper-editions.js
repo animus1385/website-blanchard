@@ -1,9 +1,6 @@
 export function swiperEditions() {
     new Swiper(".editions__books", {
-        spaceBetween: 50,
-        slidesPerView: 3,
-        slidesPerGroup: 3,
-        setWrapperSize: !0,
+
         edgeSwipeThreshold: 0,
         navigation: {
             nextEl: ".btn__editions-right",
@@ -20,7 +17,10 @@ export function swiperEditions() {
             501: {
                 direction: "horizontal",
                 spaceBetween: 20,
-                slidesPerView: 2,
+                slidesPerView: 1,
+            },
+            600: {
+                slidesPerView: 2, spaceBetween: 20,
             },
             767: {
                 direction: "horizontal",
@@ -29,27 +29,17 @@ export function swiperEditions() {
             },
             768: {
                 slidesPerView: 2,
-                spaceBetween: 37,
+                spaceBetween: -21,
                 slidesPerGroup: 1,
-                width: 613
             },
-            769:{
-                slidesPerView:2,
-                width: 730
+            951: {
+                spaceBetween: 20,
+                slidesPerView: 3,
             },
-            900: {
-                slidesPerView:2,
-                width: 850
-            },
-            1010: {
-                width: 890
-            },
-            1024: { slidesPerView: 2, spaceBetween: 55, },
+            1011: { slidesPerView: 2, spaceBetween: 56, },
+            1200: { spaceBetween: 50, slidesPerView: 2, },
+            1600: { slidesPerView: 3, spaceBetween: 55, },
 
-            1400: { slidesPerView: 3, },
-            1920: {
-                width: 1162
-            }
         },
         pagination: {
             el: ".list__counter",

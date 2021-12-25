@@ -2,7 +2,7 @@ export function swiperEvetns() {
     let mySwiper1;
     var mySwiperEV = document.querySelector(".events__container");
     function mobileSlider() {
-        window.innerWidth <= 681 &&
+        window.innerWidth <= 740 &&
             "false" == mySwiperEV.dataset.mobile &&
             ((mySwiper1 = new Swiper(mySwiperEV, {
                 slidesPerView: "auto",
@@ -12,7 +12,7 @@ export function swiperEvetns() {
                 pagination: { el: ".swiper-pagination" }
             })),
                 (mySwiperEV.dataset.mobile = "true")),
-            window.innerWidth > 681 &&
+            window.innerWidth > 740 &&
             mySwiper1 &&
             ((mySwiperEV.dataset.mobile = "false"), mySwiper1.destroy());
     }

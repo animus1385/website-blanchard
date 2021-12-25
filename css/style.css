@@ -712,7 +712,6 @@ input::-webkit-search-results-decoration {
 	background: url(../img/gallery/birmingham-museums-trust-MK_98NuC4-4-unsplash3.webp)
 		no-repeat;
 	background-size: cover;
-	background-position-x: -11px;
 }
 .gallery .swiper-wrapper {
 	height: 100% !important;
@@ -724,7 +723,7 @@ input::-webkit-search-results-decoration {
 
 .gallery__unity-block {
 	display: flex;
-	padding: 85px 0 77px;
+	padding: 85px 0 78px;
 	position: relative;
 }
 
@@ -773,7 +772,7 @@ input::-webkit-search-results-decoration {
 	color: #ffffff;
 	line-height: 32px;
 	font-weight: 600;
-	max-height: 121px;
+	max-height: 120px;
 	overflow-wrap: break-word;
 }
 .gallery__descr-link {
@@ -1337,20 +1336,20 @@ input::-webkit-search-results-decoration {
 	display: flex;
 
 	justify-content: space-between;
-	padding: 84px 0 46px;
+	padding: 84px 0 44px;
 }
 
 .editions__filter,
 .editions__all-category {
 	display: flex;
 	flex-direction: column;
-	flex-basis: 66%;
+	width: 436px;
 }
 .editions__filter {
 	padding-bottom: 36px;
 }
 .editions__all-category {
-	margin-bottom: 34px;
+	margin-bottom: 35px;
 }
 
 .category__list-title {
@@ -1424,15 +1423,16 @@ input::-webkit-search-results-decoration {
 	display: flex;
 	flex-direction: column;
 }
-.editions__book {
-	flex-grow: 1;
-	flex-shrink: 1;
-}
+
 .editions__books {
 	padding-left: 14px;
+	padding-right: 9px;
 }
-.editions__book img {
-	margin-bottom: 23px;
+.editions__book {
+	width: 350px;
+}
+.editions__img-block {
+	margin-bottom: 20px;
 }
 .editions__books .slide-list {
 	display: flex;
@@ -1472,10 +1472,11 @@ i {
 	font-size: 15px;
 	line-height: 22px;
 	font-weight: normal;
+	padding-right: 2px;
 }
 .editions__button {
 	margin-right: auto;
-	padding: 8px 19px;
+	padding: 8px 20px;
 	display: flex;
 	justify-content: center;
 	border-radius: 30px;
@@ -1718,7 +1719,7 @@ i {
 
 .contacts__left {
 	display: flex;
-	padding: 125px 121px 103px 1px;
+	padding: 125px 121px 104px 0px;
 	flex-direction: column;
 	z-index: 1;
 	border-right: 1px solid #cacaca;
@@ -2200,6 +2201,9 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		height: 100%;
 		width: 100%;
 	}
+	.editions__book {
+		width: auto;
+	}
 }
 @media (max-width: 1440px) {
 	.logo {
@@ -2216,6 +2220,9 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 	}
 	.detailed__descr {
 		width: 80%;
+	}
+	.editions__filter {
+		width: 35%;
 	}
 }
 @media (max-width: 1200px) {
@@ -2249,11 +2256,14 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		display: flex;
 		flex-direction: row;
 	}
+	.header__top .fix-container {
+		padding-right: 0;
+	}
 	.fix-container {
 		padding: 0 49px 0 50px;
 	}
 	.header__top {
-		width: 100%;
+		width: 80%;
 	}
 	.header__bottom {
 		width: 55%;
@@ -2313,7 +2323,7 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 	.header__logo {
 		width: 188px;
 		height: 44px;
-		margin-right: 7px;
+		margin-right: 0px;
 	}
 
 	.header__menu {
@@ -2597,12 +2607,13 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 
 	.editions__filter,
 	.editions__all-category {
-		margin-right: 7px;
+		width: 281px;
 	}
 	.editions__all-category {
 		line-height: 2;
 		margin-bottom: 33px;
 	}
+
 	.editions__category {
 		font-size: 16px;
 	}
@@ -2615,8 +2626,12 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 	.editions__button {
 		padding: 9px 19px;
 	}
-	.editions__book img {
+	.editions__img-block {
 		margin-bottom: 13px;
+		height: 320px;
+	}
+	.editions__book {
+		width: 290px;
 	}
 	.editions__elem {
 		padding-bottom: 1.6px;
@@ -2778,10 +2793,9 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		align-items: center;
 		padding: 30px 0px 27px;
 	}
-	.logo {
-		margin-right: 9px;
+	.header__top {
+		width: 82%;
 	}
-
 	.header__burger {
 		margin: 0;
 		height: 43px;
@@ -2790,7 +2804,7 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		bottom: -24px;
 	}
 	.header__bottom {
-		width: 43%;
+		width: 50%;
 	}
 	.unity-bottom {
 		padding: 35px 0 30px;
@@ -2812,12 +2826,13 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 	.gallery__left {
 		height: auto;
 		width: 100%;
+		margin: 0;
 	}
 	.gallery__sort {
-		order: 0;
 		width: 42%;
-		margin-bottom: 30px;
+		margin-bottom: 734px;
 	}
+
 	.gallery__descr {
 		order: 2;
 	}
@@ -2831,9 +2846,8 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		height: 280px !important;
 	}
 	.gallery__right {
-		order: 1;
-		flex-grow: 1;
-		margin-bottom: 29px;
+		position: absolute;
+		top: 273px;
 	}
 	.slide__list {
 		margin: 21px 0px 29px;
@@ -2846,6 +2860,7 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 	}
 	.gallery__unity-block {
 		padding-bottom: 70px;
+		position: relative;
 	}
 	.header__button {
 		margin: 0;
@@ -3035,7 +3050,6 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 
 	.editions__filter {
 		width: 100%;
-		margin-bottom: 3px;
 	}
 
 	.editions__filter h3 {
@@ -3055,12 +3069,13 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		width: 100%;
 		padding: 0;
 	}
-	.editions__book img {
-		margin-bottom: 12px;
+
+	.editions__book {
+		width: 250px;
 	}
 	.editions__books .slide-list {
 		margin: 0;
-		padding: 13px 0 29px;
+		padding: 13px 0 30px;
 	}
 
 	.contacts__social {
@@ -3089,7 +3104,7 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 	.detailed__descr {
 		line-height: 32px;
 		font-size: 16px;
-		width: 95.5%;
+		width: 92%;
 	}
 	.partners__block-button {
 		flex-basis: 4%;
@@ -3113,7 +3128,7 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 	.detailed__title {
 		margin-bottom: 21px;
 	}
-	
+
 	.detailed__unity-block {
 		padding: 85px 0 27px;
 	}
@@ -3163,7 +3178,10 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		padding: 125px 44px 84px 0px;
 	}
 	.contacts__street {
-		margin-bottom: 35px;
+		margin-bottom: 36px;
+	}
+	.contacts__communication {
+		margin-bottom: 17px;
 	}
 	.form__name {
 		padding-bottom: 9px;
@@ -3179,7 +3197,18 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		margin-right: 28px;
 	}
 }
-
+@media (max-width: 950px) {
+	.editions__img-block {
+		width: auto;
+	}
+	.editions__book {
+		width: auto;
+	}
+	.popup-2,
+	.popup-1 {
+		width: 200px;
+	}
+}
 @media (max-width: 740px) {
 	.history__content {
 		height: auto;
@@ -3195,6 +3224,10 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		font-size: 16px;
 		margin-bottom: 50px;
 	}
+	.gallery__sort {
+		margin-bottom: 753px;
+	}
+
 	.history__countries {
 		padding: 0;
 		width: 100%;
@@ -3261,6 +3294,23 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		width: auto;
 		left: -42px;
 	}
+	.header__bottom {
+		width: 45%;
+	}
+}
+@media (max-width: 600px) {
+	.gallery__sort {
+		margin-bottom: 432px;
+	}
+	.editions__book {
+		flex-grow: 1;
+	}
+	.editions__img-block {
+		height: auto;
+	}
+	.header__bottom {
+		width: 40%;
+	}
 }
 @media (max-width: 500px) {
 	.fix-container {
@@ -3280,9 +3330,7 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		justify-content: space-between;
 		padding: 11px 0px 10px;
 	}
-	.header__bottom {
-		width: 39%;
-	}
+
 	.unity-bottom {
 		padding: 14px 0;
 	}
@@ -3409,10 +3457,10 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 	}
 	.gallery__sort {
 		width: 99%;
-		margin-bottom: 40px;
+		margin-bottom: 477px;
 	}
 	.gallery__right {
-		margin-bottom: 0;
+		top: 219px;
 	}
 	.choices[data-type*="select-one"]:after {
 		top: 38%;
@@ -3702,10 +3750,6 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		width: 45%;
 		margin-bottom: 51px;
 	}
-	.content-2:last-child,
-	.content-2:nth-last-child(2) {
-		margin-bottom: 48px;
-	}
 
 	.swiper-container-multirow-column > .swiper-wrapper {
 		flex-direction: row;
@@ -3717,10 +3761,13 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 	.editions__price i {
 		font-size: 11px;
 	}
-	.editions img {
-		min-width: 130px;
-		height: auto;
-		margin-bottom: 6px;
+	.editions__img-block {
+		height: 143px;
+		width: 130px;
+		margin-bottom: 8px;
+	}
+	.editions__author {
+		margin-bottom: 1px;
 	}
 	.editions__info {
 		flex-direction: column;
@@ -3744,8 +3791,7 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 
 	.detailed__descr {
 		font-size: 16px;
-
-		width: 100%;
+		width: 95%;
 	}
 	.partners__title {
 		font-size: 18px;
@@ -3807,8 +3853,13 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 	.detailed {
 		margin-bottom: 54px !important;
 	}
+	.popup {
+		font-size: 10px;
+		padding: 10px 5px;
+		left: -24px;
+	}
 	.popup-3 {
-		left: -55px;
+		left: -33px;
 	}
 	.contacts {
 		position: relative;
@@ -3850,10 +3901,7 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		padding: 11px 23px 9px;
 		margin-bottom: 20px;
 	}
-	.popup {
-		font-size: 10px;
-		padding: 10px 5px;
-	}
+
 	.footer__elem {
 		height: 50px;
 		width: 50px;
@@ -3935,5 +3983,15 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 	}
 	.footer__fc {
 		background-position: -139.5px 0px;
+	}
+}
+@media (max-width: 400px) {
+	.header__bottom {
+		width: 40%;
+	}
+}
+@media (max-width: 320px) {
+	.detailed__descr {
+		width: 100%;
 	}
 }
