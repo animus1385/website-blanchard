@@ -1,14 +1,17 @@
 export function burgerMenu() {
-    (function () {
-        const e = document.querySelector(".header__burger");
-        e.addEventListener("click", () => {
-            e.classList.toggle("active");
-        });
-    })(),
-        $(".header__burger").click(function () {
-            $(".header__menu, .header__list").toggleClass("is-active"),
-                $("body").toggleClass("lock");
-        });
+
+    const e = document.querySelector(".header__burger");
+    e.addEventListener("click", () => {
+        e.classList.toggle("active");
+    });
+    $(".header__burger").click(function (e) {
+        $(".header__menu, .header__list").toggleClass("is-active"),
+            $("body").toggleClass("lock");
+    });
+    $('.header__nav-bg').click(function (e) {
+        $(".header__menu, .header__list").removeClass("is-active"),
+            $("body").removeClass("lock");
+    })
 }
 
 

@@ -2333,13 +2333,22 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		text-align: center;
 		width: 100%;
 		height: 100%;
+		background-color: rgba(0, 0, 0, 0.726);
 		margin: 0px auto;
 		left: -118%;
 		font-size: 30px;
 		bottom: -100px;
 		border-top: 1px solid #cacaca;
-		background-color: rgba(0, 0, 0, 0.726);
 		transition: all 0.3s ease 0s;
+	}
+	.header__nav-bg {
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
 	}
 	.header__item {
 		border-bottom: 2px solid #cacaca;
