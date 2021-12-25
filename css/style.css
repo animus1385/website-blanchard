@@ -1621,6 +1621,8 @@ i {
 	font-size: 16px;
 	font-weight: 600;
 	color: #9d5cd0;
+	margin-right: auto;
+	white-space: nowrap;
 }
 /*_____Восьмой блок_______*/
 
@@ -3207,6 +3209,11 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 	.popup-2,
 	.popup-1 {
 		width: 200px;
+	}
+}
+@media (max-width: 768px) {
+	.detailed__descr {
+		width: 98%;
 	}
 }
 @media (max-width: 740px) {
