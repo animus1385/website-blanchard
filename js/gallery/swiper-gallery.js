@@ -1,3 +1,4 @@
+
 export function swiperGallery() {
 
     new Swiper(".gallery__right", {

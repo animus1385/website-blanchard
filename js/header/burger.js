@@ -8,7 +8,7 @@ export function burgerMenu() {
         $(".header__menu, .header__list").toggleClass("is-active"),
             $("body").toggleClass("lock");
     });
-    $('.header__nav-bg').click(function (e) {
+    $('.header__close-nav').click(function (e) {
         $(".header__menu, .header__list").removeClass("is-active"),
             $("body").removeClass("lock");
     })

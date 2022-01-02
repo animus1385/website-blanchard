@@ -45,28 +45,17 @@ export function map() {
                         iconLayout: 'default#image',
                         iconImageHref: 'img/icon/marker.svg',
                         iconImageSize: [20, 20],
-
                     },
-
-
-                ))
-                 
-               
-              
+                ))                 
                     e.setBounds([[55.77, 37.59], [55.75, 37.611]], {
                         checkZoomRange: true,
                         zoomMargin: 14,
-                    })
-                 
-               
+                    })               
             }),
-
                 (flag = 1);
 
-
-
             let e = document.querySelector(".contacts__left"),
-                t = document.querySelector("#map");
+                t = document.querySelector(".contacts__map-conatainer");
             document.body.offsetWidth <= 450 && e.prepend(t);
         }
     });

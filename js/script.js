@@ -20,6 +20,9 @@ import { formInput } from './container-pop/form-input.js'
 import { containerPop } from './container-pop/container-pop.js'
 import { price } from './editions/price.js'
 import { filter } from './editions/filter.js'
+import tooltipsActive from './tooltip.js'
+import activelightGallery from './gallery/gallary.js'
+import search from './header/search.js';
 
 //  ПОДКЛЮЧЕНИЕ ФУНКЦИЙ
 swiperStart();      /* СВАЙПЕР START */
@@ -41,5 +44,6 @@ formInput()         /* МЕНЯЕТ ЦВЕТ БЕКГРАУНДА ПРИ КЛИ�
 containerPop()      /* ОКНО РЕГИСТРАЦИИ */
 price()             /* ПОДСЧЕТ ЦЕНЫ */
 filter()            /* ФИЛЬТЕР ПО ЖАНРАМ */
-
-
+tooltipsActive()    /* туллтипы */
+activelightGallery() /* подключение галлереи */
+search()             /* подключение поиска */
