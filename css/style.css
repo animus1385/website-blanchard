@@ -426,7 +426,6 @@ button {
 
 .unity-bottom {
 	padding: 21px 0 20px;
-	overflow: hidden;
 }
 
 .item-bottom {
@@ -2264,7 +2263,7 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		width: 80%;
 	}
 	.header__bottom {
-		width: 55%;
+		width: 54%;
 		background-color: black;
 	}
 	.unity-bottom {
@@ -2467,6 +2466,9 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 	}
 	/* Третий блок */
 
+	.gallery {
+		background: url(../img/gallery/bg-1024.jpg) no-repeat;
+	}
 	.choices__list--single,
 	.choices__list--single .choices__item {
 		font-size: 16px;
@@ -2627,6 +2629,8 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 	.editions {
 		overflow: hidden;
 		position: relative;
+		background: url(../img/editions/bg-1024.png) no-repeat;
+		background-size: cover;
 	}
 	.editions__title {
 		font-size: 48px;
@@ -2841,6 +2845,10 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		padding: 5px 0 68px;
 	}
 	/* трейтий блок */
+	.gallery {
+		background: url(../img/gallery/bg-768.png) no-repeat;
+		background-size: cover;
+	}
 	.gallery__left {
 		height: auto;
 		width: 100%;
@@ -3024,8 +3032,7 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		bottom: 50px;
 	}
 	.editions {
-		background: url(../IMG/birmingham-museums-trust-MK_98NuC4-4-unsplash4.webp)
-			no-repeat;
+		background: url(../img/editions/bg-768.png) no-repeat;
 		background-size: cover;
 	}
 	.editions__title {
@@ -3222,11 +3229,15 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 	.editions__book {
 		width: auto;
 	}
+	.header__top {
+		width: 80%;
+	}
 }
 @media (max-width: 740px) {
 	.history__content {
 		height: auto;
 	}
+	
 	.start__info {
 		padding: 150px 0 85px;
 	}
@@ -3302,6 +3313,19 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 	.choices__list--dropdown {
 		background-color: rgba(105, 102, 102, 1);
 	}
+	.swiper-pagination-bullet {
+		width: 10px;
+		height: 10px;
+	}
+	.swiper-container-horizontal
+		> .swiper-pagination-bullets
+		.swiper-pagination-bullet {
+		margin-right: 15px;
+		margin-left: 0;
+	}
+	.swiper-pagination-bullet-active {
+		background-color: #666666;
+	}
 }
 /* ____ Мобильная версия (320px)______ */
 
@@ -3321,7 +3345,7 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		height: auto;
 	}
 	.header__bottom {
-		width: 40%;
+		width: 39%;
 	}
 	.popup {
 		max-width: 110px;
@@ -3366,22 +3390,22 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 	.header__line,
 	.header__line::before,
 	.header__line::after {
-		height: 1px;
-		width: 22px;
+		height: 2px;
+		width: 24px;
 	}
 	.header__line::before {
-		top: 7px;
-		left: -6px;
+		top: 8px;
+		left: -8px;
 	}
 	.header__line {
-		top: 2px;
+		top: 1px;
 	}
 	.header__search-full {
 		padding: 0;
 	}
 	.header__line::after {
 		bottom: -16px;
-		left: -12px;
+		left: -14px;
 	}
 	.header__button svg {
 		width: 30px;
@@ -3403,8 +3427,8 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		height: 16px;
 		bottom: 1px;
 		position: relative;
-		bottom: 2px;
-		left: 0px;
+		bottom: 1px;
+		left: 1px;
 	}
 	.start__info {
 		padding: 77px 0 45px;
@@ -3445,6 +3469,10 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 	.project__info {
 		width: 100%;
 		padding: 53px 0 1px;
+	}
+	.gallery {
+		background: url(../img/gallery/bg-320.png) no-repeat;
+		background-size: cover;
 	}
 	.gallery__title {
 		margin-bottom: 22px;
@@ -3652,16 +3680,6 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		margin: 0 21px;
 		left: -14px !important;
 	}
-	.swiper-container-horizontal
-		> .swiper-pagination-bullets
-		.swiper-pagination-bullet {
-		margin-right: 15px;
-		margin-left: 0;
-	}
-	.swiper-pagination-bullet {
-		width: 10px;
-		height: 10px;
-	}
 
 	.events__link {
 		font-size: 16px;
@@ -3721,6 +3739,7 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		display: none;
 		flex-wrap: nowrap;
 		height: auto;
+		margin-bottom: 0;
 	}
 	.h2-active.category__list-title::after {
 		transform: rotate(180deg);
@@ -3746,7 +3765,10 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		width: auto;
 		margin: 0;
 	}
-
+	.editions {
+		background: url(../img/editions/bg-320.png) no-repeat;
+		background-size: cover;
+	}
 	.editions__content {
 		padding: 13px 0 2px;
 	}
@@ -3776,8 +3798,6 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 		font-size: 11px;
 	}
 	.editions__img-block {
-		height: 143px;
-		width: 130px;
 		margin-bottom: 8px;
 	}
 	.editions__author {
@@ -4001,5 +4021,8 @@ input[type="checkbox"]:checked + .editions__category-text::after {
 @media (max-width: 400px) {
 	.header__bottom {
 		width: 40%;
+	}
+	.editions__img-block {
+		height: 143px;
 	}
 }

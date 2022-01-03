@@ -8,10 +8,14 @@ export function swiperEvetns() {
                 slidesPerView: "auto",
                 slidesPerGroup: 1,
                 slideClass: "events-slide",
+                spaceBetween: 40,
                 loop: !1,
-                pagination: { el: ".swiper-pagination" }
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
             })),
-                (mySwiperEV.dataset.mobile = "true")),
+                    (mySwiperEV.dataset.mobile = "true")),
             window.innerWidth > 740 &&
             mySwiper1 &&
             ((mySwiperEV.dataset.mobile = "false"), mySwiper1.destroy());

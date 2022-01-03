@@ -22,16 +22,16 @@ export function filter() {
             $('body').on('click', '.editions__elem-button', function () {
                 let deleteElem = $(this).parent()
                 if (!$('.editions__all-category').is(deleteElem)) {
-                    deleteElem = deleteElem.remove()
-                    deleteElem.addClass('active-2')
-                    $('input[type="checkbox"]').prop('checked', false);
+                    deleteElem = deleteElem.remove()                 
+                    deleteElem.addClass('active-2')     
                     $(this).removeClass('editions__elem-button--acive');
                     $('.editions__all-category').append(deleteElem.removeClass('active-elem'))
+                    $('.editions__all-category input[type="checkbox"]').prop('checked', false);
                 }
             })
 
         }
-        
+
     });
     $('.editions__category').keypress(function (e) {
         if (e.keyCode == 13) {

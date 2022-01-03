@@ -12,10 +12,10 @@ export function headerButtons() {
     });
     $('.link-bottom').on('click', function (e) {
 
-        console.dir(e.target)
-        $(e.target).children().children().addClass('active-icon');
+        console.dir(this)
+        $(this).children().children().addClass('active-icon');
         $('.header__content').removeClass('header__content--active');
-        $(e.target.parentElement.lastElementChild).toggleClass('header__content--active');
+        $(this.parentElement.lastElementChild).toggleClass('header__content--active');
     });
 }
 
