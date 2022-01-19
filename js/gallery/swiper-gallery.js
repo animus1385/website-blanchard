@@ -47,7 +47,7 @@ export function swiperGallery() {
 
                 slidesPerView: 3,
                 slidesPerGroup: 3,
-                spaceBetween: 52,
+                spaceBetween: 50,
             }
         },
         pagination: {

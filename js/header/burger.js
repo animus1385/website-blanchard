@@ -5,13 +5,10 @@ export function burgerMenu() {
         e.classList.toggle("active");
     });
     $(".header__burger").click(function (e) {
-        $(".header__menu, .header__list").toggleClass("is-active"),
+        $(".header__menu, .header__list, .header__akk").toggleClass("is-active"),
             $("body").toggleClass("lock");
     });
-    $('.header__close-nav').click(function (e) {
-        $(".header__menu, .header__list").removeClass("is-active"),
-            $("body").removeClass("lock");
-    })
+    
 }
 
 

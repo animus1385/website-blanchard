@@ -31,7 +31,6 @@
 					</button>
 					<a href="#" class="header__logo logo link"><img src="./img/logo.png" alt="Логотип" /></a>
 					<nav class="header__menu">
-						<div class="header__close-nav"></div>
 						<ul class="header__list">
 							<li class="header__item item-top">
 								<a href="#about" class="header__link link">О нас</a>
@@ -57,7 +56,7 @@
 						</ul>
 					</nav>
 
-					<a href="#" class="header__link header__akk">
+					<button class="header__link header__akk">
 						<svg class="icon-Vector" width="13" height="13" viewBox="0 0 13 13"
 							xmlns="http://www.w3.org/2000/svg">
 							<path d="M5.12056 9.09278L6.13889 10.1111L9.75
@@ -69,7 +68,7 @@
                                     12.35 0.642778 13 1.44444 13H11.5556C12.35
                                     13 13 12.35 13 11.5556V1.44444C13 0.65 12.35
                                     0 11.5556 0Z" fill="white" />
-						</svg>Войти</a>
+						</svg>Войти</button>
 					<div class="header__log-in ">
 						<div class="akk-log-in__background"></div>
 						<div class="akk-log-in__content akk-log-in">
@@ -337,8 +336,8 @@
 							</ul>
 						</li>
 					</ul>
-					<form class="header__search-full">
-						<button class="header__button">
+					<div class="header__search-block">
+						<button class="header__button-open">
 							<svg width="23" height="22" viewBox="0 0 23 22" fill="none"
 								xmlns="http://www.w3.org/2000/svg">
 								<rect width="6.8678" height="1.71695"
@@ -349,8 +348,21 @@
 									fill="white" />
 							</svg>
 						</button>
-						<input class="header__search" placeholder="Поиск по сайту" type="search" />
-					</form>
+						<form class="header__search-full">
+							<button class="header__button">
+								<svg width="23" height="22" viewBox="0 0 23 22" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect width="6.8678" height="1.71695"
+										transform="matrix(-0.718931 0.695081 0.718931 0.695081 4.9375 15.6534)"
+										fill="white" />
+									<path fill-rule="evenodd" clip-rule="evenodd"
+										d="M12.0969 18C7.53041 18 3.99692 14.3229 3.99692 10C3.99692 5.67715 7.53041 2 12.0969 2C16.6634 2 20.1969 5.67715 20.1969 10C20.1969 14.3229 16.6634 18 12.0969 18ZM12.0969 20C6.57408 20 2.09692 15.5228 2.09692 10C2.09692 4.47715 6.57408 0 12.0969 0C17.6198 0 22.0969 4.47715 22.0969 10C22.0969 15.5228 17.6198 20 12.0969 20Z"
+										fill="white" />
+								</svg>
+							</button>
+							<input class="header__search" placeholder="Поиск по сайту" type="search" />
+						</form>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -445,77 +457,113 @@
 							</button>
 						</div>
 						<div class="swiper-wrapper lightgallery">
-							<a href="./img/gallery/Rectangle1.webp" class="swiper__img-block swiper-slide  ">
-								<img src="./img/gallery/Rectangle1.webp" class="lazyload"
-									data-src="./img/gallery/Rectangle1.webp" alt="Картинка" />
+							<a href="./img/gallery/Rectangle1.webp" class=" swiper-slide  ">
+								<div class="swiper__img-block">
+									<img src="./img/gallery/Rectangle1.webp" class="lazyload"
+										data-src="./img/gallery/Rectangle1.webp" alt="Картинка" />
+								</div>
 							</a>
 							<a href="./img/gallery/Rectangle2.webp" class="swiper-slide swiper__img-block">
-								<img src="./img/gallery/Rectangle2.webp" class="lazyload"
-									data-src="./img/gallery/Rectangle2.webp" alt="Картинка" />
+								<div class="swiper__img-block">
+									<img src="./img/gallery/Rectangle2.webp" class="lazyload"
+										data-src="./img/gallery/Rectangle2.webp" alt="Картинка" />
+								</div>
 							</a>
 							<a href="./img/gallery/Rectangle3.webp" class="swiper-slide swiper__img-block">
-								<img src="./img/gallery/Rectangle3.webp" class="lazyload"
-									data-src="./img/gallery/Rectangle3.webp" alt="Картинка" />
+								<div class="swiper__img-block">
+									<img src="./img/gallery/Rectangle3.webp" class="lazyload"
+										data-src="./img/gallery/Rectangle3.webp" alt="Картинка" />
+								</div>
 							</a>
 							<a href="./img/gallery/Rectangle4.webp" class="swiper-slide swiper__img-block">
-								<img src="./img/gallery/Rectangle4.webp" class="lazyload"
-									data-src="./img/gallery/Rectangle4.webp" alt="Картинка" />
+								<div class="swiper__img-block">
+									<img src="./img/gallery/Rectangle4.webp" class="lazyload"
+										data-src="./img/gallery/Rectangle4.webp" alt="Картинка" />
+								</div>
 							</a>
 							<a href="./img/gallery/Rectangle5.webp" class="swiper-slide swiper__img-block">
-								<img src="./img/gallery/Rectangle5.webp" class="lazyload"
-									data-src="./img/gallery/Rectangle5.webp" alt="Картинка" />
+								<div class="swiper__img-block">
+									<img src="./img/gallery/Rectangle5.webp" class="lazyload"
+										data-src="./img/gallery/Rectangle5.webp" alt="Картинка" />
+								</div>
 							</a>
 							<a href="./img/gallery/Rectangle6.webp" class="swiper-slide swiper__img-block">
-								<img src="./img/gallery/Rectangle6.webp" class="lazyload"
-									data-src="./img/gallery/Rectangle6.webp" alt="Картинка" />
+								<div class="swiper__img-block">
+									<img src="./img/gallery/Rectangle6.webp" class="lazyload"
+										data-src="./img/gallery/Rectangle6.webp" alt="Картинка" />
+								</div>
 							</a>
 							<a href="./img/gallery/Rectangle7.webp" class="swiper-slide swiper__img-block">
-								<img src="./img/gallery/Rectangle7.webp" class="lazyload"
-									data-src="./img/gallery/Rectangle7.webp" alt="Картинка" />
+								<div class="swiper__img-block">
+									<img src="./img/gallery/Rectangle7.webp" class="lazyload"
+										data-src="./img/gallery/Rectangle7.webp" alt="Картинка" />
+								</div>
 							</a>
 							<a href="./img/gallery/Rectangle8.webp" class="swiper-slide swiper__img-block">
-								<img src="./img/gallery/Rectangle8.webp" class="lazyload"
-									data-src="./img/gallery/Rectangle8.webp" alt="Картинка" />
+								<div class="swiper__img-block">
+									<img src="./img/gallery/Rectangle8.webp" class="lazyload"
+										data-src="./img/gallery/Rectangle8.webp" alt="Картинка" />
+								</div>
 							</a>
 							<a href="./img/gallery/Rectangle9.webp" class="swiper-slide swiper__img-block">
-								<img src="./img/gallery/Rectangle9.webp" class="lazyload"
-									data-src="./img/gallery/Rectangle9.webp" alt="Картинка" />
+								<div class="swiper__img-block">
+									<img src="./img/gallery/Rectangle9.webp" class="lazyload"
+										data-src="./img/gallery/Rectangle9.webp" alt="Картинка" />
+								</div>
 							</a>
 							<a href="./img/gallery/Rectangle10.webp" class="swiper-slide swiper__img-block">
-								<img src="./img/gallery/Rectangle10.webp" class="lazyload"
-									data-src="./img/gallery/Rectangle10.webp" alt="Картинка" />
+								<div class="swiper__img-block">
+									<img src="./img/gallery/Rectangle10.webp" class="lazyload"
+										data-src="./img/gallery/Rectangle10.webp" alt="Картинка" />
+								</div>
 							</a>
 							<a href="./img/gallery/Rectangle11.webp" class="swiper-slide swiper__img-block">
-								<img src="./img/gallery/Rectangle11.webp" class="lazyload"
-									data-src="./img/gallery/Rectangle11.webp" alt="Картинка" />
+								<div class="swiper__img-block">
+									<img src="./img/gallery/Rectangle11.webp" class="lazyload"
+										data-src="./img/gallery/Rectangle11.webp" alt="Картинка" />
+								</div>
 							</a>
 							<a href="./img/gallery/Rectangle12.webp" class="swiper-slide swiper__img-block">
-								<img src="./img/gallery/Rectangle12.webp" class="lazyload"
-									data-src="./img/gallery/Rectangle12.webp" alt="Картинка" />
+								<div class="swiper__img-block">
+									<img src="./img/gallery/Rectangle12.webp" class="lazyload"
+										data-src="./img/gallery/Rectangle12.webp" alt="Картинка" />
+								</div>
 							</a>
 							<a href="./img/gallery/Rectangle13.webp" class="swiper-slide swiper__img-block">
-								<img src="./img/gallery/Rectangle13.webp" class="lazyload"
-									data-src="./img/gallery/Rectangle13.webp" alt="Картинка" />
+								<div class="swiper__img-block">
+									<img src="./img/gallery/Rectangle13.webp" class="lazyload"
+										data-src="./img/gallery/Rectangle13.webp" alt="Картинка" />
+								</div>
 							</a>
 							<a href="./img/gallery/Rectangle14.webp" class="swiper-slide swiper__img-block">
-								<img src="./img/gallery/Rectangle14.webp" class="lazyload"
-									data-src="./img/gallery/Rectangle14.webp" alt="Картинка" />
+								<div class="swiper__img-block">
+									<img src="./img/gallery/Rectangle14.webp" class="lazyload"
+										data-src="./img/gallery/Rectangle14.webp" alt="Картинка" />
+								</div>
 							</a>
 							<a href="./img/gallery/Rectangle15.webp" class="swiper-slide swiper__img-block">
-								<img src="./img/gallery/Rectangle15.webp" class="lazyload"
-									data-src="./img/gallery/Rectangle15.webp" alt="Картинка" />
+								<div class="swiper__img-block">
+									<img src="./img/gallery/Rectangle15.webp" class="lazyload"
+										data-src="./img/gallery/Rectangle15.webp" alt="Картинка" />
+								</div>
 							</a>
 							<a href="./img/gallery/Rectangle16.webp" class="swiper-slide swiper__img-block">
-								<img src="./img/gallery/Rectangle16.webp" class="lazyload"
-									data-src="./img/gallery/Rectangle16.webp" alt="Картинка" />
+								<div class="swiper__img-block">
+									<img src="./img/gallery/Rectangle16.webp" class="lazyload"
+										data-src="./img/gallery/Rectangle16.webp" alt="Картинка" />
+								</div>
 							</a>
 							<a href="./img/gallery/Rectangle17.webp" class="swiper-slide swiper__img-block">
-								<img src="./img/gallery/Rectangle17.webp" class="lazyload"
-									data-src="./img/gallery/Rectangle17.webp" alt="Картинка" />
+								<div class="swiper__img-block">
+									<img src="./img/gallery/Rectangle17.webp" class="lazyload"
+										data-src="./img/gallery/Rectangle17.webp" alt="Картинка" />
+								</div>
 							</a>
 							<a href="./img/gallery/Rectangle18.webp" class="swiper-slide swiper__img-block">
-								<img src="./img/gallery/Rectangle18.webp" class="lazyload"
-									data-src="./img/gallery/Rectangle18.webp" alt="Картинка" />
+								<div class="swiper__img-block">
+									<img src="./img/gallery/Rectangle18.webp" class="lazyload"
+										data-src="./img/gallery/Rectangle18.webp" alt="Картинка" />
+								</div>
 							</a>
 
 						</div>
@@ -972,106 +1020,156 @@
 				<div class="editions__content">
 					<div class="editions__filter">
 						<h2 class="editions__title title">Издания</h2>
-						<h2 class="category__list-title">Категории</h2>
+						<h2 class="category__list-title js-check-heading">Категории</h2>
 						<ul class="editions__all-category">
 							<li class="editions__elem ed__elem-1">
 
 								<label class="editions__category" for="category-1">
-									<input id="category-1" type="checkbox" name="category-1" />
-									<span class="editions__category-text"> Бестселлеры</span>
+									<input class="editions__input visually-hidden" id="category-1" type="checkbox"
+										name="category-1" />
+									<span class="editions__checkbox-content">
+										<span class="visual-check"></span>
+										<span class="editions__category-text"> Бестселлеры</span>
+										<span class="close-icon"></span>
+									</span>
+
 								</label>
 								<button class="editions__elem-button"></button>
 							</li>
 							<li class="editions__elem ed__elem-2">
 
 								<label class="editions__category" for="category-2">
-									<input id="category-2" type="checkbox" />
-									<span class="editions__category-text">Искусство</span>
+									<input class="editions__input visually-hidden" id="category-2" type="checkbox" />
+									<span class="editions__checkbox-content">
+										<span class="visual-check"></span>
+										<span class="editions__category-text"> Искусство</span>
+										<span class="close-icon"></span>
+									</span>
 								</label>
 								<button class="editions__elem-button"></button>
 							</li>
 							<li class="editions__elem ed__elem-3">
 
 								<label class="editions__category" for="category-3">
-									<input id="category-3" type="checkbox" />
-									<span class="editions__category-text"> Архитектура</span>
+									<input class="editions__input visually-hidden" id="category-3" type="checkbox" />
+									<span class="editions__checkbox-content">
+										<span class="visual-check"></span>
+										<span class="editions__category-text"> Архитектура</span>
+										<span class="close-icon"></span>
+									</span>
 								</label>
 								<button class="editions__elem-button"></button>
 							</li>
 							<li class="editions__elem ed__elem-4">
 
 								<label class="editions__category" for="category-4">
-									<input id="category-4" type="checkbox" />
-									<span class="editions__category-text">Дизайн</span>
+									<input class="editions__input visually-hidden" id="category-4" type="checkbox"
+										checked />
+									<span class="editions__checkbox-content">
+										<span class="visual-check"></span>
+										<span class="editions__category-text"> Дизайн</span>
+										<span class="close-icon"></span>
+									</span>
 								</label>
 								<button class="editions__elem-button"></button>
 							</li>
 							<li class="editions__elem ed__elem-5">
 
 								<label class="editions__category" for="category-5">
-									<input id="category-5" type="checkbox" />
-									<span class="editions__category-text"> Мода</span>
+									<input class="editions__input visually-hidden" id="category-5" type="checkbox" />
+									<span class="editions__checkbox-content">
+										<span class="visual-check"></span>
+										<span class="editions__category-text"> Мода</span>
+										<span class="close-icon"></span>
+									</span>
 								</label>
 								<button class="editions__elem-button"></button>
 							</li>
 							<li class="editions__elem ed__elem-6">
 
 								<label class="editions__category" for="category-6">
-									<input id="category-6" type="checkbox" />
-									<span class="editions__category-text"> Детям</span>
+									<input class="editions__input visually-hidden" id="category-6" type="checkbox" />
+									<span class="editions__checkbox-content">
+										<span class="visual-check"></span>
+										<span class="editions__category-text"> Детям</span>
+										<span class="close-icon"></span>
+									</span>
 								</label>
 								<button class="editions__elem-button"></button>
 							</li>
 							<li class="editions__elem ed__elem-7">
 
 								<label class="editions__category" for="category-7">
-									<input id="category-7" type="checkbox" />
-									<span class="editions__category-text">Художественная литература</span>
+									<input class="editions__input visually-hidden" id="category-7" type="checkbox" />
+									<span class="editions__checkbox-content">
+										<span class="visual-check"></span>
+										<span class="editions__category-text"> Художественная литература</span>
+										<span class="close-icon"></span>
+									</span>
 								</label>
 								<button class="editions__elem-button"></button>
 							</li>
 							<li class="editions__elem ed__elem-8">
 
 								<label class="editions__category" for="category-8">
-									<input id="category-8" type="checkbox" />
-									<span class="editions__category-text">Публицистика</span>
+									<input class="editions__input visually-hidden" id="category-8" type="checkbox" />
+									<span class="editions__checkbox-content">
+										<span class="visual-check"></span>
+										<span class="editions__category-text">Публицистика</span>
+										<span class="close-icon"></span>
+									</span>
 								</label>
 								<button class="editions__elem-button"></button>
 							</li>
 							<li class="editions__elem ed__elem-9">
 
 								<label class="editions__category" for="category-9">
-									<input id="category-9" type="checkbox" />
-									<span class="editions__category-text">Путеводители</span>
+									<input class="editions__input visually-hidden" id="category-9" type="checkbox" />
+									<span class="editions__checkbox-content">
+										<span class="visual-check"></span>
+										<span class="editions__category-text">Путеводители</span>
+										<span class="close-icon"></span>
+									</span>
 								</label>
 								<button class="editions__elem-button"></button>
 							</li>
 							<li class="editions__elem ed__elem-10">
 
 								<label class="editions__category" for="category-10">
-									<input id="category-10" type="checkbox" />
-									<span class="editions__category-text">Философия</span>
+									<input class="editions__input visually-hidden" id="category-10" type="checkbox" />
+									<span class="editions__checkbox-content">
+										<span class="visual-check"></span>
+										<span class="editions__category-text">Философия</span>
+										<span class="close-icon"></span>
+									</span>
 								</label>
 								<button class="editions__elem-button"></button>
 							</li>
 							<li class="editions__elem ed__elem-11">
 
 								<label class="editions__category" for="category-11">
-									<input id="category-11" type="checkbox" />
-									<span class="editions__category-text">Учебная литература</span>
+									<input class="editions__input visually-hidden" id="category-11" type="checkbox" />
+									<span class="editions__checkbox-content">
+										<span class="visual-check"></span>
+										<span class="editions__category-text">Учебная литература</span>
+										<span class="close-icon"></span>
+									</span>
 								</label>
 								<button class="editions__elem-button"></button>
 							</li>
 							<li class="editions__elem ed__elem-12">
 
 								<label class="editions__category" for="category-12">
-									<input id="category-12" type="checkbox" />
-									<span class="editions__category-text"> Журналы и газеты</span>
+									<input class="editions__input visually-hidden" id="category-12" type="checkbox" />
+									<span class="editions__checkbox-content">
+										<span class="visual-check"></span>
+										<span class="editions__category-text">Журналы и газеты</span>
+										<span class="close-icon"></span>
+									</span>
 								</label>
 								<button class="editions__elem-button"></button>
 							</li>
 						</ul>
-						<ul class="editions__all-category--new"></ul>
 						<div class="editions__price price-1">
 							<h3>Цена</h3>
 							<div class="editions__cost">
