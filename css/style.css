@@ -2366,10 +2366,7 @@ input[type="checkbox"]:checked + .editions__category-text::before {
 	.header__akk {
 		z-index: 8;
 		left: -118%;
-		position: fixed;
-		bottom: 40px;
-		margin-left: 50px;
-		margin-right: auto;
+		margin:  40px auto 40px 50px;
 		border: 2px solid #9d5cd0;
 		border-radius: 100px;
 		padding: 11px 31px;
@@ -2377,6 +2374,7 @@ input[type="checkbox"]:checked + .editions__category-text::before {
 	}
 	.header__menu {
 		position: fixed;
+		flex-direction: column;
 		text-align: center;
 		width: 100%;
 		height: 100%;
@@ -2439,7 +2437,6 @@ input[type="checkbox"]:checked + .editions__category-text::before {
 	.header__menu .header__list {
 		display: flex;
 		z-index: 1;
-		position: absolute;
 		left: -118%;
 		height: 100%;
 		flex-direction: column;
@@ -3527,7 +3524,6 @@ input[type="checkbox"]:checked + .editions__category-text::before {
 	}
 	.header__akk {
 		font-size: 12px;
-		bottom: 29px;
 		margin-left: 14px;
 		padding: 10px 31px;
 	}
@@ -3883,13 +3879,15 @@ input[type="checkbox"]:checked + .editions__category-text::before {
 		margin-bottom: 0px;
 		font-weight: 600;
 	}
-	.category__list-title::after {
-		content: "";
+	.category-title__arrow {
 		cursor: pointer;
 		background-position: center;
 		width: 12px;
 		height: 12px;
 		float: right;
+	}
+	.active-arrow.category-title__arrow {
+		transform: rotate(180deg);
 	}
 	.editions__books .slide-list {
 		display: none;
@@ -3971,7 +3969,7 @@ input[type="checkbox"]:checked + .editions__category-text::before {
 		right: 0px;
 		transform: rotate(130deg);
 	}
-	.editions__filter h2::after {
+	.category-title__arrow {
 		background: url(../img/icon/Rectangle\ 66.svg) no-repeat;
 	}
 	.editions__all-category li:nth-child(7) {
